@@ -1,13 +1,13 @@
-import {ReactNode} from "react";
+import { ReactNode } from 'react';
 
-export function Button(
-    {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        onClick, children
-    }: {
-        onClick: () => void,
-        children: ReactNode
-    }
-) {
-    return null;
+export function Button({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  onClick,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  children,
+}: {
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return null;
 }

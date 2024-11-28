@@ -7,17 +7,17 @@ version: 2
 
 updates:
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
-    target-branch: "main"
+    target-branch: 'main'
     assignees:
-      - "trejjam"
+      - 'trejjam'
 
   - package-ecosystem: npm
-    directory: "/"
-    target-branch: "main"
+    directory: '/'
+    target-branch: 'main'
     schedule:
       interval: daily
     assignees:
-      - "trejjam"
+      - 'trejjam'

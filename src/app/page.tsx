@@ -1,32 +1,29 @@
-'use client'
+'use client';
 
-import NoSSR from "@/components/common/NoSSR.tsx";
-import {useAcceptCookies} from "@/lib/hooks/useAcceptCookies.tsx";
-import dynamic from "next/dynamic";
-import {Button} from "@/components/common/Button.tsx";
+import NoSSR from '@/components/common/NoSSR.tsx';
+import { useAcceptCookies } from '@/lib/hooks/useAcceptCookies.tsx';
+import dynamic from 'next/dynamic';
+import { Button } from '@/components/common/Button.tsx';
 
 const FeatureBar = dynamic(() => import('@/components/common/FeatureBar.tsx'), {
-    ssr: false,
-})
+  ssr: false,
+});
 
 export default function Home() {
-    const {acceptedCookies, onAcceptCookies} = useAcceptCookies()
+  const { acceptedCookies, onAcceptCookies } = useAcceptCookies();
 
-    return (
-        <>
-            <main className="flex">
-                Work in progress
-            </main>
-            <NoSSR>
-                <FeatureBar
-                    title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
-                    hide={acceptedCookies}
-                    action={
-                        <Button onClick={() => onAcceptCookies()}>Accept cookies</Button>
-                    }
-                >
-                </FeatureBar>
-            </NoSSR>
-        </>
-    );
+  return (
+    <>
+      <main className='flex'>Work in progress</main>
+      <NoSSR>
+        <FeatureBar
+          title='This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy.'
+          hide={acceptedCookies}
+          action={
+            <Button onClick={() => onAcceptCookies()}>Accept cookies</Button>
+          }
+        ></FeatureBar>
+      </NoSSR>
+    </>
+  );
 }
