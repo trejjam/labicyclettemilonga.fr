@@ -23,7 +23,7 @@ export default function TimeDuration(
         <span id="days" className="text-3xl">
           {days}
         </span>
-      <span className="text-base">{t('time-duration.days')}</span>
+      <span className="text-base">{t('time-duration.days', {count: days})}</span>
     </div>
     <div className="mx-4 hidden text-2xl font-bold text-white sm:block">:</div>
     <div
@@ -31,7 +31,7 @@ export default function TimeDuration(
         <span id="hours" className="text-3xl">
           {hours}
         </span>
-      <span className="text-base">{t('time-duration.hours')}</span>
+      <span className="text-base">{t('time-duration.hours', {count: hours})}</span>
     </div>
     <div className="mx-4 hidden text-2xl font-bold text-white sm:block">:</div>
     <div
@@ -39,7 +39,7 @@ export default function TimeDuration(
         <span id="minutes" className="text-3xl">
           {minutes}
         </span>
-      <span className="text-base">{t('time-duration.minutes')}</span>
+      <span className="text-base">{t('time-duration.minutes', {count: minutes})}</span>
     </div>
     <div className="mx-4 hidden text-2xl font-bold text-white sm:block">:</div>
     <div
@@ -47,7 +47,7 @@ export default function TimeDuration(
         <span id="seconds" className="text-3xl">
           {seconds}
         </span>
-      <span className="text-base">{t('time-duration.seconds')}</span>
+      <span className="text-base">{t('time-duration.seconds', {count: seconds})}</span>
     </div>
   </div>;
 }
