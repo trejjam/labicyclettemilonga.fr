@@ -83,9 +83,9 @@ ListItem.displayName = 'ListItem';
 export default function NavBar({}) {
   return (
     <>
-      <div className='w-full h-20 bg-emerald-800 sticky top-0'>
-        <div className='container mx-auto px-4 h-full'>
-          <div className='flex justify-between items-center h-full'>
+      <div className='sticky top-0 h-20 w-full bg-emerald-800'>
+        <div className='container mx-auto h-full px-4'>
+          <div className='flex h-full items-center justify-between'>
             <Logo />
             <NavigationMenu>
               <NavigationMenuList>
@@ -130,7 +130,7 @@ export default function NavBar({}) {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Components</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className='grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] '>
+                    <ul className='grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]'>
                       {components.map((component) => (
                         <ListItem
                           key={component.title}
