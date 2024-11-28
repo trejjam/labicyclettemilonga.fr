@@ -1,0 +1,9 @@
+{
+  "time-duration": {
+    "seconds": "Segundos",
+    "minutes": "Minutos",
+    "hours": "Horas",
+    "days": "Días",
+    "months": "Meses"
+  }
+}
