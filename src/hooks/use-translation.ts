@@ -10,7 +10,7 @@ interface Props {
 export function useTranslation({ lng, ns }: Props) {
   const i18nMemo = useMemo(() => i18n.cloneInstance({
     lng,
-    ns,
+    defaultNS: ns,
   }), [lng, ns]);
 
   return { i18n: i18nMemo, t: i18nMemo.t };
