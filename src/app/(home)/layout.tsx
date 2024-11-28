@@ -12,11 +12,7 @@ export const metadata: Metadata = {
   description: 'La milonga de Toulouse',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   const { i18n } = useTranslation({ lng: defaultLocale });
 
   return (

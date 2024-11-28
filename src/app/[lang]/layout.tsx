@@ -33,8 +33,8 @@ export default function RootLayout({
   return (
     <Html i18n={i18n}>
       <body>
-      {children}
-      <Footer />
+        {children}
+        <Footer />
       </body>
     </Html>
   );

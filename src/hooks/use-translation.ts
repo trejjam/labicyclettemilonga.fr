@@ -7,11 +7,18 @@ interface Props {
   ns?: string;
 }
 
-export function useTranslation({ lng, ns }: Props): { i18n: typeof i18n, t: typeof i18n.t } {
-  const i18nMemo = useMemo(() => i18n.cloneInstance({
-    lng,
-    defaultNS: ns,
-  }), [lng, ns]);
+export function useTranslation({ lng, ns }: Props): {
+  i18n: typeof i18n;
+  t: typeof i18n.t;
+} {
+  const i18nMemo = useMemo(
+    () =>
+      i18n.cloneInstance({
+        lng,
+        defaultNS: ns,
+      }),
+    [lng, ns]
+  );
 
   return { i18n: i18nMemo, t: i18nMemo.t };
 }

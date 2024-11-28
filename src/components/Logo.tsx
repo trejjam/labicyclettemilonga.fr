@@ -1,10 +1,15 @@
 export default function Logo({ pathClass }: { pathClass: string }) {
-  return <svg xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1500 1000"
-              className={pathClass}>
-    <path id="Selection"
-          stroke="black" stroke-width="1"
-          d="M 815.00,625.00
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 1500 1000'
+      className={pathClass}
+    >
+      <path
+        id='Selection'
+        stroke='black'
+        stroke-width='1'
+        d='M 815.00,625.00
            C 811.16,621.35 808.03,618.47 803.00,616.48
              787.58,610.36 775.20,622.95 769.46,636.00
              761.48,653.36 762.28,676.63 769.46,694.00
@@ -361,6 +366,8 @@ export default function Logo({ pathClass }: { pathClass: string }) {
              1132.79,836.51 1128.89,848.34 1134.65,855.90
              1140.11,863.06 1152.45,862.50 1158.53,856.52
              1161.39,853.72 1162.78,850.67 1164.18,847.00
-             1166.23,841.64 1167.24,834.73 1168.00,829.00 Z" />
-  </svg>;
+             1166.23,841.64 1167.24,834.73 1168.00,829.00 Z'
+      />
+    </svg>
+  );
 }

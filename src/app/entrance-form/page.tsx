@@ -1,5 +1,5 @@
 'use client';
 
-export default function EntranceForm(){
+export default function EntranceForm() {
   return null;
-};
+}

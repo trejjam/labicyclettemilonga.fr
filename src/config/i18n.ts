@@ -15,11 +15,7 @@ export const defaultLocale: Locale = 'fr';
 
 export const i18nOptions = {
   fallbackLng: defaultLocale,
-  ns: [
-    'common',
-    'not-found',
-    'components',
-  ],
+  ns: ['common', 'not-found', 'components'],
   defaultNS: 'common',
   preload: locales,
   interpolation: {
