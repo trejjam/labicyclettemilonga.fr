@@ -1,9 +1,9 @@
 'use client'
 
-import {Button} from "theme-ui";
 import NoSSR from "@/components/common/NoSSR.tsx";
 import {useAcceptCookies} from "@/lib/hooks/useAcceptCookies.tsx";
 import dynamic from "next/dynamic";
+import {Button} from "@/components/common/Button.tsx";
 
 const FeatureBar = dynamic(() => import('@/components/common/FeatureBar.tsx'), {
     ssr: false,
