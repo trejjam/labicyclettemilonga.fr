@@ -24,3 +24,5 @@ jobs:
         run: bun install
       - name: Lint project
         run: bun run lint
+      - name: Format project
+        run: bun run format
