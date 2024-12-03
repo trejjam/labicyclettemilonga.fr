@@ -57,6 +57,7 @@ jobs:
       - name: Build with Next.js
         run: bun run build
       - name: Replace 404.html
+        continue-on-error: true
         run: |
           ls -la ${{ github.workspace }}/out
           mv ${{ github.workspace }}/out/404/index.html ${{ github.workspace }}/out/404.html
