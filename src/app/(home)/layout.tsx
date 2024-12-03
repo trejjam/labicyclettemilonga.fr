@@ -4,12 +4,14 @@ import { Metadata } from 'next';
 import { defaultLocale } from '@/config/i18n.ts';
 import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
+import { favicon } from '@/components/Favicon.tsx';
 
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'La Bicycletta Milonga',
   description: 'La milonga de Toulouse',
+  icons: favicon,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
