@@ -58,8 +58,9 @@ jobs:
         run: bun run build
       - name: Replace 404.html
         run: |
-          mv ./out/404/index.html ./out/404.html
-          mv ./out/404/index.txt ./out/404.txt
+          ls -la ${{ github.workspace }}/out
+          mv ${{ github.workspace }}/out/404/index.html ${{ github.workspace }}/out/404.html
+          mv ${{ github.workspace }}/out/404/index.txt ${{ github.workspace }}/out/404.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
