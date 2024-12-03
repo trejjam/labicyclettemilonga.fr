@@ -1,10 +1,20 @@
-export default function Logo({ pathClass }: { pathClass: string }) {
+import { ClassNameProps } from '@/types/props.ts';
+import { cn } from '@/helpers/cn.ts';
+
+export default function Logo({ className }: { className: ClassNameProps }) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 1500 1000'
-      className={pathClass}
+      className={cn(className)}
     >
+      <image href='/img/bicycle.png' height='735' width='940'>
+        <animateMotion
+          dur='10s'
+          repeatCount='indefinite'
+          path='m 20 50 c 0 -60 160 60 160 0 c 0 -60 -160 60 -160 0 z'
+        />
+      </image>
       <path
         id='Selection'
         stroke='black'
