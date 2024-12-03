@@ -7,6 +7,7 @@ import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
 import Footer from '@/components/Footer.tsx';
 import { favicon } from '@/components/Favicon.tsx';
+import { Params } from '@/types/props.ts';
 
 export const dynamic = 'force-static';
 
@@ -15,8 +16,6 @@ export const metadata: Metadata = {
   description: 'La milonga de Toulouse',
   icons: favicon,
 };
-
-type Params = Promise<{ lang: Locale }>;
 
 export function generateStaticParams() {
   return locales.filter((x) => x !== defaultLocale).map((lang) => ({ lang }));
@@ -34,7 +33,7 @@ export default function RootLayout({
 
   return (
     <Html i18n={i18n}>
-      <body>
+      <body className="antialiased">
         {children}
         <Footer />
       </body>

@@ -24,3 +24,4 @@ export function useTranslation({ lng, ns }: Props): {
 }
 
 export type I18nType = typeof i18n;
+export type I18nFunctionType = typeof i18n.t;
