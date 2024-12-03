@@ -8,4 +8,4 @@ export type NavbarLinkProps = {
   link: string;
 };
 
-export type ClassNameProps = HTMLProps<HTMLElement>["className"];
+export type ClassNameProps = HTMLProps<HTMLElement>['className'];

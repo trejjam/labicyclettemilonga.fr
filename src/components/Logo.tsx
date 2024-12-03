@@ -4,21 +4,22 @@ import { cn } from '@/helpers/cn.ts';
 export default function Logo({ className }: { className: ClassNameProps }) {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1500 1000"
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 1500 1000'
       className={cn(className)}
     >
-      <image href="/img/bicycle.png" height="735" width="940">
+      <image href='/img/bicycle.png' height='735' width='940'>
         <animateMotion
-          dur="10s"
-          repeatCount="indefinite"
-          path="m 20 50 c 0 -60 160 60 160 0 c 0 -60 -160 60 -160 0 z" />
+          dur='10s'
+          repeatCount='indefinite'
+          path='m 20 50 c 0 -60 160 60 160 0 c 0 -60 -160 60 -160 0 z'
+        />
       </image>
       <path
-        id="Selection"
-        stroke="black"
-        stroke-width="1"
-        d="M 815.00,625.00
+        id='Selection'
+        stroke='black'
+        stroke-width='1'
+        d='M 815.00,625.00
            C 811.16,621.35 808.03,618.47 803.00,616.48
              787.58,610.36 775.20,622.95 769.46,636.00
              761.48,653.36 762.28,676.63 769.46,694.00
@@ -375,7 +376,7 @@ export default function Logo({ className }: { className: ClassNameProps }) {
              1132.79,836.51 1128.89,848.34 1134.65,855.90
              1140.11,863.06 1152.45,862.50 1158.53,856.52
              1161.39,853.72 1162.78,850.67 1164.18,847.00
-             1166.23,841.64 1167.24,834.73 1168.00,829.00 Z"
+             1166.23,841.64 1167.24,834.73 1168.00,829.00 Z'
       />
     </svg>
   );
