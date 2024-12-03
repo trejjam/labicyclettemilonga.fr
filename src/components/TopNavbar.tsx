@@ -6,6 +6,7 @@ import type { NavbarLinkProps } from '@/types/props.ts';
 import { cn } from '@/helpers/cn.ts';
 import useScrollEvent from '@/hooks/use-scroll-event.ts';
 import Logo from '@/components/Logo.tsx';
+import { useState } from 'react';
 
 export default function TopNavbar({
   navLinks,
@@ -14,21 +15,23 @@ export default function TopNavbar({
   navLinks: NavbarLinkProps[];
   isDark?: boolean;
 }) {
+  const [nav, setNav] = useState(false);
   const { scrollY } = useScrollEvent();
+
+  const isSticky = scrollY >= 50;
 
   return (
     <header
-      id='navbar-sticky'
       className={cn(
         'navbar',
         'font-nunito fixed inset-x-0 top-0 z-40 block w-full border-b border-gray-200 bg-white shadow-xl transition-all duration-500 lg:border-none lg:bg-transparent lg:shadow-none',
         isDark ? 'nav-dark' : 'nav-light',
-        {
-          'nav-sticky': scrollY >= 50,
-        }
+        isSticky
+          ? 'border-b border-gray-200 bg-white shadow-xl transition-all duration-500'
+          : ''
       )}
     >
-      <div className='container'>
+      <div className='container ml-auto mr-auto'>
         <nav className='flex flex-wrap items-center justify-between py-4 transition-all duration-500 lg:flex-nowrap'>
           <Link href='/' className='inline-block whitespace-nowrap'>
             <Logo className='w-28 fill-[#ff5757]' />
@@ -37,14 +40,21 @@ export default function TopNavbar({
             <button
               className='hs-collapse-toggle inline-flex h-9 w-12 items-center justify-center rounded-md border border-gray-300 bg-slate-300/30'
               type='button'
-              id='hs-unstyled-collapse'
-              data-hs-collapse='#mobileMenu'
-              data-hs-type='collapse'
             >
-              <IconifyIcon icon='uil:bars' className='text-2xl' />
+              <IconifyIcon
+                icon='uil:bars'
+                className='text-2xl'
+                onClick={() => setNav(!nav)}
+              />
             </button>
           </div>
-          <div className='hs-collapse mx-auto mt-2 hidden grow basis-full items-center justify-center overflow-hidden transition-all duration-300 lg:mt-0 lg:flex lg:basis-auto'>
+          <div
+            className={cn(
+              nav ? '' : 'hidden',
+              'hs-collapse mx-auto mt-2 grow basis-full items-center justify-center overflow-hidden transition-all duration-300 lg:mt-0 lg:flex lg:basis-auto',
+              'transition-opacity delay-150 duration-300 ease-in-out'
+            )}
+          >
             <ul className='mt-4 inline-flex flex-col justify-center gap-x-4 lg:mt-0 lg:flex-row lg:items-center'>
               {navLinks.map((item, idx) => (
                 <li key={item.link + idx} className='nav-item'>
@@ -55,7 +65,10 @@ export default function TopNavbar({
                       'active:bg-gray-400/10 active:text-primary',
                       'focus:bg-gray-400/10 focus:text-primary',
                       'hover:bg-gray-400/10 hover:text-primary',
-                      isDark ? 'text-gray-800' : 'text-gray-600 lg:text-white'
+                      isDark ? 'text-gray-800' : 'text-gray-600 lg:text-white',
+                      isSticky
+                        ? 'text-gray-800 hover:bg-gray-400/10 hover:text-primary focus:bg-gray-400/10 focus:text-primary active:bg-gray-400/10 active:text-primary'
+                        : ''
                     )}
                   >
                     {item.label}
@@ -68,8 +81,9 @@ export default function TopNavbar({
                 className={cn(
                   'inline-flex items-center justify-center rounded-lg px-4 py-2 text-base font-medium transition-all',
                   isDark
-                    ? 'bg-primary text-white'
-                    : 'bg-primary text-white lg:bg-white lg:text-primary'
+                    ? 'bg-[#007bff] text-white'
+                    : 'bg-[#007bff] text-white lg:bg-white lg:text-primary',
+                  isSticky ? 'bg-primary text-white' : ''
                 )}
               >
                 <IconifyIcon
@@ -85,8 +99,9 @@ export default function TopNavbar({
               className={cn(
                 'inline-flex items-center justify-center rounded-lg px-4 py-2 text-base font-medium transition-all',
                 isDark
-                  ? 'bg-primary text-white'
-                  : 'bg-primary text-white lg:bg-white lg:text-primary'
+                  ? 'bg-[#007bff] text-white'
+                  : 'bg-[#007bff] text-white lg:bg-white lg:text-primary',
+                isSticky ? 'bg-primary text-white' : ''
               )}
             >
               <IconifyIcon
