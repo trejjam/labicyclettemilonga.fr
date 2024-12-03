@@ -6,12 +6,14 @@ import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
 import Footer from '@/components/Footer.tsx';
+import { favicon } from '@/components/Favicon.tsx';
 
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'La Bicycletta Milonga',
   description: 'La milonga de Toulouse',
+  icons: favicon,
 };
 
 type Params = Promise<{ lang: Locale }>;
