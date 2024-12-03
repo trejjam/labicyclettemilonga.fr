@@ -24,6 +24,10 @@ concurrency:
   group: 'pages'
   cancel-in-progress: false
 
+env:
+  NEXT_TELEMETRY_DISABLED: 1
+
+
 jobs:
   # Build job
   build:
