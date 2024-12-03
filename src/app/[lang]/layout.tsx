@@ -1,7 +1,7 @@
 import '../globals.css';
 import { ReactNode } from 'react';
 import { Metadata } from 'next';
-import { defaultLocale, Locale, locales } from '@/config/i18n.ts';
+import { defaultLocale, locales } from '@/config/i18n.ts';
 import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
