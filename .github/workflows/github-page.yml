@@ -56,6 +56,10 @@ jobs:
         run: bun install
       - name: Build with Next.js
         run: bun run build
+      - name: Replace 404.html
+        run: |
+          mv ./out/404/index.html ./out/404.html
+          mv ./out/404/index.txt ./out/404.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
