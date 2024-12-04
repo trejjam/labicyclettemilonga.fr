@@ -18,7 +18,6 @@ export default function Logo({ className }: { className: ClassNameProps }) {
       <path
         id='Selection'
         stroke='black'
-        stroke-width='1'
         d='M 815.00,625.00
            C 811.16,621.35 808.03,618.47 803.00,616.48
              787.58,610.36 775.20,622.95 769.46,636.00
