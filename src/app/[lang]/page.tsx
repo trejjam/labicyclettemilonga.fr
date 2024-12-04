@@ -34,7 +34,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
         </div>
       </section>
       <div suppressHydrationWarning={true}>
-        <DynamicVenueMap />
+        <DynamicVenueMap lang={lang} />
       </div>
     </>
   );

@@ -11,9 +11,22 @@ export default function NotFoundPage({ params }: { params: Params }) {
   const { t } = useTranslation({ lng: lang, ns: 'not-found' });
 
   return (
-    <main>
-      <h2>{t('title')}</h2>
-      <p>Could not find requested resource</p>
-    </main>
+    <section
+      className='relative flex h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-screen'>
+      <div className='absolute inset-0 bg-black/80' />
+      <div className='container'>
+        <div className='relative flex h-full w-full items-center justify-center px-12 py-12 text-center'>
+          <div>
+            <div className='flex justify-center'>
+              <div className='relative mt-10'>
+                <h6 className='mb-4 text-center text-lg text-white'>
+                  {t('title')}
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
