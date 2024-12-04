@@ -49,7 +49,7 @@ export default function Links({
           {t('menu.marathon')}
         </Link>
       </li>
-      <li className='mb-4 text-center lg:mb-0 lg:text-left'>
+      <li className='hidden mb-4 text-center lg:mb-0 lg:text-left'>
         <Link
           href={{ pathname: `${langPrefix}team` }}
           className={cn(
