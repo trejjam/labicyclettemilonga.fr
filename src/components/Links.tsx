@@ -38,7 +38,7 @@ export default function Links({
             className,
             isActive(langPrefix)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : '',
+              : ''
           )}
         >
           {t('menu.milonga')}
@@ -51,7 +51,7 @@ export default function Links({
             className,
             isActive(`${langPrefix}marathon/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : '',
+              : ''
           )}
         >
           {t('menu.marathon')}
@@ -64,7 +64,7 @@ export default function Links({
             className,
             isActive(`${langPrefix}team/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : '',
+              : ''
           )}
         >
           {t('menu.team')}
