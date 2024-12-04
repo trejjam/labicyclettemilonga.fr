@@ -12,12 +12,20 @@ export default function Links({
   lang: Locale;
   className: string;
 }) {
-  const pathName = usePathname();
+  let pathName = usePathname();
   const langPrefix = getLangPrefix(lang);
 
   const { t } = useTranslation({ lng: lang });
 
+  if (pathName.endsWith('/')) {
+    pathName = pathName.substring(0, pathName.length - 1);
+  }
+
   const isActive = (link: string): boolean => {
+    if (link.endsWith('/')) {
+      link = link.substring(0, link.length - 1);
+    }
+
     return link === pathName;
   };
 
@@ -30,7 +38,7 @@ export default function Links({
             className,
             isActive(langPrefix)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : ''
+              : '',
           )}
         >
           {t('menu.milonga')}
@@ -43,7 +51,7 @@ export default function Links({
             className,
             isActive(`${langPrefix}marathon/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : ''
+              : '',
           )}
         >
           {t('menu.marathon')}
@@ -56,7 +64,7 @@ export default function Links({
             className,
             isActive(`${langPrefix}team/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
-              : ''
+              : '',
           )}
         >
           {t('menu.team')}
