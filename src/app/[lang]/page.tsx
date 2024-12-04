@@ -33,7 +33,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
           <div className='relative flex h-full w-full items-center justify-center px-12 py-12 text-center'>
             <div>
               <Link href='/' className='mb-10 flex items-center justify-center'>
-                <Logo className='fill-[#ff5757]' />
+                <Logo className='fill-bicyclette' />
               </Link>
               <span className='rounded-md bg-white/20 px-4 py-[5px] font-medium capitalize text-white'>
                 Our Website Is
