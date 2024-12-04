@@ -24,7 +24,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
             </Link>
 
             <h5 className='mb-4 mt-6 text-base text-slate-300 2xl:text-lg'>
-              {t('milonga.follow-us')}
+              {t('footer.follow-us')}
             </h5>
             <ul className='flex flex-wrap items-center gap-2'>
               <li>
@@ -62,6 +62,33 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 </Link>
               </li>
             </ul>
+          </div>
+          <div className='mx-12 lg:mx-0 lg:w-4/12 lg:ml-60'>
+            <div className='grid gap-6'>
+              <div className='flex flex-col gap-3 text-gray-200'>
+                <h5 className='mb-2 font-semibold lg:text-lg xl:text-xl'>
+                  {t('footer.made-by')}: {t('association.name')}
+                </h5>
+                <div>
+                  {t('association.address')}
+                  <br />
+                  {t('association.address2')}
+                  <br />
+                  {t('association.city')}
+                </div>
+                <div>
+                  {t('footer.number')}: {t('association.number')}
+                </div>
+                <div>
+                  {t('footer.siren')}: {t('association.siren')}
+                </div>
+                <div className='text-nowrap'>
+                  {t('footer.iban')}: {t('association.iban')}
+                  <br />
+                  {t('footer.swift')}: {t('association.swift')}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
