@@ -5,7 +5,8 @@
     "team": "Team"
   },
   "milonga": {
-    "top": "Important message"
+    "title": "Next La Bicyclette",
+    "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}"
   },
   "marathon": {
     "title": "Registration for marathon",

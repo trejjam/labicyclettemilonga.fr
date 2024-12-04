@@ -11,9 +11,15 @@ export default function TimeDuration({
   lang: Locale;
   deadline: Date;
 }) {
-  const { days, hours, minutes, seconds } = useCountdown({ deadline });
+  const { days, hours, minutes, seconds, inFuture } = useCountdown({
+    deadline,
+  });
 
   const { t } = useTranslation({ lng: lang, ns: 'components' });
+
+  if (!inFuture) {
+    return <></>;
+  }
 
   return (
     <div className='flex flex-wrap items-center justify-center gap-x-4 gap-y-4 sm:gap-x-0'>
