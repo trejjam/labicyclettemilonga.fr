@@ -23,5 +23,5 @@ export default function useCountdown({ deadline }: { deadline: Date }) {
   const minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((countdown % (1000 * 60)) / 1000);
 
-  return { days, hours, minutes, seconds };
+  return { days, hours, minutes, seconds, inFuture: countdown > 0 };
 }

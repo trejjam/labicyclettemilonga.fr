@@ -18,7 +18,6 @@ export default function Links({
   const { t } = useTranslation({ lng: lang });
 
   const isActive = (link: string): boolean => {
-    console.log(link === pathName, link, pathName);
     return link === pathName;
   };
 
@@ -29,7 +28,9 @@ export default function Links({
           href={{ pathname: langPrefix }}
           className={cn(
             className,
-            isActive(langPrefix) ? 'bg-black/40 text-xl text-bicyclette' : ''
+            isActive(langPrefix)
+              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
+              : ''
           )}
         >
           {t('menu.milonga')}
@@ -37,24 +38,24 @@ export default function Links({
       </li>
       <li className='mb-4 text-center lg:mb-0 lg:text-left'>
         <Link
-          href={{ pathname: `${langPrefix}marathon` }}
+          href={{ pathname: `${langPrefix}marathon/` }}
           className={cn(
             className,
-            isActive(`${langPrefix}marathon`)
-              ? 'bg-black/40 text-xl text-bicyclette'
+            isActive(`${langPrefix}marathon/`)
+              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
               : ''
           )}
         >
           {t('menu.marathon')}
         </Link>
       </li>
-      <li className='mb-4 text-center lg:mb-0 lg:text-left'>
+      <li className='mb-4 hidden text-center lg:mb-0 lg:text-left'>
         <Link
-          href={{ pathname: `${langPrefix}team` }}
+          href={{ pathname: `${langPrefix}team/` }}
           className={cn(
             className,
-            isActive(`${langPrefix}team`)
-              ? 'bg-black/40 text-xl text-bicyclette'
+            isActive(`${langPrefix}team/`)
+              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
               : ''
           )}
         >

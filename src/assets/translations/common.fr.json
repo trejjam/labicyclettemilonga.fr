@@ -1,3 +1,44 @@
 {
-  "follow-us": "Suivez-nous"
+  "menu": {
+    "milonga": "Milonga",
+    "marathon": "Marathon",
+    "team": "Team"
+  },
+  "milonga": {
+    "title": "Next La Bicyclette",
+    "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}"
+  },
+  "marathon": {
+    "title": "Registration for marathon",
+    "description": "starts January 12<sup>th</sup>, 2025 at 12PM"
+  },
+  "map": {
+    "title": "La Bicycletta milonga",
+    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse",
+    "google-link": "Open in Google maps"
+  },
+  "footer": {
+    "made-by": "Made by",
+    "follow-us": "Suivez-nous",
+    "number": "L'association n°",
+    "siren": "SIREN",
+    "iban": "IBAN",
+    "swift": "SWIFT"
+  },
+  "venue": {
+    "title": "Venue",
+    "address": "TRAC L'Ecole",
+    "address2": "43 Rue Alfred Dumeril",
+    "city": "314 00 Toulouse"
+  },
+  "association": {
+    "name": "Tangobrique",
+    "address": "Appartement 10 Bâtiment A",
+    "address2": "209  Avenue de Castres",
+    "city": "315 00 Toulouse",
+    "number": "W313039421",
+    "siren": "937601219",
+    "iban": "FR76 1313 5000 8008 0098 0985 785",
+    "swift": "CEPAFRPP313"
+  }
 }
