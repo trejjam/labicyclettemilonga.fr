@@ -12,7 +12,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
 
   return (
-    <footer className='bg-slate-900 bg-center bg-no-repeat'>
+    <footer className='bg-slate-900'>
       <div className='container lg:px-20'>
         <div className='flex flex-col justify-between gap-14 py-20 lg:flex-row'>
           <div className='mx-12 lg:mx-0 lg:w-4/12'>
@@ -63,7 +63,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
               </li>
             </ul>
           </div>
-          <div className='mx-12 lg:mx-0 lg:w-4/12 lg:ml-60'>
+          <div className='mx-12 lg:mx-0 lg:ml-60 lg:w-4/12'>
             <div className='grid gap-6'>
               <div className='flex flex-col gap-3 text-gray-200'>
                 <h5 className='mb-2 font-semibold lg:text-lg xl:text-xl'>
