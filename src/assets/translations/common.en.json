@@ -4,5 +4,7 @@
     "marathon": "Marathon",
     "team": "Team"
   },
-  "follow-us": "Follow us"
+  "milonga": {
+    "follow-us": "Follow us"
+  }
 }
