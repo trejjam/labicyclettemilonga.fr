@@ -11,6 +11,11 @@
     "title": "Registration for marathon",
     "description": "starts January 12<sup>th</sup>, 2025 at 12PM"
   },
+  "map": {
+    "title": "La Bicycletta milonga",
+    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse",
+    "google-link": "Open in Google maps"
+  },
   "footer": {
     "made-by": "Made by",
     "follow-us": "Follow us",
@@ -19,9 +24,11 @@
     "iban": "IBAN",
     "swift": "SWIFT"
   },
-  "map": {
-    "title": "La Bicycletta milonga",
-    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse"
+  "venue": {
+    "title": "Venue",
+    "address": "TRAC L'Ecole",
+    "address2": "43 Rue Alfred Dumeril",
+    "city": "314 00 Toulouse"
   },
   "association": {
     "name": "Tangobrique",

@@ -29,8 +29,11 @@ export default function VenueMap({ lang }: { lang: Locale }) {
     }).addTo(map);
 
     const marker = L.marker([43.5926587, 1.4480319]).addTo(map);
-    marker.bindPopup(`<b>${t('map.title')}</b><br>${t('map.description')}`).openPopup();
-
+    marker
+      .bindPopup(
+        `<b>${t('map.title')}</b><br>${t('map.description')}<br><a href="https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z" target="_blank">${t('map.google-link')}</a>`
+      )
+      .openPopup();
   }, [t]);
 
   return <div id='map' className='h-[60svh]'></div>;

@@ -63,7 +63,27 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
               </li>
             </ul>
           </div>
-          <div className='mx-12 lg:mx-0 lg:ml-60 lg:w-4/12'>
+          <div className='mx-12 lg:mx-0 lg:w-4/12'>
+            <div className='grid gap-6'>
+              <div className='flex flex-col gap-3 text-gray-200'>
+                <h5 className='mb-2 font-semibold lg:text-lg xl:text-xl'>
+                  {t('venue.title')}:
+                </h5>
+                <Link
+                  className='underline hover:text-bicyclette'
+                  href='https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z'
+                  target='_blank'
+                >
+                  {t('venue.address')}
+                  <br />
+                  {t('venue.address2')}
+                  <br />
+                  {t('venue.city')}
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className='mx-12 lg:mx-0 lg:w-4/12'>
             <div className='grid gap-6'>
               <div className='flex flex-col gap-3 text-gray-200'>
                 <h5 className='mb-2 font-semibold lg:text-lg xl:text-xl'>
