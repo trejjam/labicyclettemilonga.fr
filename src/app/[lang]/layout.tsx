@@ -8,6 +8,7 @@ import { use } from 'react';
 import Footer from '@/components/Footer.tsx';
 import { favicon } from '@/components/Favicon.tsx';
 import { Params } from '@/types/props.ts';
+import TopNavbar from '@/components/TopNavbar.tsx';
 
 export const dynamic = 'force-static';
 
@@ -28,14 +29,15 @@ export default function RootLayout({
   children: ReactNode;
   params: Params;
 }) {
-  const lng = use(params).lang ?? defaultLocale;
-  const { i18n } = useTranslation({ lng });
+  const lang = use(params).lang ?? defaultLocale;
+  const { i18n } = useTranslation({ lng: lang });
 
   return (
     <Html i18n={i18n}>
-      <body className='antialiased'>
-        {children}
-        <Footer />
+      <body className="antialiased">
+      <TopNavbar lang={lang} />
+      {children}
+      <Footer />
       </body>
     </Html>
   );
