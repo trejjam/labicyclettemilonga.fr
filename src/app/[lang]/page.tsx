@@ -24,20 +24,19 @@ export default function GenericHomePage({ params }: { params: Params }) {
 
   return (
     <>
-      <section
-        className="relative flex h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-screen">
-        <div className="absolute inset-0 bg-black/80" />
-        <div className="container">
-          <div className="relative flex h-full w-full items-center justify-center px-12 py-12 text-center">
+      <section className='relative flex h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-screen'>
+        <div className='absolute inset-0 bg-black/80' />
+        <div className='container'>
+          <div className='relative flex h-full w-full items-center justify-center px-12 py-12 text-center'>
             <div>
-              <h1 className="my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl">
+              <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('milonga.title')}
               </h1>
               {nextMilonga !== undefined && (
                 <>
-                  <div className="flex justify-center">
-                    <div className="max-w-xl text-center">
-                      <p className="font-semibold text-white">
+                  <div className='flex justify-center'>
+                    <div className='max-w-xl text-center'>
+                      <p className='font-semibold text-white'>
                         {t('milonga.dateTime', {
                           starts: nextMilonga.starts,
                           ends: nextMilonga.ends,
@@ -56,8 +55,8 @@ export default function GenericHomePage({ params }: { params: Params }) {
                       </p>
                     </div>
                   </div>
-                  <div className="flex justify-center">
-                    <div className="relative mt-14">
+                  <div className='flex justify-center'>
+                    <div className='relative mt-14'>
                       <div>
                         <TimeDuration
                           lang={lang}
@@ -72,18 +71,17 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section
-        className="flex items-center justify-center overflow-hidden px-12 md:h-screen">
-          <div className="flex items-center justify-center px-12 py-12 text-center">
-            <div className="justify-center my-14">
-              <Image
-                src="/img/milongas/2024-12-07_milonga.jpg"
-                width={1080}
-                height={1080}
-                alt="Milonga 7. 12. 2024"
-              />
-            </div>
+      <section className='flex items-center justify-center overflow-hidden px-12 md:h-screen'>
+        <div className='flex items-center justify-center px-12 py-12 text-center'>
+          <div className='my-14 justify-center'>
+            <Image
+              src='/img/milongas/2024-12-07_milonga.jpg'
+              width={1080}
+              height={1080}
+              alt='Milonga 7. 12. 2024'
+            />
           </div>
+        </div>
       </section>
       <div suppressHydrationWarning={true}>
         <DynamicVenueMap lang={lang} />

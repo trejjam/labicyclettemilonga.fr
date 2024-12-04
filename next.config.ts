@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
     typedRoutes: true,
   },
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
