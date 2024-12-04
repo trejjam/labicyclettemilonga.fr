@@ -15,6 +15,10 @@
     "iban": "IBAN",
     "swift": "SWIFT"
   },
+  "map": {
+    "title": "La Bicycletta milonga",
+    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse"
+  },
   "association": {
     "name": "Tangobrique",
     "address": "Appartement 10 Bâtiment A",
