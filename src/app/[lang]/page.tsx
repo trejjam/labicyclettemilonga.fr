@@ -8,15 +8,13 @@ import TimeDuration from '@/components/TimeDuration.tsx';
 import IconifyIcon from '@/components/wrappers/IconifyIcon.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { Params } from '@/types/props.ts';
-import { getNavLinks } from '@/app/[lang]/data.ts';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import TopNavbar from '@/components/TopNavbar.tsx';
 
 export default function GenericHomePage({ params }: { params: Params }) {
   const lang = use(params).lang ?? defaultLocale;
 
   const { t } = useTranslation({ lng: lang });
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const navLinks = getNavLinks(t);
 
   return (
     <>
