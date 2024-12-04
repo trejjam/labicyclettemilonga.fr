@@ -38,10 +38,10 @@ export default function Links({
       </li>
       <li className='mb-4 text-center lg:mb-0 lg:text-left'>
         <Link
-          href={{ pathname: `${langPrefix}marathon` }}
+          href={{ pathname: `${langPrefix}marathon/` }}
           className={cn(
             className,
-            isActive(`${langPrefix}marathon`)
+            isActive(`${langPrefix}marathon/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
               : ''
           )}
@@ -51,10 +51,10 @@ export default function Links({
       </li>
       <li className='mb-4 hidden text-center lg:mb-0 lg:text-left'>
         <Link
-          href={{ pathname: `${langPrefix}team` }}
+          href={{ pathname: `${langPrefix}team/` }}
           className={cn(
             className,
-            isActive(`${langPrefix}team`)
+            isActive(`${langPrefix}team/`)
               ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
               : ''
           )}
