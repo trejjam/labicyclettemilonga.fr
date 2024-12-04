@@ -6,17 +6,15 @@ import getLangPrefix from '@/helpers/lang-prefix.ts';
 import Link from 'next/link';
 import IconifyIcon from '@/components/wrappers/IconifyIcon.tsx';
 
-export default function LangSelector(
-  {
-    lang,
-    isDark,
-    buttonLabel,
-  }: {
-    lang: Locale,
-    isDark?: boolean,
-    buttonLabel: ReactNode;
-  },
-) {
+export default function LangSelector({
+  lang,
+  isDark,
+  buttonLabel,
+}: {
+  lang: Locale;
+  isDark?: boolean;
+  buttonLabel: ReactNode;
+}) {
   const pathName = usePathname();
   const langPrefix = getLangPrefix(lang);
 
@@ -37,42 +35,42 @@ export default function LangSelector(
   };
 
   return (
-    <div className="relative">
+    <div className='relative'>
       <button
-        type="button"
+        type='button'
         className={cn(
-          "inline-flex items-center justify-center rounded-md text-sm h-10 px-4 py-2 uppercase text-md font-bold",
-          isDark
-            ? ''
-            : 'bg-white text-bicyclette',
+          'text-md inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-bold uppercase',
+          isDark ? '' : 'bg-white text-bicyclette'
         )}
         onClick={handleToggle}
       >
         {buttonLabel}
-        <span className="ml-2">
-          {open ? <IconifyIcon
-            icon="lucide:chevron-up"
-            className="me-2 text-xl"
-          /> : <IconifyIcon
-            icon="lucide:chevron-down"
-            className="me-2 text-xl"
-          />}
+        <span className='ml-2'>
+          {open ? (
+            <IconifyIcon icon='lucide:chevron-up' className='me-2 text-xl' />
+          ) : (
+            <IconifyIcon icon='lucide:chevron-down' className='me-2 text-xl' />
+          )}
         </span>
       </button>
       {open && (
-        <div className="absolute left-1/2 -translate-x-1/2 top-12">
-          <ul className="w-12 h-auto shadow-md rounded-md p-1 border bg-white text-center uppercase text-md font-bold">
-            {locales.map(x => ({
-              key: x,
-              label: x,
-            })).map(item => (
-              <li
-                key={item.key}
-                className=""
-              >
-                <Link className="hover:text-bicyclette" href={{ pathname: getHref(item.key) }}>{item.label}</Link>
-              </li>
-            ))}
+        <div className='absolute left-1/2 top-12 -translate-x-1/2'>
+          <ul className='text-md h-auto w-12 rounded-md border bg-white p-1 text-center font-bold uppercase shadow-md'>
+            {locales
+              .map((x) => ({
+                key: x,
+                label: x,
+              }))
+              .map((item) => (
+                <li key={item.key} className=''>
+                  <Link
+                    className='hover:text-bicyclette'
+                    href={{ pathname: getHref(item.key) }}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
           </ul>
         </div>
       )}
