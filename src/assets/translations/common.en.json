@@ -1,3 +1,8 @@
 {
+  "menu": {
+    "milonga": "Milonga",
+    "marathon": "Marathon",
+    "team": "Team"
+  },
   "follow-us": "Follow us"
 }
