@@ -18,7 +18,6 @@ export default function Links({
   const { t } = useTranslation({ lng: lang });
 
   const isActive = (link: string): boolean => {
-    console.log(link === pathName, link, pathName);
     return link === pathName;
   };
 
