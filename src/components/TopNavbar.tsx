@@ -27,10 +27,10 @@ export default function TopNavbar({
   return (
     <header
       className={cn(
-        'font-nunito fixed inset-x-0 top-0 z-40 block w-full border-b border-gray-200 bg-white shadow-xl transition-all duration-500 lg:border-none lg:bg-transparent lg:shadow-none',
-        isDark ? 'nav-dark' : 'nav-light',
+        'font-nunito fixed inset-x-0 top-0 z-40 block w-full bg-white shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
+        isDark ? '' : '',
         isSticky
-          ? 'sticky border-b border-gray-200 bg-white shadow-xl transition-all duration-500'
+          ? 'sticky bg-black/80 shadow-xl transition-all duration-500 lg:bg-black/80 lg:shadow-xl'
           : ''
       )}
     >

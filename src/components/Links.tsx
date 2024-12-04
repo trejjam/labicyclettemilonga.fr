@@ -29,7 +29,9 @@ export default function Links({
           href={{ pathname: langPrefix }}
           className={cn(
             className,
-            isActive(langPrefix) ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette' : ''
+            isActive(langPrefix)
+              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
+              : ''
           )}
         >
           {t('menu.milonga')}

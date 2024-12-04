@@ -5,10 +5,10 @@ import { defaultLocale, locales } from '@/config/i18n.ts';
 import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
-import Footer from '@/components/Footer.tsx';
 import { favicon } from '@/components/Favicon.tsx';
 import { Params } from '@/types/props.ts';
 import TopNavbar from '@/components/TopNavbar.tsx';
+import FooterWithInfo from '@/components/FooterWithInfo.tsx';
 
 export const dynamic = 'force-static';
 
@@ -34,10 +34,10 @@ export default function RootLayout({
 
   return (
     <Html i18n={i18n}>
-      <body className="antialiased">
-      <TopNavbar lang={lang} />
-      {children}
-      <Footer />
+      <body className='antialiased'>
+        <TopNavbar lang={lang} />
+        {children}
+        <FooterWithInfo lang={lang} />
       </body>
     </Html>
   );

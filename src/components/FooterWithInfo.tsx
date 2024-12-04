@@ -4,8 +4,11 @@ import IconifyIcon from '@/components/wrappers/IconifyIcon.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { Locale } from '@/config/i18n.ts';
 import { currentYear } from '@/common/constants.ts';
+import getLangPrefix from '@/helpers/lang-prefix.ts';
 
 export default function FooterWithInfo({ lang }: { lang: Locale }) {
+  const langPrefix = getLangPrefix(lang);
+
   const { t } = useTranslation({ lng: lang });
 
   return (
@@ -14,7 +17,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
         <div className='flex flex-col justify-between gap-14 py-20 lg:flex-row'>
           <div className='mx-12 lg:mx-0 lg:w-4/12'>
             <Link
-              href='/'
+              href={{ pathname: langPrefix }}
               className='mb-10 flex max-w-64 items-center justify-center'
             >
               <Logo className='fill-bicyclette' />
