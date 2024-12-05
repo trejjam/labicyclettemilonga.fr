@@ -8,7 +8,8 @@
     "title": "Próxima Bicyclette milonga",
     "dateTime": "el {{starts, datetime}} hasta {{ends, datetime}}",
     "subtitle": "Bienvenido ! Nuestro equipo de ciclistas entusiasmados le espera en la sala TRAC, en el corazón del centro histórico de Toulouse, con su piso de roble y su increíble sistema de sonido. DJs invitados 100% tradicionales, comida casera elaborada por nuestros chefs y juegos chistosos. Entrada: 10€ u 8€ si es necesario",
-    "description": ""
+    "description": "¡El sábado 7 de diciembre la milonga Bicyclette presenta su CHIMICHURRI con el dj Ahmed el Morocho en los decks!",
+    "plan": "Saison 24-25"
   },
   "marathon": {
     "title": "Inscripción par el maratón",

@@ -80,7 +80,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </section>
       <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
         <div className='flex items-center justify-center text-center'>
-          {t('milonga.description')}
+          <h2 className="text-xl font-bold lg:text-2xl">{t('milonga.description')}</h2>
         </div>
         <div className='basis-full'></div>
         <div className='flex items-center justify-center py-4 text-center'>
@@ -89,6 +89,22 @@ export default function GenericHomePage({ params }: { params: Params }) {
               src='/img/milongas/2024-12-07_milonga.jpg'
               width={1080}
               height={1080}
+              alt='Milonga 7. 12. 2024'
+            />
+          </div>
+        </div>
+      </section>
+      <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
+        <div className='flex items-center justify-center text-center'>
+          <h2 className="text-xl font-bold lg:text-2xl">{t('milonga.plan')}</h2>
+        </div>
+        <div className='basis-full'></div>
+        <div className='flex items-center justify-center py-4 text-center'>
+          <div className='my-14 justify-center'>
+            <Image
+              src='/img/milongas/milonga-plan-2024-09_2025-05.jpg'
+              width={820}
+              height={960}
               alt='Milonga 7. 12. 2024'
             />
           </div>
