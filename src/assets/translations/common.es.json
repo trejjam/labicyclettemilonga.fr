@@ -19,19 +19,19 @@
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
       "palmer-time": "Viernes de noche",
-      "palmer": "",
+      "palmer": null,
       "rosita-title": "TDJ Rosita Lagos-Diaz",
       "rosita-time": "Sábado de tarde",
-      "rosita": "",
+      "rosita": null,
       "nocitango-title": "TDJ Paola Nocitango",
       "nocitango-time": "Sábado de noche",
-      "nocitango": "",
+      "nocitango": null,
       "arribat-title": "TDJ Nicolas Arribat",
       "arribat-time": "Domingo de mañana",
-      "arribat": "",
+      "arribat": null,
       "carmen-title": "TDJ Carmen Maria Hergos",
       "carmen-time": "Despedida",
-      "carmen": ""
+      "carmen": null
     }
   },
   "map": {

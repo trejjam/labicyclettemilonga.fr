@@ -19,19 +19,19 @@
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
       "palmer-time": "Friday evening",
-      "palmer": "",
+      "palmer": null,
       "rosita-title": "TDJ Rosita Lagos-Diaz",
       "rosita-time": "Saturday afternoon",
-      "rosita": "",
+      "rosita": null,
       "nocitango-title": "TDJ Paola Nocitango",
       "nocitango-time": "Saturday evening",
-      "nocitango": "",
+      "nocitango": null,
       "arribat-title": "TDJ Nicolas Arribat",
       "arribat-time": "Sunday morning",
-      "arribat": "",
+      "arribat": null,
       "carmen-title": "TDJ Carmen Maria Hergos",
       "carmen-time": "After party",
-      "carmen": ""
+      "carmen": null
     }
   },
   "map": {
