@@ -65,7 +65,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
                       </div>
                     </div>
                   </div>
-                  <div className='flex justify-center mt-12'>
+                  <div className='mt-12 flex justify-center'>
                     <div className='max-w-xl text-center'>
                       <p className='font-semibold text-white'>
                         {t('milonga.subtitle')}
@@ -82,7 +82,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
         <div className='flex items-center justify-center text-center'>
           {t('milonga.description')}
         </div>
-        <div className="basis-full"></div>
+        <div className='basis-full'></div>
         <div className='flex items-center justify-center py-4 text-center'>
           <div className='my-14 justify-center'>
             <Image
