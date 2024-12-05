@@ -36,9 +36,7 @@ export default function TopNavbar({
       className={cn(
         'font-nunito fixed inset-x-0 top-0 z-40 block w-full bg-gray-800 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
         isDark ? '' : '',
-        isSticky
-          ? 'lg:bg-gray-800/80'
-          : '',
+        isSticky ? 'lg:bg-gray-800/80' : ''
       )}
     >
       <div className='container ml-auto mr-auto'>
@@ -56,16 +54,13 @@ export default function TopNavbar({
               type='button'
               onClick={() => setNav(!nav)}
             >
-              <IconifyIcon
-                icon='uil:bars'
-                className='text-2xl'
-              />
+              <IconifyIcon icon='uil:bars' className='text-2xl' />
             </button>
           </div>
           <div
             className={cn(
               nav ? '' : 'hidden',
-              'hs-collapse mx-auto mt-2 grow basis-full items-center justify-center overflow-hidden transition-all duration-300 lg:mt-0 lg:flex lg:basis-auto',
+              'hs-collapse mx-auto mt-2 grow basis-full items-center justify-center overflow-hidden transition-all duration-300 lg:mt-0 lg:flex lg:basis-auto'
             )}
           >
             <ul className='mt-4 inline-flex w-full flex-col justify-center gap-x-4 lg:mt-0 lg:flex-row lg:items-center'>
@@ -75,11 +70,11 @@ export default function TopNavbar({
                 className={cn(
                   'relative inline-block cursor-pointer rounded-md bg-transparent px-3.5 py-1 text-base font-semibold capitalize tracking-wide transition-all duration-300',
                   'text-white',
-                  'active:bg-white/20 lg:active:bg-black/40 active:text-bicyclette',
-                  'focus:bg-white/20 lg:focus:bg-black/40 focus:text-bicyclette',
-                  'hover:bg-white/20 lg:hover:bg-black/40 hover:text-bicyclette',
+                  'active:bg-white/20 active:text-bicyclette lg:active:bg-black/40',
+                  'focus:bg-white/20 focus:text-bicyclette lg:focus:bg-black/40',
+                  'hover:bg-white/20 hover:text-bicyclette lg:hover:bg-black/40',
                   isDark ? '' : '',
-                  isSticky ? '' : '',
+                  isSticky ? '' : ''
                 )}
               />
             </ul>
