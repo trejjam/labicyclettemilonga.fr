@@ -1,18 +1,18 @@
 {
   "menu": {
     "milonga": "Milonga",
-    "marathon": "Marathon",
-    "team": "Team"
+    "marathon": "Maratón",
+    "team": "El equipo"
   },
   "milonga": {
-    "title": "Next La Bicyclette",
-    "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}"
+    "title": "Proxima Bicyclette milonga",
+    "dateTime": "el {{starts, datetime}} hasta {{ends, datetime}}"
   },
   "marathon": {
-    "title": "Registration for marathon",
-    "description": "starts {{date, datetime}}",
-    "newsletter": "Subscribe for marathon news",
-    "djs": "Marathon DJs:"
+    "title": "Inscripción par el maratón",
+    "description": "Principio {{date, datetime}}",
+    "newsletter": "Suscríbete para recibir noticias del maratón",
+    "djs": "Los DJs del maratón:"
   },
   "map": {
     "title": "La Bicycletta milonga",
@@ -20,7 +20,7 @@
     "google-link": "Open in Google maps"
   },
   "footer": {
-    "made-by": "Made by",
+    "made-by": "Hecho por",
     "follow-us": "Síganos",
     "number": "L'association n°",
     "siren": "SIREN",
@@ -28,7 +28,7 @@
     "swift": "SWIFT"
   },
   "venue": {
-    "title": "Venue",
+    "title": "El lugar",
     "address": "TRAC L'Ecole",
     "address2": "43 Rue Alfred Dumeril",
     "city": "314 00 Toulouse"
