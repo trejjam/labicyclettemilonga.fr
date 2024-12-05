@@ -56,6 +56,13 @@ export default function GenericHomePage({ params }: { params: Params }) {
                     </div>
                   </div>
                   <div className='flex justify-center'>
+                    <div className='max-w-xl text-center'>
+                        <p className='font-semibold text-white'>
+                         {t('milonga.description')}
+                        </p>
+                   </div>
+                  </div>
+                  <div className='flex justify-center'>
                     <div className='relative mt-14'>
                       <div>
                         <TimeDuration
@@ -64,9 +71,6 @@ export default function GenericHomePage({ params }: { params: Params }) {
                         />
                       </div>
                     </div>
-                       <p>
-                       {t('milonga.description')}
-                        </p>
                   </div>
                 </>
               )}
