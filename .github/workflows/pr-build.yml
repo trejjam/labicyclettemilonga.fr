@@ -2,6 +2,8 @@ name: PR CI Build
 
 on:
   pull_request:
+    branches:
+      - main
     types:
       - opened
       - synchronize
@@ -9,6 +11,11 @@ on:
   merge_group:
     types:
       - checks_requested
+
+# Down scope as necessary via https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
+permissions:
+  checks: write
+  contents: write
 
 env:
   NEXT_TELEMETRY_DISABLED: 1
@@ -27,5 +34,8 @@ jobs:
         run: bun install
       - name: Lint project
         run: bun run lint
-      - name: Format project
-        run: bun run format
+      - name: Run linters
+        uses: wearerequired/lint-action@v2
+        with:
+          auto_fix: true
+          prettier: true
