@@ -24,7 +24,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       <section className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
-          <div className='relative mt-12 flex w-full items-center justify-center px-12 py-12 text-center'>
+          <div className='relative flex w-full items-center justify-center px-12 py-12 text-center mt-20 sm:mt-0'>
             <div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('marathon.title')}
