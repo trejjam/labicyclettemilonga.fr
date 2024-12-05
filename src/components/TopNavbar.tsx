@@ -5,7 +5,7 @@ import IconifyIcon from './wrappers/IconifyIcon.tsx';
 import { cn } from '@/helpers/cn.ts';
 import useScrollEvent from '@/hooks/use-scroll-event.ts';
 import Logo from '@/components/Logo.tsx';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { Locale } from '@/config/i18n.ts';
 import Links from '@/components/Links.tsx';
 import LangSelector from '@/components/LangSelector.tsx';
