@@ -11,6 +11,7 @@
   "marathon": {
     "title": "Registration for marathon",
     "description": "starts {{date, datetime}}",
+    "newsletter": "Subscribe for marathon news",
     "djs": "Marathon DJs:"
   },
   "map": {

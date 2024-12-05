@@ -21,11 +21,10 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   return (
     <>
-      <section
-        className='relative flex h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-screen'>
+      <section className='relative flex items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
-          <div className='relative flex h-full w-full items-center justify-center px-12 py-12 text-center'>
+          <div className='relative mt-12 flex w-full items-center justify-center px-12 py-12 text-center'>
             <div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('marathon.title')}
@@ -52,14 +51,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               <div className='flex justify-center'>
                 <div className='relative mt-14'>
                   <div>
-                    <TimeDuration
-                      lang={lang}
-                      deadline={registrationDate}
-                    />
+                    <TimeDuration lang={lang} deadline={registrationDate} />
                   </div>
                 </div>
               </div>
-              <div className='flex mt-12 gap-6 items-start justify-center'>
+              <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
                   <Image
                     src='/img/marathon/2025/toulouse-city-center.png'
@@ -77,16 +73,34 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   />
                 </div>
               </div>
+              <div className='mt-12'>
+                <div className='rounded-md bg-white/20 px-4 py-[5px] font-medium text-white'>
+                  {t('marathon.newsletter')}
+                </div>
+
+                <iframe
+                  data-w-type='embedded'
+                  src='https://sugu5.mjt.lu/wgt/sugu5/x690/form?c=5ea5ef34'
+                  width='100%'
+                  className='h-0'
+                ></iframe>
+
+                {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+                <script
+                  type='text/javascript'
+                  src='https://app.mailjet.com/pas-nc-embedded-v1.js'
+                ></script>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
-        <h1 className='my-8 text-4xl font-extrabold capitalize black lg:text-6xl'>
+        <h1 className='black my-8 text-4xl font-extrabold capitalize lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
-        <div className='basis-full w-0 mt-12'></div>
-        <div className='max-w-96 mr-96'>
+        <div className='mt-12 w-0 basis-full'></div>
+        <div className='mr-96 max-w-96'>
           <Image
             src='/img/marathon/2025/dj-nocitango.jpg'
             width={836}
@@ -94,8 +108,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Paola Nocitango'
           />
         </div>
-        <div className='basis-full w-0 mt-12'></div>
-        <div className='max-w-96 ml-96'>
+        <div className='mt-12 w-0 basis-full'></div>
+        <div className='ml-96 max-w-96'>
           <Image
             src='/img/marathon/2025/dj-palmer.jpg'
             width={836}
@@ -103,8 +117,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Barbara Palmer'
           />
         </div>
-        <div className='basis-full w-0 mt-12'></div>
-        <div className='max-w-96 mr-96'>
+        <div className='mt-12 w-0 basis-full'></div>
+        <div className='mr-96 max-w-96'>
           <Image
             src='/img/marathon/2025/dj-arribat.jpg'
             width={836}
@@ -112,8 +126,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Nicolas Arribat'
           />
         </div>
-        <div className='basis-full w-0 mt-12'></div>
-        <div className='max-w-96 ml-96'>
+        <div className='mt-12 w-0 basis-full'></div>
+        <div className='ml-96 max-w-96'>
           <Image
             src='/img/marathon/2025/dj-carmen.jpg'
             width={836}
@@ -121,8 +135,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Carmen Maria Hergos'
           />
         </div>
-        <div className='basis-full w-0 mt-12'></div>
-        <div className='max-w-96 mr-96'>
+        <div className='mt-12 w-0 basis-full'></div>
+        <div className='mr-96 max-w-96'>
           <Image
             src='/img/marathon/2025/dj-rosita.jpg'
             width={836}
