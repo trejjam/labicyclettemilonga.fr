@@ -31,7 +31,7 @@ export default function TopNavbar({
     <header
       ref={wrapperRef}
       className={cn(
-        'font-nunito fixed inset-x-0 top-0 z-40 block w-full bg-gray-800 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
+        'font-nunito fixed inset-x-0 top-0 z-[2000] block w-full bg-gray-800 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
         isDark ? '' : '',
         isSticky ? 'lg:bg-gray-800/80' : ''
       )}
