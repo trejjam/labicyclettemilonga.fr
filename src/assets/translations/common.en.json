@@ -14,7 +14,19 @@
     "title": "Registration for marathon",
     "description": "starts {{date, datetime}}",
     "newsletter": "Subscribe for marathon news",
-    "djs": "Marathon DJs:"
+    "djs": "Marathon DJs:",
+    "dj": {
+      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango": "",
+      "palmer-title": "TDJ Barbara Palmer",
+      "palmer": "",
+      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat": "",
+      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen": "",
+      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita": ""
+    }
   },
   "map": {
     "title": "La Bicycletta milonga",

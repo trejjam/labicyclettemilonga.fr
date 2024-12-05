@@ -14,7 +14,19 @@
     "title": "Inscripción par el maratón",
     "description": "Principio {{date, datetime}}",
     "newsletter": "Suscríbete para recibir noticias del maratón",
-    "djs": "Los DJs del maratón:"
+    "djs": "Los DJs del maratón:",
+    "dj": {
+      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango": "",
+      "palmer-title": "TDJ Barbara Palmer",
+      "palmer": "",
+      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat": "",
+      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen": "",
+      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita": ""
+    }
   },
   "map": {
     "title": "La Bicycletta milonga",

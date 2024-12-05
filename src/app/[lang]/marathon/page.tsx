@@ -94,54 +94,94 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
-        <h1 className='black my-8 text-4xl font-extrabold capitalize lg:text-6xl'>
+      <section className='m-auto max-w-5xl px-12 py-12'>
+        <h1 className='black my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
-        <div className='mt-12 w-0 basis-full'></div>
-        <div className='mr-96 max-w-96'>
+        <div className='w-full md:flex md:flex-wrap'>
+          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+            {t('marathon.dj.nocitango-title')}
+          </h2>
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-nocitango.jpg'
             width={836}
             height={836}
             alt='TDJ Paola Nocitango'
+            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
+          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+            {t('marathon.dj.nocitango')}
+          </p>
+          <div className='clear-both'></div>
         </div>
-        <div className='mt-12 w-0 basis-full'></div>
-        <div className='ml-96 max-w-96'>
+        <div className='mt-8 w-full md:flex md:flex-wrap'>
+          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+            {t('marathon.dj.palmer-title')}
+          </h2>
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-palmer.jpg'
             width={836}
             height={836}
             alt='TDJ Barbara Palmer'
+            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:order-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
+          <p className='md:order-1 md:mr-12 md:w-5/12 lg:mr-12'>
+            {t('marathon.dj.palmer')}
+          </p>
+          <div className='clear-both'></div>
         </div>
-        <div className='mt-12 w-0 basis-full'></div>
-        <div className='mr-96 max-w-96'>
+        <div className='mt-8 w-full md:flex md:flex-wrap'>
+          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+            {t('marathon.dj.arribat-title')}
+          </h2>
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-arribat.jpg'
             width={836}
             height={836}
             alt='TDJ Nicolas Arribat'
+            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
+          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+            {t('marathon.dj.arribat')}
+          </p>
+          <div className='clear-both'></div>
         </div>
-        <div className='mt-12 w-0 basis-full'></div>
-        <div className='ml-96 max-w-96'>
+        <div className='mt-8 w-full md:flex md:flex-wrap'>
+          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+            {t('marathon.dj.carmen-title')}
+          </h2>
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-carmen.jpg'
             width={836}
             height={836}
             alt='TDJ Carmen Maria Hergos'
+            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:order-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
+          <p className='md:order-1 md:mr-12 md:w-5/12 lg:mr-12'>
+            {t('marathon.dj.carmen')}
+          </p>
+          <div className='clear-both'></div>
         </div>
-        <div className='mt-12 w-0 basis-full'></div>
-        <div className='mr-96 max-w-96'>
+        <div className='mt-8 w-full md:flex md:flex-wrap'>
+          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+            {t('marathon.dj.rosita-title')}
+          </h2>
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-rosita.jpg'
             width={836}
             height={836}
             alt='TDJ Rosita Lagos-Diaz'
+            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
+          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+            {t('marathon.dj.rosita')}
+          </p>
+          <div className='clear-both'></div>
         </div>
       </section>
       <div suppressHydrationWarning={true}>
