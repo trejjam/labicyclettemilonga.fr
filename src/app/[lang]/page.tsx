@@ -64,6 +64,9 @@ export default function GenericHomePage({ params }: { params: Params }) {
                         />
                       </div>
                     </div>
+                       <p>
+                       {t('milonga.description')}
+                        </p>
                   </div>
                 </>
               )}
