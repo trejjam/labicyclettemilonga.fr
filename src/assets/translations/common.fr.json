@@ -6,7 +6,8 @@
   },
   "milonga": {
     "title": "Prochaine Bicyclette Milonga",
-    "dateTime": "le {{starts, datetime}} jusqu'à {{ends, datetime}}"
+    "dateTime": "le {{starts, datetime}} jusqu'à {{ends, datetime}}",
+    "description": "présentation en construction"
   },
   "marathon": {
     "title": "Inscription au marathon de la Bicyclette",
