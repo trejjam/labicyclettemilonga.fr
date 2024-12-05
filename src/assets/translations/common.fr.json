@@ -31,7 +31,7 @@
   },
   "map": {
     "title": "La Bicycletta milonga",
-    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse",
+    "description": "43 Rue Alfred Dumeril, 31 400 Toulouse",
     "google-link": "Open in Google maps"
   },
   "footer": {
@@ -46,13 +46,13 @@
     "title": "Lieu ",
     "address": "TRAC L'Ecole",
     "address2": "43 Rue Alfred Dumeril",
-    "city": "314 00 Toulouse"
+    "city": "31 400 Toulouse"
   },
   "association": {
     "name": "Tangobrique",
     "address": "Appartement 10 Bâtiment A",
     "address2": "209 Avenue de Castres",
-    "city": "315 00 Toulouse",
+    "city": "31 500 Toulouse",
     "number": "W313039421",
     "siren": "937601219",
     "iban": "FR76 1313 5000 8008 0098 0985 785",
