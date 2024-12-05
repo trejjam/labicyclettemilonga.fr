@@ -99,9 +99,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           {t('marathon.djs')}
         </h1>
         <div className='w-full md:flex md:flex-wrap'>
-          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+          <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.palmer-title')}
           </h2>
+          <div className='w-0 basis-full'></div>
+          <p className='mb-2 w-full text-center text-lg font-medium italic'>
+            {t('marathon.dj.palmer-time')}
+          </p>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-palmer.jpg'
@@ -116,9 +120,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 w-full md:flex md:flex-wrap'>
-          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+          <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.rosita-title')}
           </h2>
+          <div className='w-0 basis-full'></div>
+          <p className='mb-2 w-full text-center text-lg font-medium italic'>
+            {t('marathon.dj.rosita-time')}
+          </p>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-rosita.jpg'
@@ -133,9 +141,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 w-full md:flex md:flex-wrap'>
-          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+          <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.nocitango-title')}
           </h2>
+          <div className='w-0 basis-full'></div>
+          <p className='mb-2 w-full text-center text-lg font-medium italic'>
+            {t('marathon.dj.nocitango-time')}
+          </p>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-nocitango.jpg'
@@ -150,9 +162,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 w-full md:flex md:flex-wrap'>
-          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+          <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.arribat-title')}
           </h2>
+          <div className='w-0 basis-full'></div>
+          <p className='mb-2 w-full text-center text-lg font-medium italic'>
+            {t('marathon.dj.arribat-time')}
+          </p>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-arribat.jpg'
@@ -167,9 +183,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 w-full md:flex md:flex-wrap'>
-          <h2 className='mb-4 w-full text-center text-2xl font-medium'>
+          <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.carmen-title')}
           </h2>
+          <div className='w-0 basis-full'></div>
+          <p className='mb-2 w-full text-center text-lg font-medium italic'>
+            {t('marathon.dj.carmen-time')}
+          </p>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-carmen.jpg'

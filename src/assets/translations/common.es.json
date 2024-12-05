@@ -17,16 +17,21 @@
     "newsletter": "Suscríbete para recibir noticias del maratón",
     "djs": "Los DJs del maratón:",
     "dj": {
-      "nocitango-title": "SÁBADO DE NOCHE TDJ Paola Nocitango",
-      "nocitango": "",
-      "palmer-title": "VIERNES DE NOCHE TDJ Barbara Palmer",
+      "palmer-title": "TDJ Barbara Palmer",
+      "palmer-time": "Viernes de noche",
       "palmer": "",
-      "arribat-title": "DOMINGO DE MAÑANA TDJ Nicolas Arribat",
+      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita-time": "Sábado de tarde",
+      "rosita": "",
+      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango-time": "Sábado de noche",
+      "nocitango": "",
+      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat-time": "Domingo de mañana",
       "arribat": "",
-      "carmen-title": "DESPEDIDA TDJ Carmen Maria Hergos",
-      "carmen": "",
-      "rosita-title": "SÁBADO DE TARDE TDJ Rosita Lagos-Diaz",
-      "rosita": ""
+      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen-time": "Despedida",
+      "carmen": ""
     }
   },
   "map": {
