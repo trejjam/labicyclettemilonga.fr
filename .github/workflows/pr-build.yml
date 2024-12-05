@@ -32,9 +32,10 @@ jobs:
           bun-version: latest
       - name: Install dependencies
         run: bun install
+      - name: Lint project
+        run: bun run lint
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
           auto_fix: true
-          eslint: true
           prettier: true
