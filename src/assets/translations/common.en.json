@@ -17,23 +17,21 @@
     "newsletter": "Subscribe for marathon news",
     "djs": "Marathon DJs:",
     "dj": {
-      "dj": {
-        "palmer-title": "TDJ Barbara Palmer",
-        "palmer-time": "Friday evening",
-        "palmer": "",
-        "rosita-title": "TDJ Rosita Lagos-Diaz",
-        "rosita-time": "Saturday afternoon",
-        "rosita": "",
-        "nocitango-title": "TDJ Paola Nocitango",
-        "nocitango-time": "Saturday evening",
-        "nocitango": "",
-        "arribat-title": "TDJ Nicolas Arribat",
-        "arribat-time": "Sunday morning",
-        "arribat": "",
-        "carmen-title": "TDJ Carmen Maria Hergos",
-        "carmen-time": "After party",
-        "carmen": ""
-      }
+      "palmer-title": "TDJ Barbara Palmer",
+      "palmer-time": "Friday evening",
+      "palmer": "",
+      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita-time": "Saturday afternoon",
+      "rosita": "",
+      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango-time": "Saturday evening",
+      "nocitango": "",
+      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat-time": "Sunday morning",
+      "arribat": "",
+      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen-time": "After party",
+      "carmen": ""
     }
   },
   "map": {
