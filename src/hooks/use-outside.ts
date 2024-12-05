@@ -5,7 +5,7 @@ import { RefObject, useEffect, useRef } from 'react';
  */
 export default function useOutside(callback: {
   (): void;
-}): RefObject<HTMLElement> {
+}): RefObject<HTMLElement | null> {
   const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
