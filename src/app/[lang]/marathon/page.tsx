@@ -136,7 +136,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <h2 className='mb-4 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.nocitango-title')}
           </h2>
-          <div className='w-0 basis-full'></div>          
+          <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/dj-nocitango.jpg'
             width={836}
