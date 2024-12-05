@@ -5,9 +5,9 @@
     "team": "El equipo"
   },
   "milonga": {
-    "title": "Proxima Bicyclette milonga",
+    "title": "Próxima Bicyclette milonga",
     "dateTime": "el {{starts, datetime}} hasta {{ends, datetime}}",
-    "subtitle": "présentation en construction",
+    "subtitle": "Bienvenido ! Nuestro equipo de ciclistas entusiasmados le espera en la sala TRAC, en el corazón del centro histórico de Toulouse, con su piso de roble y su increíble sistema de sonido. DJs invitados 100% tradicionales, comida casera elaborada por nuestros chefs y juegos chistosos. Entrada: 10€ u 8€ si es necesario",
     "description": ""
   },
   "marathon": {
@@ -16,22 +16,22 @@
     "newsletter": "Suscríbete para recibir noticias del maratón",
     "djs": "Los DJs del maratón:",
     "dj": {
-      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango-title": "SÁBADO DE NOCHE TDJ Paola Nocitango",
       "nocitango": "",
-      "palmer-title": "TDJ Barbara Palmer",
+      "palmer-title": "VIERNES DE NOCHE TDJ Barbara Palmer",
       "palmer": "",
-      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat-title": "DOMINGO DE MAÑANA TDJ Nicolas Arribat",
       "arribat": "",
-      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen-title": "DESPEDIDA TDJ Carmen Maria Hergos",
       "carmen": "",
-      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita-title": "SÁBADO DE TARDE TDJ Rosita Lagos-Diaz",
       "rosita": ""
     }
   },
   "map": {
     "title": "La Bicycletta milonga",
     "description": "43 Rue Alfred Dumeril, 314 00 Toulouse",
-    "google-link": "Open in Google maps"
+    "google-link": "Abrir en Google maps"
   },
   "footer": {
     "made-by": "Hecho por",
