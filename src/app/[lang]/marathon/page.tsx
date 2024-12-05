@@ -17,6 +17,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   const { t } = useTranslation({ lng: lang });
 
+  const registrationDate = new Date(2025, 0, 12, 12, 0, 0);
+
   return (
     <>
       <section
@@ -30,14 +32,21 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               </h1>
               <div className='flex justify-center'>
                 <div className='max-w-xl text-center'>
-                  <p
-                    className='font-semibold text-white'
-                    dangerouslySetInnerHTML={{
-                      __html: t('marathon.description', {
-                        interpolation: { escapeValue: false },
-                      }),
-                    }}
-                  ></p>
+                  <p className='font-semibold text-white'>
+                    {t('marathon.description', {
+                      date: registrationDate,
+                      formatParams: {
+                        date: {
+                          weekday: 'long',
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                          hour: 'numeric',
+                          minute: 'numeric',
+                        },
+                      },
+                    })}
+                  </p>
                 </div>
               </div>
               <div className='flex justify-center'>
@@ -45,7 +54,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   <div>
                     <TimeDuration
                       lang={lang}
-                      deadline={new Date(2025, 0, 12, 12, 0, 0, 0)}
+                      deadline={registrationDate}
                     />
                   </div>
                 </div>
