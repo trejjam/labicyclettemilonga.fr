@@ -3,9 +3,9 @@ import { RefObject, useEffect, useRef } from 'react';
 /**
  * Hook that alerts clicks outside of the passed ref
  */
-export default function useOutside(
-  callback: { (): void },
-): RefObject<HTMLElement> {
+export default function useOutside(callback: {
+  (): void;
+}): RefObject<HTMLElement> {
   const ref = useRef<HTMLElement>(null);
 
   useEffect(() => {
