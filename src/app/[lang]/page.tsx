@@ -80,7 +80,9 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </section>
       <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
         <div className='flex items-center justify-center text-center'>
-          <h2 className="text-xl font-bold lg:text-2xl">{t('milonga.description')}</h2>
+          <h2 className='text-xl font-bold lg:text-2xl'>
+            {t('milonga.description')}
+          </h2>
         </div>
         <div className='basis-full'></div>
         <div className='flex items-center justify-center py-4 text-center'>
@@ -96,7 +98,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </section>
       <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
         <div className='flex items-center justify-center text-center'>
-          <h2 className="text-xl font-bold lg:text-2xl">{t('milonga.plan')}</h2>
+          <h2 className='text-xl font-bold lg:text-2xl'>{t('milonga.plan')}</h2>
         </div>
         <div className='basis-full'></div>
         <div className='flex items-center justify-center py-4 text-center'>
