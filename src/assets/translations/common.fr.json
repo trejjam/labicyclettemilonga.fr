@@ -8,7 +8,8 @@
     "title": "Prochaine Bicyclette Milonga",
     "dateTime": "le {{starts, datetime}} jusqu'à {{ends, datetime}}",
     "subtitle": "Bienvenue ! Notre équipe de cyclistes survoltés t'attend dans la salle TRAC en plein cœur du Toulouse historique, avec son plancher en chêne et sa sono incroyable. Des djs invités 100% tradis, de la nourriture maison concoctée par nos chef.fe.s, et des jeux potaches. PAF : 10€ ou 8€ si besoin",
-    "description": "Le samedi 7 décembre la Bicyclette milonga fait son CHIMICHURRI avec dj Ahmed el Morocho aux platines !"
+    "description": "Le samedi 7 décembre la Bicyclette milonga fait son CHIMICHURRI avec dj Ahmed el Morocho aux platines !",
+    "plan": "Saison 24-25"
   },
   "marathon": {
     "title": "Inscription au marathon de la Bicyclette",
@@ -50,7 +51,7 @@
   "association": {
     "name": "Tangobrique",
     "address": "Appartement 10 Bâtiment A",
-    "address2": "209  Avenue de Castres",
+    "address2": "209 Avenue de Castres",
     "city": "315 00 Toulouse",
     "number": "W313039421",
     "siren": "937601219",

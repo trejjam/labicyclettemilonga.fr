@@ -8,7 +8,8 @@
     "title": "Next Bicyclette milonga",
     "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}",
     "subtitle": "présentation en construction",
-    "description": ""
+    "description": "On Saturday December 7th, the Bicyclette milonga is doing its CHIMICHURRI with DJ Ahmed el Morocho on the decks!",
+    "plan": "Saison 24-25"
   },
   "marathon": {
     "title": "Registration for marathon",
@@ -50,7 +51,7 @@
   "association": {
     "name": "Tangobrique",
     "address": "Appartement 10 Bâtiment A",
-    "address2": "209  Avenue de Castres",
+    "address2": "209 Avenue de Castres",
     "city": "315 00 Toulouse",
     "number": "W313039421",
     "siren": "937601219",
