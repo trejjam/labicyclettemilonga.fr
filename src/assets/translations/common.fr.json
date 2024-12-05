@@ -5,14 +5,14 @@
     "team": "Team"
   },
   "milonga": {
-    "title": "Next La Bicyclette",
-    "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}"
+    "title": "Prochaine milonga de La Bicyclette",
+    "dateTime": "est le {{starts, datetime}} jusqu'à {{ends, datetime}}"
   },
   "marathon": {
-    "title": "Registration for marathon",
-    "description": "starts {{date, datetime}}",
-    "newsletter": "Subscribe for marathon news",
-    "djs": "Marathon DJs:"
+    "title": "Inscription au marathon",
+    "description": "début {{date, datetime}}",
+    "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
+    "djs": "Les DJs du marathon:"
   },
   "map": {
     "title": "La Bicycletta milonga",
@@ -20,15 +20,15 @@
     "google-link": "Open in Google maps"
   },
   "footer": {
-    "made-by": "Made by",
-    "follow-us": "Suivez-nous",
+    "made-by": "Organisé par",
+    "follow-us": "Suis-nous",
     "number": "L'association n°",
     "siren": "SIREN",
     "iban": "IBAN",
     "swift": "SWIFT"
   },
   "venue": {
-    "title": "Venue",
+    "title": "Lieu",
     "address": "TRAC L'Ecole",
     "address2": "43 Rue Alfred Dumeril",
     "city": "314 00 Toulouse"
