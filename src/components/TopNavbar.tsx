@@ -25,10 +25,7 @@ export default function TopNavbar({
 
   const isSticky = scrollY >= 50;
 
-  const wrapperRef = useRef<HTMLElement>(null);
-  useOutside(wrapperRef, () => {
-    setNav(false);
-  });
+  const wrapperRef = useOutside(() => setNav(false));
 
   return (
     <header
