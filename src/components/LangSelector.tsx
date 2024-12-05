@@ -40,7 +40,7 @@ export default function LangSelector({
         type='button'
         className={cn(
           'text-md inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-bold uppercase',
-          isDark ? '' : 'bg-white text-bicyclette'
+          isDark ? '' : 'bg-gray-300 text-bicyclette'
         )}
         onClick={handleToggle}
       >

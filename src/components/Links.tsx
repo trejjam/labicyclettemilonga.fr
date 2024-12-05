@@ -4,12 +4,15 @@ import { usePathname } from 'next/navigation';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { Locale } from '@/config/i18n.ts';
 import getLangPrefix from '@/helpers/lang-prefix.ts';
+import { Dispatch, SetStateAction } from 'react';
 
 export default function Links({
   lang,
+  setNav,
   className,
 }: {
   lang: Locale;
+  setNav: Dispatch<SetStateAction<boolean>> ;
   className: string;
 }) {
   let pathName = usePathname();
@@ -29,6 +32,10 @@ export default function Links({
     return link === pathName;
   };
 
+  const resetNav = () => {
+    setNav(false);
+  };
+
   return (
     <>
       <li className='mb-4 text-center lg:mb-0 lg:text-left'>
@@ -37,9 +44,10 @@ export default function Links({
           className={cn(
             className,
             isActive(langPrefix)
-              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
+              ? 'bg-white/20 lg:bg-black/40 text-xl text-bicyclette'
               : ''
           )}
+          onClick={resetNav}
         >
           {t('menu.milonga')}
         </Link>
@@ -50,9 +58,10 @@ export default function Links({
           className={cn(
             className,
             isActive(`${langPrefix}marathon/`)
-              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
+              ? 'bg-white/20 lg:bg-black/40 text-xl text-bicyclette'
               : ''
           )}
+          onClick={resetNav}
         >
           {t('menu.marathon')}
         </Link>
@@ -63,9 +72,10 @@ export default function Links({
           className={cn(
             className,
             isActive(`${langPrefix}team/`)
-              ? 'bg-black/40 text-xl text-bicyclette lg:text-bicyclette'
+              ? 'bg-white/20 lg:bg-black/40 text-xl text-bicyclette'
               : ''
           )}
+          onClick={resetNav}
         >
           {t('menu.team')}
         </Link>
