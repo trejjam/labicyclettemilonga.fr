@@ -10,7 +10,9 @@
   },
   "marathon": {
     "title": "Registration for marathon",
-    "description": "starts January 12<sup>th</sup>, 2025 at 12PM"
+    "description": "starts {{date, datetime}}",
+    "newsletter": "Subscribe for marathon news",
+    "djs": "Marathon DJs:"
   },
   "map": {
     "title": "La Bicycletta milonga",

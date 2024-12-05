@@ -71,7 +71,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='flex items-center justify-center overflow-hidden px-12 md:h-screen'>
+      <section className='flex items-center justify-center overflow-hidden px-12'>
         <div className='flex items-center justify-center px-12 py-12 text-center'>
           <div className='my-14 justify-center'>
             <Image
