@@ -142,7 +142,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Paola Nocitango'
-            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:order-2 md:w-6/12 lg:float-none lg:w-5/12'
           />
           <p className='md:ml-12 md:w-5/12 lg:ml-12'>
             {t('marathon.dj.nocitango')}
