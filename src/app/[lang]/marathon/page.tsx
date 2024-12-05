@@ -21,7 +21,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   return (
     <>
-      <section className='relative flex items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
+      <section className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
           <div className='relative mt-12 flex w-full items-center justify-center px-12 py-12 text-center'>
@@ -81,8 +81,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                 <iframe
                   data-w-type='embedded'
                   src='https://sugu5.mjt.lu/wgt/sugu5/x690/form?c=5ea5ef34'
-                  width='100%'
-                  className='h-0'
+                  className='min-h-[600px] w-full'
                 ></iframe>
 
                 {/* eslint-disable-next-line @next/next/no-sync-scripts */}

@@ -24,10 +24,10 @@ export default function GenericHomePage({ params }: { params: Params }) {
 
   return (
     <>
-      <section className='relative flex h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-screen'>
+      <section className='relative flex min-h-screen items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
-          <div className='relative flex h-full w-full items-center justify-center px-12 py-12 text-center'>
+          <div className='relative flex w-full items-center justify-center px-12 py-12 text-center'>
             <div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('milonga.title')}
@@ -65,12 +65,12 @@ export default function GenericHomePage({ params }: { params: Params }) {
                       </div>
                     </div>
                   </div>
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center mt-12'>
                     <div className='max-w-xl text-center'>
-                        <p className='font-semibold text-white'>
-                         {t('milonga.description')}
-                        </p>
-                   </div>
+                      <p className='font-semibold text-white'>
+                        {t('milonga.subtitle')}
+                      </p>
+                    </div>
                   </div>
                 </>
               )}
@@ -78,8 +78,12 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='flex items-center justify-center overflow-hidden px-12'>
-        <div className='flex items-center justify-center px-12 py-12 text-center'>
+      <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
+        <div className='flex items-center justify-center text-center'>
+          {t('milonga.description')}
+        </div>
+        <div className="basis-full"></div>
+        <div className='flex items-center justify-center py-4 text-center'>
           <div className='my-14 justify-center'>
             <Image
               src='/img/milongas/2024-12-07_milonga.jpg'
