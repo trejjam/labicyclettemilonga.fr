@@ -17,21 +17,26 @@
     "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
     "djs": "Les DJs du marathon:",
     "dj": {
-      "nocitango-title": "SAMEDI SOIR TDJ Paola Nocitango",
-      "nocitango": "",
-      "palmer-title": "VENDREDI SOIR TDJ Barbara Palmer",
+      "palmer-title": "TDJ Barbara Palmer",
+      "palmer-time": "Vendredi soir",
       "palmer": "Danseuse et professeure de tango, Bárbara Palmer, notre TDJ de vendredi soir dirige et musicalise actuellement la milonga  del Puerto et la milonga Dolce Vita à Valence, en Espagne. Depuis 2005, elle a accumulé une vaste expérience en tant qu'organisatrice de milongas à Madrid et à Valence et a également été invitée en tant que DJ de tango à des événements en Espagne et dans d’autres pays d’Europe. C'est avec grand plaisir que nous confions à Bárbara l'ouverture du tout premier marathon de la Bicyclette !!",
-      "arribat-title": "DIMANCHE MATIN TDJ Nicolas Arribat",
+      "rosita-title": "TDJ Rosita Lagos-Diaz",
+      "rosita-time": "Samedi aprèm",
+      "rosita": "Rosita musicalise depuis 2017 dans des évènements d’Europe et aux Etats-Unis. Sensible aux énergies de la piste, elle partage avec les danseurs une large palette de rythmes et d’émotions principalement de l’âge d’or. Elle sera aux manettes le samedi après-midi, nous avons hâte Rositaaaaa !",
+      "nocitango-title": "TDJ Paola Nocitango",
+      "nocitango-time": "Samedi soir",
+      "nocitango": "",
+      "arribat-title": "TDJ Nicolas Arribat",
+      "arribat-time": "Dimanche matin",
       "arribat": "",
-      "carmen-title": "DESPEDIDA TDJ Carmen Maria Hergos",
-      "carmen": "",
-      "rosita-title": "SAMEDI APRÈM TDJ Rosita Lagos-Diaz",
-      "rosita": "Rosita musicalise depuis 2017 dans des évènements d’Europe et aux Etats-Unis. Sensible aux énergies de la piste, elle partage avec les danseurs une large palette de rythmes et d’émotions principalement de l’âge d’or. Elle sera aux manettes le samedi après-midi, nous avons hâte Rositaaaaa !"
+      "carmen-title": "TDJ Carmen Maria Hergos",
+      "carmen-time": "Despedida",
+      "carmen": ""
     }
   },
   "map": {
     "title": "La Bicycletta milonga",
-    "description": "43 Rue Alfred Dumeril, 314 00 Toulouse",
+    "description": "43 Rue Alfred Dumeril, 31 400 Toulouse",
     "google-link": "Open in Google maps"
   },
   "footer": {
@@ -46,13 +51,13 @@
     "title": "Lieu ",
     "address": "TRAC L'Ecole",
     "address2": "43 Rue Alfred Dumeril",
-    "city": "314 00 Toulouse"
+    "city": "31 400 Toulouse"
   },
   "association": {
     "name": "Tangobrique",
     "address": "Appartement 10 Bâtiment A",
     "address2": "209 Avenue de Castres",
-    "city": "315 00 Toulouse",
+    "city": "31 500 Toulouse",
     "number": "W313039421",
     "siren": "937601219",
     "iban": "FR76 1313 5000 8008 0098 0985 785",
