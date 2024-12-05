@@ -5,7 +5,7 @@
     "team": "Team"
   },
   "milonga": {
-    "title": "Next La Bicyclette",
+    "title": "Next Bicyclette milonga",
     "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}"
   },
   "marathon": {
