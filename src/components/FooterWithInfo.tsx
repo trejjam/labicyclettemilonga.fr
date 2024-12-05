@@ -13,7 +13,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
 
   return (
     <footer className='bg-slate-900'>
-      <div className='container lg:px-20'>
+      <div className='container lg:px-20 m-auto'>
         <div className='flex flex-col justify-between gap-14 py-20 lg:flex-row'>
           <div className='mx-12 lg:mx-0 lg:w-4/12'>
             <Link
