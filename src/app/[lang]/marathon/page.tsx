@@ -55,7 +55,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   </div>
                 </div>
               </div>
-              <div className=' flex items-start justify-center gap-6 mt-12'>
+              <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
                   <Image
                     src='/img/marathon/2025/toulouse-city-center.png'
