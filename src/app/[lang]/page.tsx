@@ -31,12 +31,12 @@ export default function GenericHomePage({ params }: { params: Params }) {
             <div>
               <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
-                <Image
-                  src='/img/title-site.png'
-                  width={800}
-                  height={420}
-                  alt='La Bicyclette Milonga Toulouse'
-                />
+                  <Image
+                    src='/img/title-site.png'
+                    width={800}
+                    height={420}
+                    alt='La Bicyclette Milonga Toulouse'
+                  />
                 </div>
               </div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
