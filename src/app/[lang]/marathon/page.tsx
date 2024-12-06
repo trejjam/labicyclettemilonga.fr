@@ -26,7 +26,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
             <div>
-             <div className='mt-12 flex items-start justify-center gap-6'>
+              <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
                   <Image
                     src='/img/marathon/2025/bandeau-marathon-site.png'
