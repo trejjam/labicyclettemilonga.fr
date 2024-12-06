@@ -28,17 +28,17 @@ export default function GenericHomePage({ params }: { params: Params }) {
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
-            <div className='mt-12 flex items-start justify-center gap-6'>
-              <div className='max-w-96'>
+            <div>
+              <div className='mt-12 flex items-start justify-center gap-6'>
+                <div className='max-w-96'>
                 <Image
                   src='/img/title-site.png'
-                  width={1170}
-                  height={614}
+                  width={800}
+                  height={420}
                   alt='La Bicyclette Milonga Toulouse'
                 />
+                </div>
               </div>
-            </div>
-            <div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('milonga.title')}
               </h1>
