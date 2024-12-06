@@ -96,7 +96,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 </h5>
                 <div>
                   <a
-                    className="italic underline text-sm cursor-pointer"
+                    className='cursor-pointer text-sm italic underline'
                     onClick={() =>
                       setAssociationDetailShow(!associationDetailShow)
                     }
