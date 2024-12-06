@@ -26,6 +26,16 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
             <div>
+             <div className='mt-12 flex items-start justify-center gap-6'>
+                <div className='max-w-96'>
+                  <Image
+                    src='/img/marathon/2025/bandeau-marathon-site.png'
+                    width={701}
+                    height={394}
+                    alt='Bicyclette Tango Marathon Toulouse city center'
+                  />
+                </div>
+              </div>
               <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
                 {t('marathon.title')}
               </h1>
@@ -53,24 +63,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   <div>
                     <TimeDuration lang={lang} deadline={registrationDate} />
                   </div>
-                </div>
-              </div>
-              <div className='mt-12 flex items-start justify-center gap-6'>
-                <div className='max-w-96'>
-                  <Image
-                    src='/img/marathon/2025/toulouse-city-center.png'
-                    width={304}
-                    height={148}
-                    alt='Toulouse city center'
-                  />
-                </div>
-                <div className='max-w-96'>
-                  <Image
-                    src='/img/marathon/2025/may-2025.png'
-                    width={311}
-                    height={173}
-                    alt='May 9-10-11, 2025'
-                  />
                 </div>
               </div>
               <div className='mt-12'>
