@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Logo from '@/components/Logo.tsx';
 import IconifyIcon from '@/components/wrappers/IconifyIcon.tsx';
@@ -5,8 +7,11 @@ import { useTranslation } from '@/hooks/use-translation.ts';
 import { Locale } from '@/config/i18n.ts';
 import { currentYear } from '@/common/constants.ts';
 import getLangPrefix from '@/helpers/lang-prefix.ts';
+import { cn } from '@/helpers/cn.ts';
+import { useState } from 'react';
 
 export default function FooterWithInfo({ lang }: { lang: Locale }) {
+  const [associationDetailShow, setAssociationDetailShow] = useState(false);
   const langPrefix = getLangPrefix(lang);
 
   const { t } = useTranslation({ lng: lang });
@@ -70,7 +75,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                   {t('venue.title')}:
                 </h5>
                 <Link
-                  className='underline hover:text-bicyclette'
+                  className='hover:text-bicyclette'
                   href='https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z'
                   target='_blank'
                 >
@@ -90,22 +95,41 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                   {t('footer.made-by')}: {t('association.name')}
                 </h5>
                 <div>
-                  {t('association.address')}
-                  <br />
-                  {t('association.address2')}
-                  <br />
-                  {t('association.city')}
+                  <a
+                    className="italic underline text-sm cursor-pointer"
+                    onClick={() =>
+                      setAssociationDetailShow(!associationDetailShow)
+                    }
+                  >
+                    {associationDetailShow
+                      ? t('association.hide-details')
+                      : t('association.show-details')}
+                  </a>
                 </div>
-                <div>
-                  {t('footer.number')}: {t('association.number')}
-                </div>
-                <div>
-                  {t('footer.siren')}: {t('association.siren')}
-                </div>
-                <div className='text-nowrap'>
-                  {t('footer.iban')}: {t('association.iban')}
-                  <br />
-                  {t('footer.swift')}: {t('association.swift')}
+                <div
+                  className={cn(
+                    'flex flex-col gap-3 text-gray-200',
+                    associationDetailShow ? '' : 'hidden'
+                  )}
+                >
+                  <div>
+                    {t('association.address')}
+                    <br />
+                    {t('association.address2')}
+                    <br />
+                    {t('association.city')}
+                  </div>
+                  <div>
+                    {t('footer.number')}: {t('association.number')}
+                  </div>
+                  <div>
+                    {t('footer.siren')}: {t('association.siren')}
+                  </div>
+                  <div className='text-nowrap'>
+                    {t('footer.iban')}: {t('association.iban')}
+                    <br />
+                    {t('footer.swift')}: {t('association.swift')}
+                  </div>
                 </div>
               </div>
             </div>

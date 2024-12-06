@@ -61,6 +61,8 @@
     "number": "W313039421",
     "siren": "937601219",
     "iban": "FR76 1313 5000 8008 0098 0985 785",
-    "swift": "CEPAFRPP313"
+    "swift": "CEPAFRPP313",
+    "show-details": "Afficher les informations de facturation",
+    "hide-details": "Masquer les informations de facturation"
   }
 }
