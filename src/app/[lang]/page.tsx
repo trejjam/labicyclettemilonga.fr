@@ -39,14 +39,14 @@ export default function GenericHomePage({ params }: { params: Params }) {
                   />
                 </div>
               </div>
-              <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-6xl'>
+              <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-5xl'>
                 {t('milonga.title')}
               </h1>
               {nextMilonga !== undefined && (
                 <>
                   <div className='flex justify-center'>
                     <div className='max-w-xl text-center'>
-                      <p className='font-semibold text-white'>
+                      <p className='font-semibold text-white text-2xl lg:text-3xl'>
                         {t('milonga.dateTime', {
                           starts: nextMilonga.starts,
                           ends: nextMilonga.ends,
