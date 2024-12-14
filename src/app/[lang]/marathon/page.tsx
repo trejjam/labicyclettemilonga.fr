@@ -41,7 +41,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               </h1>
               <div className='flex justify-center'>
                 <div className='max-w-xl text-center'>
-                  <p className='font-semibold text-white text-2xl lg:text-3xl'>
+                  <p className='text-2xl font-semibold text-white lg:text-3xl'>
                     {t('marathon.description', {
                       date: registrationDate,
                       formatParams: {
@@ -64,23 +64,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                     <TimeDuration lang={lang} deadline={registrationDate} />
                   </div>
                 </div>
-              </div>
-              <div className='mt-12'>
-                <div className='rounded-md bg-white/20 px-4 py-[5px] font-medium text-white'>
-                  {t('marathon.newsletter')}
-                </div>
-
-                <iframe
-                  data-w-type='embedded'
-                  src='https://sugu5.mjt.lu/wgt/sugu5/x690/form?c=5ea5ef34'
-                  className='min-h-[600px] w-full'
-                ></iframe>
-
-                {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-                <script
-                  type='text/javascript'
-                  src='https://app.mailjet.com/pas-nc-embedded-v1.js'
-                ></script>
               </div>
             </div>
           </div>
@@ -199,6 +182,25 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       <div suppressHydrationWarning={true}>
         <DynamicVenueMap lang={lang} />
       </div>
+      <section className='flex items-center justify-center'>
+        <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
+          <div className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
+            {t('marathon.newsletter')}
+          </div>
+
+          <iframe
+            data-w-type='embedded'
+            src='https://sugu5.mjt.lu/wgt/sugu5/x690/form?c=5ea5ef34'
+            className='min-h-[650px] w-full'
+          ></iframe>
+
+          {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+          <script
+            type='text/javascript'
+            src='https://app.mailjet.com/pas-nc-embedded-v1.js'
+          ></script>
+        </div>
+      </section>
     </>
   );
 }
