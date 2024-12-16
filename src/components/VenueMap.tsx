@@ -36,5 +36,10 @@ export default function VenueMap({ lang }: { lang: Locale }) {
       .openPopup();
   }, [t]);
 
-  return <div id='map' className='h-[60svh]'></div>;
+  return (
+    <div
+      id='map'
+      className='h-[60svh]'
+    ></div>
+  );
 }

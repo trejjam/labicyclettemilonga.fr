@@ -47,9 +47,15 @@ export default function LangSelector({
         {buttonLabel}
         <span className='ml-2'>
           {open ? (
-            <IconifyIcon icon='lucide:chevron-up' className='me-2 text-xl' />
+            <IconifyIcon
+              icon='lucide:chevron-up'
+              className='me-2 text-xl'
+            />
           ) : (
-            <IconifyIcon icon='lucide:chevron-down' className='me-2 text-xl' />
+            <IconifyIcon
+              icon='lucide:chevron-down'
+              className='me-2 text-xl'
+            />
           )}
         </span>
       </button>
@@ -62,7 +68,10 @@ export default function LangSelector({
                 label: x,
               }))
               .map((item) => (
-                <li key={item.key} className=''>
+                <li
+                  key={item.key}
+                  className=''
+                >
                   <Link
                     className='hover:text-bicyclette'
                     href={{ pathname: getHref(item.key) }}

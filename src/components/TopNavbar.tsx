@@ -45,13 +45,20 @@ export default function TopNavbar({
             <Logo className='w-28 fill-bicyclette' />
           </Link>
           <div className='ms-auto flex items-center px-2.5 lg:hidden'>
-            <LangSelector lang={lang} isDark={isDark} buttonLabel={lang} />
+            <LangSelector
+              lang={lang}
+              isDark={isDark}
+              buttonLabel={lang}
+            />
             <button
               className='hs-collapse-toggle ml-8 inline-flex h-10 w-12 items-center justify-center rounded-md border bg-gray-300'
               type='button'
               onClick={() => setNav(!nav)}
             >
-              <IconifyIcon icon='uil:bars' className='text-2xl' />
+              <IconifyIcon
+                icon='uil:bars'
+                className='text-2xl'
+              />
             </button>
           </div>
           <div
@@ -77,7 +84,11 @@ export default function TopNavbar({
             </ul>
           </div>
           <div className='hidden lg:block'>
-            <LangSelector lang={lang} isDark={isDark} buttonLabel={lang} />
+            <LangSelector
+              lang={lang}
+              isDark={isDark}
+              buttonLabel={lang}
+            />
           </div>
         </nav>
       </div>

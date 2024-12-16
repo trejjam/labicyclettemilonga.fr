@@ -6,5 +6,6 @@
   "singleQuote": true,
   "bracketSameLine": false,
   "jsxSingleQuote": true,
+  "singleAttributePerLine": true,
   "plugins": ["prettier-plugin-tailwindcss"]
 }

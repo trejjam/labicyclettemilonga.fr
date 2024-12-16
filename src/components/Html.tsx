@@ -12,7 +12,10 @@ export default function Html({
   const lang = i18n.language;
 
   return (
-    <html lang={lang} dir={dir(lang)}>
+    <html
+      lang={lang}
+      dir={dir(lang)}
+    >
       <body>{children}</body>
     </html>
   );

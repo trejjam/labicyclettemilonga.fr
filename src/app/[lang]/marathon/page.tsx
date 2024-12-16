@@ -19,6 +19,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   const registrationDate = new Date(2025, 0, 12, 12, 0, 0);
 
+  const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
+  const marathonDjsMobile = '/img/marathon/2025/djs-all-mobile.jpg';
+
   return (
     <>
       <section className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
@@ -61,7 +64,10 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               <div className='flex justify-center'>
                 <div className='relative mt-14'>
                   <div>
-                    <TimeDuration lang={lang} deadline={registrationDate} />
+                    <TimeDuration
+                      lang={lang}
+                      deadline={registrationDate}
+                    />
                   </div>
                 </div>
               </div>
@@ -69,11 +75,25 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
+      <section className='px-12 pt-12'>
+        <picture className='flex h-full w-full'>
+          <source
+            media='(min-width: 1024px)'
+            srcSet={marathonDjsDesktop + ' 1198w'}
+          />
+          <source srcSet={marathonDjsMobile + ' 836w'} />
+          <img
+            alt={t('marathon.djs')}
+            src={marathonDjsMobile}
+            className='min-h[668px] object-fit m-auto inline w-full max-w-[836px] lg:max-w-[1198px]'
+          />
+        </picture>
+      </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
         <h1 className='black my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
-        <div className='w-full md:flex md:flex-wrap'>
+        <div className='flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.palmer-title')}
           </h2>
@@ -87,14 +107,14 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Barbara Palmer'
-            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.palmer')}
           </p>
           <div className='clear-both'></div>
         </div>
-        <div className='mt-8 w-full md:flex md:flex-wrap'>
+        <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.rosita-title')}
           </h2>
@@ -108,14 +128,14 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Rosita Lagos-Diaz'
-            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:order-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='md:order-1 md:mr-12 md:w-5/12 lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.rosita')}
           </p>
           <div className='clear-both'></div>
         </div>
-        <div className='mt-8 w-full md:flex md:flex-wrap'>
+        <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.nocitango-title')}
           </h2>
@@ -129,14 +149,14 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Paola Nocitango'
-            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.nocitango')}
           </p>
           <div className='clear-both'></div>
         </div>
-        <div className='mt-8 w-full md:flex md:flex-wrap'>
+        <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.arribat-title')}
           </h2>
@@ -150,14 +170,14 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Nicolas Arribat'
-            className='float-right inline w-7/12 max-w-96 pb-2 pr-2 md:order-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='md:order-1 md:mr-12 md:w-5/12 lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.arribat')}
           </p>
           <div className='clear-both'></div>
         </div>
-        <div className='mt-8 w-full md:flex md:flex-wrap'>
+        <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
             {t('marathon.dj.carmen-title')}
           </h2>
@@ -171,9 +191,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Carmen Maria Hergos'
-            className='float-left inline w-7/12 max-w-96 pb-2 pr-2 md:w-6/12 lg:float-none lg:w-5/12'
+            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='md:ml-12 md:w-5/12 lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.carmen')}
           </p>
           <div className='clear-both'></div>
