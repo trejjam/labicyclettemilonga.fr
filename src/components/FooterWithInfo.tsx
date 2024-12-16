@@ -62,7 +62,10 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                   target='_blank'
                   className='group inline-flex h-10 items-center justify-center rounded-lg bg-slate-800 px-5 text-gray-400 transition-all duration-500 hover:fill-white/30 hover:text-bicyclette'
                 >
-                  <IconifyIcon icon='ix:e-mail' className='mr-2 h-5 w-5' />
+                  <IconifyIcon
+                    icon='ix:e-mail'
+                    className='mr-2 h-5 w-5'
+                  />
                   Contact Us
                 </Link>
               </li>

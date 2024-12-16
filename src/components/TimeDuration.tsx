@@ -24,10 +24,17 @@ export default function TimeDuration({
   return (
     <div className='flex flex-wrap items-center justify-center gap-x-4 gap-y-4 sm:gap-x-0'>
       <div className='inline-flex h-24 w-24 flex-col items-center justify-center rounded-lg border-2 border-dashed px-3 py-2 font-bold text-white'>
-        <span id='days' className='text-3xl' suppressHydrationWarning={true}>
+        <span
+          id='days'
+          className='text-3xl'
+          suppressHydrationWarning={true}
+        >
           {days}
         </span>
-        <span className='text-base' suppressHydrationWarning={true}>
+        <span
+          className='text-base'
+          suppressHydrationWarning={true}
+        >
           {t('time-duration.days', { count: days })}
         </span>
       </div>
@@ -35,10 +42,17 @@ export default function TimeDuration({
         :
       </div>
       <div className='inline-flex h-24 w-24 flex-col items-center justify-center rounded-lg border-2 border-dashed px-3 py-2 font-bold text-white'>
-        <span id='hours' className='text-3xl' suppressHydrationWarning={true}>
+        <span
+          id='hours'
+          className='text-3xl'
+          suppressHydrationWarning={true}
+        >
           {hours}
         </span>
-        <span className='text-base' suppressHydrationWarning={true}>
+        <span
+          className='text-base'
+          suppressHydrationWarning={true}
+        >
           {t('time-duration.hours', { count: hours })}
         </span>
       </div>
@@ -46,10 +60,17 @@ export default function TimeDuration({
         :
       </div>
       <div className='inline-flex h-24 w-24 flex-col items-center justify-center rounded-lg border-2 border-dashed px-3 py-2 font-bold text-white'>
-        <span id='minutes' className='text-3xl' suppressHydrationWarning={true}>
+        <span
+          id='minutes'
+          className='text-3xl'
+          suppressHydrationWarning={true}
+        >
           {minutes}
         </span>
-        <span className='text-base' suppressHydrationWarning={true}>
+        <span
+          className='text-base'
+          suppressHydrationWarning={true}
+        >
           {t('time-duration.minutes', { count: minutes })}
         </span>
       </div>
@@ -57,10 +78,17 @@ export default function TimeDuration({
         :
       </div>
       <div className='inline-flex h-24 w-24 flex-col items-center justify-center rounded-lg border-2 border-dashed px-3 py-2 font-bold text-white'>
-        <span id='seconds' className='text-3xl' suppressHydrationWarning={true}>
+        <span
+          id='seconds'
+          className='text-3xl'
+          suppressHydrationWarning={true}
+        >
           {seconds}
         </span>
-        <span className='text-base' suppressHydrationWarning={true}>
+        <span
+          className='text-base'
+          suppressHydrationWarning={true}
+        >
           {t('time-duration.seconds', { count: seconds })}
         </span>
       </div>

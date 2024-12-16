@@ -8,7 +8,11 @@ export default function Logo({ className }: { className: ClassNameProps }) {
       viewBox='0 0 1500 1000'
       className={cn(className)}
     >
-      <image href='/img/bicycle.png' height='735' width='940'>
+      <image
+        href='/img/bicycle.png'
+        height='735'
+        width='940'
+      >
         <animateMotion
           dur='10s'
           repeatCount='indefinite'
