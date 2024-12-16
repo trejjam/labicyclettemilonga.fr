@@ -17,6 +17,16 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   const { t } = useTranslation({ lng: lang });
 
+  const timetables = t('marathon.timetables', {
+    returnObjects: true,
+  }) as Array<{
+    title: string;
+    inner: Array<{
+      time: string;
+      description: string;
+    }>;
+  }>;
+
   const registrationDate = new Date(2025, 0, 12, 12, 0, 0);
 
   const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
@@ -90,7 +100,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         </picture>
       </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
-        <h1 className='black my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
+        <h1 className='my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
         <div className='flex w-full flex-wrap items-start justify-center'>
@@ -197,6 +207,40 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             {t('marathon.dj.carmen')}
           </p>
           <div className='clear-both'></div>
+        </div>
+      </section>
+      <section className='bg-slate-900'>
+        <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
+          <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
+            {t('marathon.timetable')}
+          </h1>
+          <div className='w-full text-gray-300'>
+            {timetables.map((timeGroup, i) => {
+              return (
+                <div
+                  key={i}
+                  className='mt-8'
+                >
+                  <h2 className='text-3xl font-bold capitalize'>
+                    {timeGroup.title}
+                  </h2>
+                  <div className='pl-6'>
+                    {timeGroup.inner.map((row, j) => {
+                      return (
+                        <div
+                          key={j}
+                          className='flex flex-wrap gap-4 py-2'
+                        >
+                          <p className='w-2/12 text-right'>{row.time}</p>
+                          <p className='w-8/12'>{row.description}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
       <div suppressHydrationWarning={true}>

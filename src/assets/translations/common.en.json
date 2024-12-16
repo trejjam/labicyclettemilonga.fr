@@ -33,7 +33,61 @@
       "carmen-title": "TDJ Carmen Maria Hergos",
       "carmen-time": "Despedida",
       "carmen": null
-    }
+    },
+    "timetable": "Program",
+    "timetables": [
+      {
+        "title": "Friday",
+        "inner": [
+          {
+            "time": "20h-21h",
+            "description": "Welcome drink at the bar"
+          },
+          {
+            "time": "21h-2h30",
+            "description": "First International set - TDJ Barbara Palmer (Spain)"
+          }
+        ]
+      },
+      {
+        "title": "Saturday",
+        "inner": [
+          {
+            "time": "morning",
+            "description": "Rowing, Picnic"
+          },
+          {
+            "time": "14h-19h",
+            "description": "Set TDJ Rosita (Lyon)"
+          },
+          {
+            "time": "19h-20h",
+            "description": "Aperitif in the plant garden"
+          },
+          {
+            "time": "19h-20h30",
+            "description": "Set Super TDJ Nicolas (Toulouse)"
+          },
+          {
+            "time": "14h-19h",
+            "description": "Second International set - TDJ Paola Nocitango (Italy)"
+          }
+        ]
+      },
+      {
+        "title": "Sunday",
+        "inner": [
+          {
+            "time": "10h-14h",
+            "description": "Set TDJ Nicolas (Toulouse)"
+          },
+          {
+            "time": "14h-19h",
+            "description": "Set despedida - TDJ Carmen (Grenoble)"
+          }
+        ]
+      }
+    ]
   },
   "map": {
     "title": "La Bicycletta milonga",
