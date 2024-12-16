@@ -19,6 +19,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   const registrationDate = new Date(2025, 0, 12, 12, 0, 0);
 
+  const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
+  const marathonDjsMobile = '/img/marathon/2025/djs-all-mobile.jpg';
+
   return (
     <>
       <section className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
@@ -68,6 +71,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </div>
           </div>
         </div>
+      </section>
+      <section className='px-12 pt-12'>
+        <picture className="flex w-full h-full">
+          <source media='(min-width: 1024px)' srcSet={marathonDjsDesktop + ' 1198w'} />
+          <source srcSet={marathonDjsMobile + ' 836w'} />
+          <img alt={t('marathon.djs')} src={marathonDjsMobile} className='m-auto inline w-full max-w-[836px] lg:max-w-[1198px] object-fit' />
+        </picture>
       </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
         <h1 className='black my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
