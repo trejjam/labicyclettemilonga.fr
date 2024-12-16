@@ -64,7 +64,10 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               <div className='flex justify-center'>
                 <div className='relative mt-14'>
                   <div>
-                    <TimeDuration lang={lang} deadline={registrationDate} />
+                    <TimeDuration
+                      lang={lang}
+                      deadline={registrationDate}
+                    />
                   </div>
                 </div>
               </div>
@@ -73,10 +76,17 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         </div>
       </section>
       <section className='px-12 pt-12'>
-        <picture className="flex w-full h-full">
-          <source media='(min-width: 1024px)' srcSet={marathonDjsDesktop + ' 1198w'} />
+        <picture className='flex h-full w-full'>
+          <source
+            media='(min-width: 1024px)'
+            srcSet={marathonDjsDesktop + ' 1198w'}
+          />
           <source srcSet={marathonDjsMobile + ' 836w'} />
-          <img alt={t('marathon.djs')} src={marathonDjsMobile} className='m-auto inline w-full max-w-[836px] lg:max-w-[1198px] object-fit' />
+          <img
+            alt={t('marathon.djs')}
+            src={marathonDjsMobile}
+            className='min-h[668px] object-fit m-auto inline w-full max-w-[836px] lg:max-w-[1198px]'
+          />
         </picture>
       </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
