@@ -104,8 +104,10 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
             {t('marathon.timetable')}
           </h1>
-          <p className='w-full text-center text-gray-300 text-xl'>{t('marathon.timetable-description')}</p>
-          <div className='w-full text-gray-300 mt-4'>
+          <p className='w-full text-center text-xl text-gray-300'>
+            {t('marathon.timetable-description')}
+          </p>
+          <div className='mt-4 w-full text-gray-300'>
             {timetables.map((timeGroup, i) => {
               return (
                 <div
