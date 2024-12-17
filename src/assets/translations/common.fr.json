@@ -35,6 +35,7 @@
       "carmen": ""
     },
     "timetable": "Horaire",
+    "timetable-description": "",
     "timetables": [
       {
         "title": "Vendredi",

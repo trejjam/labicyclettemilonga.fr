@@ -85,7 +85,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='px-12 pt-12'>
+      <section className='px-12 py-12'>
         <picture className='flex h-full w-full'>
           <source
             media='(min-width: 1024px)'
@@ -98,6 +98,43 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             className='min-h[668px] object-fit m-auto inline w-full max-w-[836px] lg:max-w-[1198px]'
           />
         </picture>
+      </section>
+      <section className='bg-slate-900'>
+        <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
+          <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
+            {t('marathon.timetable')}
+          </h1>
+          <p className='w-full text-center text-xl text-gray-300'>
+            {t('marathon.timetable-description')}
+          </p>
+          <div className='mt-4 w-full text-gray-300'>
+            {timetables.map((timeGroup, i) => {
+              return (
+                <div
+                  key={i}
+                  className='mt-8'
+                >
+                  <h2 className='text-3xl font-bold capitalize'>
+                    {timeGroup.title}
+                  </h2>
+                  <div className='pl-6'>
+                    {timeGroup.inner.map((row, j) => {
+                      return (
+                        <div
+                          key={j}
+                          className='flex flex-wrap gap-4 py-2'
+                        >
+                          <p className='w-2/12 text-right'>{row.time}</p>
+                          <p className='w-8/12'>{row.description}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
         <h1 className='my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
@@ -207,40 +244,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             {t('marathon.dj.carmen')}
           </p>
           <div className='clear-both'></div>
-        </div>
-      </section>
-      <section className='bg-slate-900'>
-        <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
-          <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
-            {t('marathon.timetable')}
-          </h1>
-          <div className='w-full text-gray-300'>
-            {timetables.map((timeGroup, i) => {
-              return (
-                <div
-                  key={i}
-                  className='mt-8'
-                >
-                  <h2 className='text-3xl font-bold capitalize'>
-                    {timeGroup.title}
-                  </h2>
-                  <div className='pl-6'>
-                    {timeGroup.inner.map((row, j) => {
-                      return (
-                        <div
-                          key={j}
-                          className='flex flex-wrap gap-4 py-2'
-                        >
-                          <p className='w-2/12 text-right'>{row.time}</p>
-                          <p className='w-8/12'>{row.description}</p>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
         </div>
       </section>
       <div suppressHydrationWarning={true}>
