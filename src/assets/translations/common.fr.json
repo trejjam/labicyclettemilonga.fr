@@ -34,8 +34,8 @@
       "carmen-time": "Despedida",
       "carmen": "Carmen est professeure de tango, précurseure du double-rôle et TangoDj d'origine mexicaine. Elle commence à musicaliser en 2012, de façon hebdomadaire, à Barcelone. Appréciant profondément les orchestres de l'Age d'or et toujours à la recherche de vieux trésors, elle n'hésite pas aussi à proposer de nouveaux orchestres si l'énergie de la piste le demande!"
     },
-    "timetable": "Premier marathon de la Bicyclette, ça va être fou !",
-    "timetable-description": "Ô Toulouse, ses briques roses et sa Garonne, ses parcs et son tango... bienvenue ! Notre équipe de bicyclettistes enjoué.e.s organise ce marathon dans une salle exceptionnelle en plein cœur historique de la ville. Voici le programme !",
+    "timetable": "Ça va être fou !",
+    "timetable-description": "Ô Toulouse, ses briques roses et sa Garonne, ses parcs et son tango... bienvenue ! Notre équipe de bicyclettistes enjoué.e.s organise ce premier marathon de la Bicyclette dans une salle exceptionnelle en plein cœur historique de la ville. Voici le programme :",
     "timetables": [
       {
         "title": "Vendredi",
@@ -89,6 +89,12 @@
         ]
       }
     ]
+  },
+  "place": {
+    "title": "À Toulouse, la ville rose !",
+    "salle": "en construction",
+    "jardin": "en construction",
+    "garonne": "en construction"
   },
   "map": {
     "title": "La Bicycletta milonga",
