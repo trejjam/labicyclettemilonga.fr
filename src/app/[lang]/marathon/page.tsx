@@ -298,7 +298,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             <div className='clear-both'></div>
           </div>
 
-
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
@@ -313,9 +312,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </p>
             <div className='clear-both'></div>
           </div>
-
-
-          
         </div>
       </section>
 
