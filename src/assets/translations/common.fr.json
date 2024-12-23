@@ -32,21 +32,21 @@
       "arribat": "C'est notre DJ local ! DJ parisien depuis 2010 et DJ international depuis 2015, Nicolas Arribat vit à présent à Toulouse, où il enseigne le tango et co-organise la milonga La Bicyclette et le Chimichurri Tango Weekend. Il se chargera de vous réveiller en douceur le dimanche matin, pour que la fête continue !",
       "carmen-title": "TDJ Carmen Maria Hergos",
       "carmen-time": "Despedida",
-      "carmen": ""
+      "carmen": "Carmen est professeure de tango, précurseure du double-rôle et TangoDj d'origine mexicaine. Elle commence à musicaliser en 2012, de façon hebdomadaire, à Barcelone. Appréciant profondément les orchestres de l'Age d'or et toujours à la recherche de vieux trésors, elle n'hésite pas aussi à proposer de nouveaux orchestres si l'énergie de la piste le demande!"
     },
-    "timetable": "Horaire",
-    "timetable-description": "",
+    "timetable": "Première édition du marathon de la Bicyclette, ça va être fou !",
+    "timetable-description": "Ô Toulouse, ses briques roses et sa Garonne, ses parcs et son tango... bienvenue ! Notre équipe de bicyclettistes enjoués organise ce marathon dans une salle exceptionnelle en plein cœur historique de la ville, à deux pas du Jardin des Plantes. Voici le programme !",
     "timetables": [
       {
         "title": "Vendredi",
         "inner": [
           {
             "time": "20h-21h",
-            "description": "Verre de bienvenue au bar"
+            "description": "Verre de bienvenue dans un bar du quartier"
           },
           {
             "time": "21h-2h30",
-            "description": "set international 1 - TDJ Barbara Palmer (Espagne)"
+            "description": "SET JEANNIE LONGO THE FIRST - TDJ Barbara Palmer (Espagne)"
           }
         ]
       },
@@ -55,23 +55,23 @@
         "inner": [
           {
             "time": "matin",
-            "description": "Aviron, Pique-nique"
+            "description": "Aviron sur la Garonne (sur inscription), Pique-nique au jardin des plantes"
           },
           {
             "time": "14h-19h",
-            "description": "Set TDJ Rosita (Lyon)"
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz(Lyon)"
           },
           {
             "time": "19h-20h",
-            "description": "Apéro jardin des plantes"
+            "description": "Apéro dans le Jardin des plantes"
           },
           {
-            "time": "19h-20h30",
-            "description": "Set Super TDJ Nicolas (Toulouse)"
+            "time": "19h-21h",
+            "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
           },
           {
-            "time": "14h-19h",
-            "description": "Set international 2 - TDJ Paola Nocitango (Italie)"
+            "time": "21h-2h30h",
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italie)"
           }
         ]
       },
@@ -80,11 +80,11 @@
         "inner": [
           {
             "time": "10h-14h",
-            "description": "Set TDJ Nicolas (Toulouse)"
+            "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
           },
           {
             "time": "14h-19h",
-            "description": "Set despedida - TDJ Carmen (Grenoble)"
+            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexique)"
           }
         ]
       }
