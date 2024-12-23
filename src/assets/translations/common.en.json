@@ -35,6 +35,7 @@
       "carmen": null
     },
     "timetable": "Program",
+    "timetable-description": null,
     "timetables": [
       {
         "title": "Friday",
@@ -45,7 +46,7 @@
           },
           {
             "time": "21h-2h30",
-            "description": "First International set - TDJ Barbara Palmer (Spain)"
+            "description": null
           }
         ]
       },
@@ -58,19 +59,19 @@
           },
           {
             "time": "14h-19h",
-            "description": "Set TDJ Rosita (Lyon)"
+            "description": null
           },
           {
             "time": "19h-20h",
             "description": "Aperitif in the plant garden"
           },
           {
-            "time": "19h-20h30",
-            "description": "Set Super TDJ Nicolas (Toulouse)"
+            "time": "19h-21h",
+            "description": null
           },
           {
-            "time": "14h-19h",
-            "description": "Second International set - TDJ Paola Nocitango (Italy)"
+            "time": "21h-2h30",
+            "description": null
           }
         ]
       },
@@ -79,11 +80,11 @@
         "inner": [
           {
             "time": "10h-14h",
-            "description": "Set TDJ Nicolas (Toulouse)"
+            "description": null
           },
           {
             "time": "14h-19h",
-            "description": "Set despedida - TDJ Carmen (Grenoble)"
+            "description": null
           }
         ]
       }
