@@ -55,7 +55,7 @@
         "inner": [
           {
             "time": "matin",
-            "description": "Aviron sur la Garonne (sur inscription), Pique-nique au jardin des plantes"
+            "description": "Aviron sur la Garonne (sur inscription) !"
           },
           {
             "time": "14h-19h",
@@ -92,10 +92,10 @@
   },
   "place": {
     "title": "À Toulouse, la ville rose !",
-    "salle": "Le TRAC est une salle historique de rock à Toulouse. 200m2 de plancher chêne sur lambourde, une sono incroyable, une mezzanine de part et d'autre, une deuxième salle pour se détendre, un bar, deux vestiaires. Ce lieu exceptionnel se situe en plein cœur de la ville historique, à deux pas du Jardin des Plantes.",
-    "jardin": "en construction",
-    "garonne": "en construction",
-    "food": "en construction"
+    "salle": "Le TRAC est une salle historique de rock à Toulouse. 200m2 de plancher chêne sur lambourde, une sono incroyable, une mezzanine de part et d'autre, une deuxième salle pour se détendre, un bar, deux vestiaires. Ce lieu exceptionnel se situe en plein cœur de la ville historique.",
+    "jardin": "Écrin de nature situé à deux pas de notre salle, vous aurez la possibilité d'en profiter tout le week-end. Pique-niques et apéro en prévision !",
+    "garonne": "Les bords de Garonne sont également tout près. Aussi nous vous proposons, le samedi matin, de faire de l'aviron !!! Réservation et paiement au moment de l'inscription.",
+    "food": "Des en-cas vous seront servis tout le long du week-end. Chef Sergueï sélectionnera des produits occitans : fromage, charcuterie, douceurs, fruits, vin, bières, nous avons en Occitanie l'embarras du choix !"
   },
   "map": {
     "title": "La Bicycletta milonga",
