@@ -252,6 +252,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
             {t('place.title')}
           </h1>
+
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <div className='w-0 basis-full'></div>
             <Image
             src='/img/marathon/2025/salle.jpg'
@@ -264,7 +266,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             {t('place.salle')}
             </p>
           <div className='clear-both'></div>
-          
+          </div>
+
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <div className='w-0 basis-full'></div>
           <Image
             src='/img/marathon/2025/jardin.jpg'
@@ -273,12 +277,14 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='jardin'
             className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12 text-gray-300'>
             {t('place.jardin')}
           </p>
           <div className='clear-both'></div>
-          
-         <div className='w-0 basis-full'></div>
+           </div>
+
+            <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
+            <div className='w-0 basis-full'></div>
             <Image
             src='/img/marathon/2025/Garonne.jpg'
             width={836}
@@ -286,10 +292,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='Garonne'
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+            <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12 text-gray-300'>
             {t('place.garonne')}
             </p>
-          <div className='clear-both'></div>
+            <div className='clear-both'></div>
+            </div>
         </div>
       </section>
       
