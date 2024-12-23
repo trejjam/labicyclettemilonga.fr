@@ -101,7 +101,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       </section>
       <section className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
-          <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
+          <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('marathon.timetable')}
           </h1>
           <p className='w-full text-center text-xl text-gray-300'>
