@@ -246,13 +246,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
       </section>
-
       <section className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('place.title')}
           </h1>
-
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
@@ -267,7 +265,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </p>
             <div className='clear-both'></div>
           </div>
-
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
@@ -282,7 +279,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </p>
             <div className='clear-both'></div>
           </div>
-
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
@@ -297,7 +293,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </p>
             <div className='clear-both'></div>
           </div>
-
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
@@ -314,7 +309,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-
       <div suppressHydrationWarning={true}>
         <DynamicVenueMap lang={lang} />
       </div>
