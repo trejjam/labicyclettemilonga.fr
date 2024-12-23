@@ -246,7 +246,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
       </section>
-      
+
       <section className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
@@ -254,52 +254,52 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </h1>
 
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
-          <div className='w-0 basis-full'></div>
+            <div className='w-0 basis-full'></div>
             <Image
-            src='/img/marathon/2025/salle.jpg'
-            width={836}
-            height={836}
-            alt='salle'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+              src='/img/marathon/2025/salle.jpg'
+              width={836}
+              height={836}
+              alt='salle'
+              className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12 text-gray-300'>
-            {t('place.salle')}
+            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+              {t('place.salle')}
             </p>
-          <div className='clear-both'></div>
+            <div className='clear-both'></div>
           </div>
 
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
-          <div className='w-0 basis-full'></div>
-          <Image
-            src='/img/marathon/2025/jardin.jpg'
-            width={836}
-            height={836}
-            alt='jardin'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
-          />
-          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12 text-gray-300'>
-            {t('place.jardin')}
-          </p>
-          <div className='clear-both'></div>
-           </div>
-
-            <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
-            src='/img/marathon/2025/Garonne.jpg'
-            width={836}
-            height={836}
-            alt='Garonne'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+              src='/img/marathon/2025/jardin.jpg'
+              width={836}
+              height={836}
+              alt='jardin'
+              className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12 text-gray-300'>
-            {t('place.garonne')}
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+              {t('place.jardin')}
             </p>
             <div className='clear-both'></div>
-            </div>
+          </div>
+
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
+            <div className='w-0 basis-full'></div>
+            <Image
+              src='/img/marathon/2025/Garonne.jpg'
+              width={836}
+              height={836}
+              alt='Garonne'
+              className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+            />
+            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+              {t('place.garonne')}
+            </p>
+            <div className='clear-both'></div>
+          </div>
         </div>
       </section>
-      
+
       <div suppressHydrationWarning={true}>
         <DynamicVenueMap lang={lang} />
       </div>
