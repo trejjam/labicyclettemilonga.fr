@@ -19,19 +19,19 @@
     "djs": "Les DJs du marathon:",
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
-      "palmer-time": "Vendredi soir",
+      "palmer-time": "Vendredi soir - SET JEANNIE LONGO THE FIRST",
       "palmer": "Danseuse et professeure de tango, Bárbara Palmer, notre TDJ de vendredi soir dirige et musicalise actuellement la milonga  del Puerto et la milonga Dolce Vita à Valence, en Espagne. Depuis 2005, elle a accumulé une vaste expérience en tant qu'organisatrice de milongas à Madrid et à Valence et a également été invitée en tant que DJ de tango à des événements en Espagne et dans d’autres pays d’Europe. C'est avec grand plaisir que nous confions à Bárbara l'ouverture du tout premier marathon de la Bicyclette !!",
       "rosita-title": "TDJ Rosita Lagos-Diaz",
-      "rosita-time": "Samedi aprèm",
+      "rosita-time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
       "rosita": "Rosita musicalise depuis 2017 dans des évènements d’Europe et aux Etats-Unis. Sensible aux énergies de la piste, elle partage avec les danseurs une large palette de rythmes et d’émotions principalement de l’âge d’or. Elle sera aux manettes le samedi après-midi, nous avons hâte Rositaaaaa !",
       "nocitango-title": "TDJ Paola Nocitango",
-      "nocitango-time": "Samedi soir",
+      "nocitango-time": "Samedi soir - SET LOUIS AMSTRONG THE DOPED",
       "nocitango": "Danseuse de tango et amoureuse de musique et du tango en particulier, Paola a vécu et travaillé en Argentine. Elle est rapidement devenue une TDJ très appréciée pour ses connaissances musicales et sa recherche de la qualité des fichiers musicaux. Souvent présente dans les milongas italiennes, elle est connue pour l'énergie qu'elle parvient à insuffler à ses soirées. Elle est attentive et sensible aux goûts et aux désirs des danseurs avec lesquels elle aime interagir et qui sont sa source d'inspiration. Elle organise également le Tango Beer Marathon à Como, en Italie et l’Avventura Milonguera Peace & Love à Noci et musicalise de nombreux  événements en Italie, en Europe et au-delà. Nous sommes ravis que Paola ait accepté de musicaliser la soirée de samedi !!",
       "arribat-title": "TDJ Nicolas Arribat",
-      "arribat-time": "Dimanche matin",
+      "arribat-time": "Dimanche matin - SET A SUNDAY BIKE RIDE",
       "arribat": "C'est notre DJ local ! DJ parisien depuis 2010 et DJ international depuis 2015, Nicolas Arribat vit à présent à Toulouse, où il enseigne le tango et co-organise la milonga La Bicyclette et le Chimichurri Tango Weekend. Il se chargera de vous réveiller en douceur le dimanche matin, pour que la fête continue !",
       "carmen-title": "TDJ Carmen Maria Hergos",
-      "carmen-time": "Despedida",
+      "carmen-time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
       "carmen": "Carmen est professeure de tango, précurseure du double-rôle et TangoDj d'origine mexicaine. Elle commence à musicaliser en 2012, de façon hebdomadaire, à Barcelone. Appréciant profondément les orchestres de l'Age d'or et toujours à la recherche de vieux trésors, elle n'hésite pas aussi à proposer de nouveaux orchestres si l'énergie de la piste le demande!"
     },
     "timetable": "Ça va être fou !",
@@ -92,9 +92,10 @@
   },
   "place": {
     "title": "À Toulouse, la ville rose !",
-    "salle": "en construction",
+    "salle": "Le TRAC est une salle historique de rock à Toulouse. 200m2 de plancher chêne sur lambourde, une sono incroyable, une mezzanine de part et d'autre, une deuxième salle pour se détendre, un bar, deux vestiaires. Ce lieu exceptionnel se situe en plein cœur de la ville historique, à deux pas du Jardin des Plantes.",
     "jardin": "en construction",
-    "garonne": "en construction"
+    "garonne": "en construction",
+    "food": "en construction"
   },
   "map": {
     "title": "La Bicycletta milonga",
