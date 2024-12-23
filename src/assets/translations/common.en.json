@@ -89,6 +89,13 @@
       }
     ]
   },
+  "place": {
+    "title": "Toulouse, the pink city!",
+    "salle": null,
+    "jardin": null,
+    "garonne": null,
+    "food": null
+  },
   "map": {
     "title": "La Bicycletta milonga",
     "description": "43 Rue Alfred Dumeril, 31 400 Toulouse",
