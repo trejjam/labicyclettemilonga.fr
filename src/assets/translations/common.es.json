@@ -35,6 +35,69 @@
       "carmen": null
     }
   },
+    "timetable": null,
+    "timetable-description": null,
+    "timetables": [
+      {
+        "title": "Friday",
+        "inner": [
+          {
+            "time": "20h-21h",
+            "description": null
+          },
+          {
+            "time": "21h-2h30",
+            "description": null
+          }
+        ]
+      },
+      {
+        "title": "Saturday",
+        "inner": [
+          {
+            "time": "morning",
+            "description": null
+          },
+          {
+            "time": "14h-19h",
+            "description": null
+          },
+          {
+            "time": "19h-20h",
+            "description": null
+          },
+          {
+            "time": "19h-21h",
+            "description": null
+          },
+          {
+            "time": "21h-2h30",
+            "description": null
+          }
+        ]
+      },
+      {
+        "title": "Sunday",
+        "inner": [
+          {
+            "time": "10h-14h",
+            "description": null
+          },
+          {
+            "time": "14h-19h",
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  "place": {
+    "title": "Toulouse, the pink city!",
+    "salle": null,
+    "jardin": null,
+    "garonne": null,
+    "food": null
+  },
   "map": {
     "title": "La Bicycletta milonga",
     "description": "43 Rue Alfred Dumeril, 31 400 Toulouse",
