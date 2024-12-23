@@ -49,7 +49,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   />
                 </div>
               </div>
-              <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-5xl'>
+              <h1 className='my-8 text-4xl font-extrabold text-white lg:text-5xl'>
                 {t('marathon.title')}
               </h1>
               <div className='flex justify-center'>
@@ -137,7 +137,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         </div>
       </section>
       <section className='m-auto max-w-5xl px-12 py-12'>
-        <h1 className='my-8 text-center text-4xl font-extrabold capitalize lg:text-6xl'>
+        <h1 className='my-8 text-center text-4xl font-extrabold lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
         <div className='flex w-full flex-wrap items-start justify-center'>
@@ -249,7 +249,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
       <section className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
-          <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
+          <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('place.title')}
           </h1>
 
@@ -297,6 +297,25 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </p>
             <div className='clear-both'></div>
           </div>
+
+
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
+            <div className='w-0 basis-full'></div>
+            <Image
+              src='/img/marathon/2025/food.jpg'
+              width={836}
+              height={836}
+              alt='food'
+              className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
+            />
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+              {t('place.food')}
+            </p>
+            <div className='clear-both'></div>
+          </div>
+
+
+          
         </div>
       </section>
 
