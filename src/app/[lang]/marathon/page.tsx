@@ -250,7 +250,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       <section className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold capitalize text-gray-300 lg:text-6xl'>
-            {t('marathon.place')}
+            {t('place.title')}
           </h1>
           <div className='w-0 basis-full'></div>
             <Image
@@ -261,7 +261,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
             <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12 text-gray-300'>
-            {t('marathon.salle')}
+            {t('place.salle')}
             </p>
           <div className='clear-both'></div>
           
@@ -274,7 +274,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
-            {t('marathon.jardin')}
+            {t('place.jardin')}
           </p>
           <div className='clear-both'></div>
           
@@ -287,7 +287,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
             <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
-            {t('marathon.garonne')}
+            {t('place.garonne')}
             </p>
           <div className='clear-both'></div>
         </div>
