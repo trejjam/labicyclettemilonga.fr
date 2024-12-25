@@ -34,7 +34,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   return (
     <>
-      <section className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
+      <section id='introduction' className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
@@ -85,7 +85,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='px-12 py-12'>
+      <section id='cover' className='px-12 py-12'>
         <picture className='flex h-full w-full'>
           <source
             media='(min-width: 1024px)'
@@ -99,7 +99,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           />
         </picture>
       </section>
-      <section className='bg-slate-900'>
+      <section id='timetable' className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('marathon.timetable')}
@@ -136,7 +136,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='m-auto max-w-5xl px-12 py-12'>
+      <section id='djs' className='m-auto max-w-5xl px-12 py-12'>
         <h1 className='my-8 text-center text-4xl font-extrabold lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
@@ -246,7 +246,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
       </section>
-      <section className='bg-slate-900'>
+      <section id='place' className='bg-slate-900'>
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('place.title')}
@@ -309,10 +309,10 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <div suppressHydrationWarning={true}>
+      <div id='location' suppressHydrationWarning={true}>
         <DynamicVenueMap lang={lang} />
       </div>
-      <section className='flex items-center justify-center'>
+      <section id='newsletter' className='flex items-center justify-center'>
         <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
           <div className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
             {t('marathon.newsletter')}
