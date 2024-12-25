@@ -132,6 +132,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
 
           <iframe
+            suppressHydrationWarning={true}
             data-w-type='embedded'
             src='https://sugu5.mjt.lu/wgt/sugu5/x507/form?c=0f08a2f3'
             className='min-h-[650px] w-full'
