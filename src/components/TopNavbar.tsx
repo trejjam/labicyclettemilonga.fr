@@ -11,6 +11,8 @@ import Links from '@/components/Links.tsx';
 import LangSelector from '@/components/LangSelector.tsx';
 import getLangPrefix from '@/helpers/lang-prefix.ts';
 import useOutside from '@/hooks/use-outside.ts';
+import SecondaryNavbar from '@/components/SecondaryNavbar.tsx';
+import { usePathname } from 'next/navigation';
 
 export default function TopNavbar({
   isDark,
@@ -20,8 +22,13 @@ export default function TopNavbar({
   lang: Locale;
 }) {
   const [nav, setNav] = useState(false);
+  const pathname = usePathname();
   const { scrollY } = useScrollEvent();
   const langPrefix = getLangPrefix(lang);
+
+  const currentRoute = pathname.startsWith(langPrefix)
+    ? pathname.substring(langPrefix.length)
+    : pathname;
 
   const isSticky = scrollY >= 50;
 
@@ -36,7 +43,7 @@ export default function TopNavbar({
         isSticky ? 'lg:bg-gray-800/80' : ''
       )}
     >
-      <div className='container ml-auto mr-auto'>
+      <div className='container relative z-20 ml-auto mr-auto'>
         <nav className='flex flex-wrap items-center justify-between py-4 lg:flex-nowrap'>
           <Link
             href={{ pathname: langPrefix }}
@@ -92,6 +99,12 @@ export default function TopNavbar({
           </div>
         </nav>
       </div>
+      <SecondaryNavbar
+        currentRoute={currentRoute}
+        nav={nav}
+        isDark={isDark}
+        lang={lang}
+      />
     </header>
   );
 }
