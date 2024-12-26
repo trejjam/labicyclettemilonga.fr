@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-export const useHash = (): string | undefined => {
+export const useHash = (): [string | undefined, (value: string) => void] => {
   const [hash, setHash] = useState<string>();
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export const useHash = (): string | undefined => {
     window.addEventListener('hashchange', onHashChange);
 
     return () => window.removeEventListener('hashchange', onHashChange);
-  }, []);
+  }, [setHash]);
 
-  return hash;
+  return [hash, setHash];
 };
