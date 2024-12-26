@@ -29,6 +29,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
     <>
       <section
         id='introduction'
+        style={{ scrollMarginTop: headHeight }}
         className='relative flex min-h-screen items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'
       >
         <div className='absolute inset-0 bg-black/80' />
@@ -96,6 +97,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </section>
       <section
         id='next'
+        style={{ scrollMarginTop: headHeight }}
         className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'
       >
         <div className='flex items-center justify-center text-center'>
@@ -117,6 +119,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </section>
       <section
         id='schedule'
+        style={{ scrollMarginTop: headHeight }}
         className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'
       >
         <div className='flex items-center justify-center text-center'>
@@ -142,6 +145,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
       </div>
       <section
         id='newsletter'
+        style={{ scrollMarginTop: headHeight }}
         className='flex items-center justify-center'
       >
         <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
