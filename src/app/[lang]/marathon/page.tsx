@@ -359,6 +359,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <script
             type='text/javascript'
             src='https://app.mailjet.com/pas-nc-embedded-v1.js'
+            async
+            defer
           ></script>
         </div>
       </section>
