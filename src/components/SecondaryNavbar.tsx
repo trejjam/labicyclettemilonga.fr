@@ -8,7 +8,6 @@ import 'swiper/css';
 import { Locale } from '@/config/i18n.ts';
 import { cn } from '@/helpers/cn.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
-import { useHash } from '@/hooks/use-hash.ts';
 import { MouseEvent, useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import type { Swiper as SwiperClass } from 'swiper/types';
@@ -37,7 +36,6 @@ export default function SecondaryNavbar({
   lang: Locale;
 }) {
   const router = useRouter();
-  const [hash, setHash] = useHash();
   const { t } = useTranslation({ lng: lang });
   const { scrollY } = useScrollEvent();
 
@@ -85,11 +83,10 @@ export default function SecondaryNavbar({
   const submenuClick = useCallback(
     (item: Submenu) => {
       router.push(item.hash as Route);
-      setHash(item.hash);
 
       swiper?.slideTo(item.id);
     },
-    [setHash, swiper, router]
+    [swiper, router]
   );
 
   const submenuClickEvent = (item: Submenu) => (event: MouseEvent) => {
@@ -97,25 +94,6 @@ export default function SecondaryNavbar({
 
     return submenuClick(item);
   };
-
-  useEffect(() => {
-    if (hash !== undefined && hash !== '') {
-      for (const key in submenu) {
-        const item = submenu[key];
-        if (item.hash === hash) {
-          setActiveSubmenu(item.id);
-          submenuClick(item);
-
-          return;
-        }
-      }
-    }
-
-    if (submenu.length > 0) {
-      setActiveSubmenu(submenu[0].id);
-      setHash(submenu[0].hash);
-    }
-  }, [submenu, hash, setHash, setActiveSubmenu, submenuClick]);
 
   useEffect(() => {
     const innerHalfHeight = window.innerHeight / 2;
