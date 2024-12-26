@@ -34,7 +34,12 @@ export default function RootLayout({
 
   return (
     <Html i18n={i18n}>
-      <body className='antialiased'>
+      <body
+        className='antialiased'
+        style={{
+          scrollBehavior: 'smooth',
+        }}
+      >
         <TopNavbar lang={lang} />
         {children}
         <FooterWithInfo lang={lang} />

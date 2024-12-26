@@ -9,15 +9,21 @@ import { currentYear } from '@/common/constants.ts';
 import getLangPrefix from '@/helpers/lang-prefix.ts';
 import { cn } from '@/helpers/cn.ts';
 import { useState } from 'react';
+import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 
 export default function FooterWithInfo({ lang }: { lang: Locale }) {
   const [associationDetailShow, setAssociationDetailShow] = useState(false);
   const langPrefix = getLangPrefix(lang);
+  const headHeight = useHeaderHeight();
 
   const { t } = useTranslation({ lng: lang });
 
   return (
-    <footer id='footer' className='bg-slate-900'>
+    <footer
+      id='footer'
+      style={{ scrollMarginTop: headHeight }}
+      className='bg-slate-900'
+    >
       <div className='container m-auto lg:px-20'>
         <div className='flex flex-col justify-between gap-14 py-20 lg:flex-row'>
           <div className='mx-12 lg:mx-0 lg:w-4/12'>

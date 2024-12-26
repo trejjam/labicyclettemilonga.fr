@@ -7,6 +7,7 @@ import { Params } from '@/types/props.ts';
 import dynamic from 'next/dynamic';
 import TimeDuration from '@/components/TimeDuration.tsx';
 import Image from 'next/image';
+import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 
 const DynamicVenueMap = dynamic(() => import('@/components/VenueMap.tsx'), {
   ssr: false,
@@ -14,6 +15,7 @@ const DynamicVenueMap = dynamic(() => import('@/components/VenueMap.tsx'), {
 
 export default function GenericMarathonPage({ params }: { params: Params }) {
   const lang = use(params).lang ?? defaultLocale;
+  const headHeight = useHeaderHeight();
 
   const { t } = useTranslation({ lng: lang });
 
@@ -34,7 +36,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   return (
     <>
-      <section id='introduction' className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
+      <section
+        id='introduction'
+        style={{ scrollMarginTop: headHeight }}
+        className='relative flex min-h-full items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'
+      >
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
@@ -85,7 +91,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section id='cover' className='px-12 py-12'>
+      <section
+        id='cover'
+        style={{ scrollMarginTop: headHeight }}
+        className='px-12 py-12'
+      >
         <picture className='flex h-full w-full'>
           <source
             media='(min-width: 1024px)'
@@ -99,7 +109,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           />
         </picture>
       </section>
-      <section id='timetable' className='bg-slate-900'>
+      <section
+        id='timetable'
+        style={{ scrollMarginTop: headHeight }}
+        className='bg-slate-900'
+      >
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('marathon.timetable')}
@@ -136,7 +150,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section id='djs' className='m-auto max-w-5xl px-12 py-12'>
+      <section
+        id='djs'
+        style={{ scrollMarginTop: headHeight }}
+        className='m-auto max-w-5xl px-12 py-12'
+      >
         <h1 className='my-8 text-center text-4xl font-extrabold lg:text-6xl'>
           {t('marathon.djs')}
         </h1>
@@ -246,7 +264,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='clear-both'></div>
         </div>
       </section>
-      <section id='place' className='bg-slate-900'>
+      <section
+        id='place'
+        style={{ scrollMarginTop: headHeight }}
+        className='bg-slate-900'
+      >
         <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
           <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('place.title')}
@@ -309,10 +331,18 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <div id='location' suppressHydrationWarning={true}>
+      <div
+        id='location'
+        style={{ scrollMarginTop: headHeight }}
+        suppressHydrationWarning={true}
+      >
         <DynamicVenueMap lang={lang} />
       </div>
-      <section id='newsletter' className='flex items-center justify-center'>
+      <section
+        id='newsletter'
+        style={{ scrollMarginTop: headHeight }}
+        className='flex items-center justify-center'
+      >
         <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
           <div className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
             {t('marathon.newsletter')}
