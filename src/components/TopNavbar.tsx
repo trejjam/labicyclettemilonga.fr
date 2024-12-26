@@ -39,13 +39,13 @@ export default function TopNavbar({
       id='header'
       ref={wrapperRef}
       className={cn(
-        'font-nunito fixed inset-x-0 top-0 z-[2000] block w-full bg-gray-800 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
+        'font-nunito fixed inset-x-0 top-0 z-[2000] block w-full bg-gray-800 py-4 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
         isDark ? '' : '',
         isSticky ? 'lg:bg-gray-800/80' : ''
       )}
     >
       <div className='container relative z-20 ml-auto mr-auto'>
-        <nav className='flex flex-wrap items-center justify-between py-4 lg:flex-nowrap'>
+        <nav className='flex flex-wrap items-center justify-between lg:flex-nowrap'>
           <Link
             href={{ pathname: langPrefix }}
             className='inline-block whitespace-nowrap'
