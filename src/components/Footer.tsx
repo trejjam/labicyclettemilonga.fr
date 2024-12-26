@@ -1,9 +1,9 @@
-import { currentYear } from '@/common/constants.ts';
+import { currentYear, unComputedHeaderHeight } from '@/common/constants.ts';
 import Link from 'next/link';
 import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 
 export default function Footer() {
-  const headHeight = useHeaderHeight();
+  const headHeight = useHeaderHeight(unComputedHeaderHeight);
 
   return (
     <footer
