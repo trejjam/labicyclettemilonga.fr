@@ -8,6 +8,8 @@ import { Params } from '@/types/props.ts';
 import dynamic from 'next/dynamic';
 import TimeDuration from '@/components/TimeDuration.tsx';
 import { milongaDates } from '@/app/[lang]/data.ts';
+import { useHeaderHeight } from '@/hooks/use-header-height.ts';
+import { unComputedHeaderHeight } from '@/common/constants.ts';
 
 const DynamicVenueMap = dynamic(() => import('@/components/VenueMap.tsx'), {
   ssr: false,
@@ -15,6 +17,7 @@ const DynamicVenueMap = dynamic(() => import('@/components/VenueMap.tsx'), {
 
 export default function GenericHomePage({ params }: { params: Params }) {
   const lang = use(params).lang ?? defaultLocale;
+  const headHeight = useHeaderHeight(unComputedHeaderHeight);
 
   const { t } = useTranslation({ lng: lang });
 
