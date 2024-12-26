@@ -24,7 +24,10 @@ export default function GenericHomePage({ params }: { params: Params }) {
 
   return (
     <>
-      <section className='relative flex min-h-screen items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'>
+      <section
+        id='introduction'
+        className='relative flex min-h-screen items-center justify-center overflow-hidden bg-[url(/img/toulouse-map.jpg)] bg-cover bg-fixed bg-center bg-no-repeat'
+      >
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
           <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
@@ -88,7 +91,10 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
+      <section
+        id='next'
+        className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'
+      >
         <div className='flex items-center justify-center text-center'>
           <h2 className='text-xl font-bold lg:text-2xl'>
             {t('milonga.description')}
@@ -101,12 +107,15 @@ export default function GenericHomePage({ params }: { params: Params }) {
               src='/img/milongas/nextmilongadj.jpg'
               width={1080}
               height={1080}
-              alt='Milonga 7. 12. 2024'
+              alt='Milonga 11. 1. 2025'
             />
           </div>
         </div>
       </section>
-      <section className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'>
+      <section
+        id='schedule'
+        className='flex flex-wrap items-center justify-center overflow-hidden px-12 py-12'
+      >
         <div className='flex items-center justify-center text-center'>
           <h2 className='text-xl font-bold lg:text-2xl'>{t('milonga.plan')}</h2>
         </div>
@@ -122,16 +131,23 @@ export default function GenericHomePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
-      <div suppressHydrationWarning={true}>
+      <div
+        id='location'
+        suppressHydrationWarning={true}
+      >
         <DynamicVenueMap lang={lang} />
       </div>
-      <section className='flex items-center justify-center'>
+      <section
+        id='newsletter'
+        className='flex items-center justify-center'
+      >
         <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
           <div className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
             {t('milonga.newsletter')}
           </div>
 
           <iframe
+            suppressHydrationWarning={true}
             data-w-type='embedded'
             src='https://sugu5.mjt.lu/wgt/sugu5/x507/form?c=0f08a2f3'
             className='min-h-[650px] w-full'

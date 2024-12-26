@@ -11,6 +11,8 @@ import Links from '@/components/Links.tsx';
 import LangSelector from '@/components/LangSelector.tsx';
 import getLangPrefix from '@/helpers/lang-prefix.ts';
 import useOutside from '@/hooks/use-outside.ts';
+import SecondaryNavbar from '@/components/SecondaryNavbar.tsx';
+import { usePathname } from 'next/navigation';
 
 export default function TopNavbar({
   isDark,
@@ -20,8 +22,13 @@ export default function TopNavbar({
   lang: Locale;
 }) {
   const [nav, setNav] = useState(false);
+  const pathname = usePathname();
   const { scrollY } = useScrollEvent();
   const langPrefix = getLangPrefix(lang);
+
+  const currentRoute = pathname.startsWith(langPrefix)
+    ? pathname.substring(langPrefix.length)
+    : pathname;
 
   const isSticky = scrollY >= 50;
 
@@ -29,15 +36,16 @@ export default function TopNavbar({
 
   return (
     <header
+      id='header'
       ref={wrapperRef}
       className={cn(
-        'font-nunito fixed inset-x-0 top-0 z-[2000] block w-full bg-gray-800 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
+        'font-nunito fixed inset-x-0 top-0 z-[2000] block w-full bg-gray-800 py-4 shadow-xl transition-all duration-500 lg:bg-transparent lg:shadow-none',
         isDark ? '' : '',
         isSticky ? 'lg:bg-gray-800/80' : ''
       )}
     >
-      <div className='container ml-auto mr-auto'>
-        <nav className='flex flex-wrap items-center justify-between py-4 lg:flex-nowrap'>
+      <div className='container relative z-20 ml-auto mr-auto'>
+        <nav className='flex flex-wrap items-center justify-between lg:flex-nowrap'>
           <Link
             href={{ pathname: langPrefix }}
             className='inline-block whitespace-nowrap'
@@ -92,6 +100,12 @@ export default function TopNavbar({
           </div>
         </nav>
       </div>
+      <SecondaryNavbar
+        currentRoute={currentRoute}
+        nav={nav}
+        isDark={isDark}
+        lang={lang}
+      />
     </header>
   );
 }

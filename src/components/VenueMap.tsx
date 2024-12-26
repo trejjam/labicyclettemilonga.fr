@@ -15,7 +15,6 @@ export default function VenueMap({ lang }: { lang: Locale }) {
       | undefined;
 
     if (container != null) {
-      console.log(container._leaflet_id);
       container._leaflet_id = null;
     }
     const map = L.map('map').setView([43.5926587, 1.4480319], 16);
