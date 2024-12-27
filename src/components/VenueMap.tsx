@@ -28,13 +28,14 @@ export default function VenueMap({ lang }: { lang: Locale }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
-      <Marker position={[43.5926587, 1.4480319]} ref={(r) => {
-        popupRef.current = r;
-        setRefReady(true);
-      }}>
-        <Popup
-
-        >
+      <Marker
+        position={[43.5926587, 1.4480319]}
+        ref={(r) => {
+          popupRef.current = r;
+          setRefReady(true);
+        }}
+      >
+        <Popup>
           <b>{t('map.title')}</b>
           <br />
           {t('map.description')}
