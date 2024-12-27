@@ -9,12 +9,12 @@ import { Marker as LeafletMarker } from 'leaflet';
 
 export default function VenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
-  const popupRef = useRef<LeafletMarker>(null);
-  const [refReady, setRefReady] = useState(false);
+  const markerRef = useRef<LeafletMarker>(null);
+  const [markerRefReady, setMarkerRefReady] = useState(false);
 
   useEffect(() => {
-    popupRef.current?.openPopup();
-  }, [refReady]);
+    markerRef.current?.openPopup();
+  }, [markerRefReady]);
 
   return (
     <MapContainer
@@ -31,8 +31,8 @@ export default function VenueMap({ lang }: { lang: Locale }) {
       <Marker
         position={[43.5926587, 1.4480319]}
         ref={(r) => {
-          popupRef.current = r;
-          setRefReady(true);
+          markerRef.current = r;
+          setMarkerRefReady(true);
         }}
       >
         <Popup>
