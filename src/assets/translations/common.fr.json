@@ -26,7 +26,7 @@
       "timetable": "Le programme",
       "djs": "Les DJs",
       "place": "Le lieu",
-      "newsletter": "Newsletter",
+      "newsletter": "Newsletter"
     },
     "title": "Inscription au marathon de la Bicyclette",
     "description": "début le {{date, datetime}}",
