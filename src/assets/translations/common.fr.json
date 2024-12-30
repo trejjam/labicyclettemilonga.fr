@@ -22,14 +22,11 @@
   },
   "marathon": {
     "submenu": {
-      "introduction": "Introduction",
-      "cover": "DJs",
-      "timetable": "Programme",
-      "djs": "DJs du marathon",
-      "place": "Place",
-      "location": "Emplacement",
+      "introduction": "Inscription",
+      "timetable": "Le programme",
+      "djs": "Les DJs",
+      "place": "Le lieu",
       "newsletter": "Newsletter",
-      "footer": "À propos"
     },
     "title": "Inscription au marathon de la Bicyclette",
     "description": "début le {{date, datetime}}",
