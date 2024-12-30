@@ -5,7 +5,13 @@
     "team": "El equipo"
   },
   "milonga": {
-    "submenu": null,
+    "submenu": {
+      "introduction": "Presentación",
+      "next": "Próxima Bicyclette milonga",
+      "schedule": "Temporada 24-25",
+      "location": "Donde",
+      "newsletter": "Newsletter"
+    },
     "title": "Próxima Bicyclette milonga",
     "dateTime": "el {{starts, datetime}} hasta {{ends, datetime}}",
     "subtitle": "¡Bienvenido! Nuestro equipo de ciclistas entusiasmados le espera en la sala TRAC, en el corazón histórico de Toulouse, con su piso de roble y su increíble sistema de sonido. DJs invitados 100% tradicionales, comida casera elaborada por nuestros chefs y juegos chistosos. Entrada: 10€ u 8€ si es necesario",
@@ -14,11 +20,17 @@
     "newsletter": "Suscríbete para recibir noticias de la milonga"
   },
   "marathon": {
-    "submenu": null,
+    "submenu": {
+      "introduction": "Inscripción",
+      "timetable": "El programa",
+      "djs": "Lxs DJs",
+      "place": "Tolosa !",
+      "newsletter": "Newsletter"
+    },
     "title": "Inscripción par el maratón",
     "description": "Principio {{date, datetime}}",
     "newsletter": "Suscríbete para recibir noticias del maratón",
-    "djs": "Los DJs del maratón:",
+    "djs": "Lxs DJs del maratón:",
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
       "palmer-time": "Viernes de noche",
@@ -40,7 +52,7 @@
     "timetable-description": null,
     "timetables": [
       {
-        "title": "Friday",
+        "title": "Viernes",
         "inner": [
           {
             "time": "20h-21h",
@@ -53,10 +65,10 @@
         ]
       },
       {
-        "title": "Saturday",
+        "title": "Sábado",
         "inner": [
           {
-            "time": "morning",
+            "time": "Por la mañana",
             "description": null
           },
           {
@@ -78,7 +90,7 @@
         ]
       },
       {
-        "title": "Sunday",
+        "title": "Domingo",
         "inner": [
           {
             "time": "10h-14h",
@@ -93,7 +105,7 @@
     ]
   },
   "place": {
-    "title": "Toulouse, the pink city!",
+    "title": "Tolosa, la ciudad rosa!",
     "salle": null,
     "jardin": null,
     "garonne": null,
