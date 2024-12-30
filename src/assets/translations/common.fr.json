@@ -6,12 +6,11 @@
   },
   "milonga": {
     "submenu": {
-      "introduction": "Introduction",
-      "next": "Prochaine",
-      "schedule": "Temporada 24-25",
-      "location": "Emplacement",
-      "newsletter": "Newsletter",
-      "footer": "À propos"
+      "introduction": "Présentation",
+      "next": "Prochaine Bicyclette milonga",
+      "schedule": "Toute les dates 24-25",
+      "location": "L'adresse",
+      "newsletter": "Newsletter"
     },
     "title": "Prochaine Bicyclette Milonga",
     "dateTime": "le {{starts, datetime}} jusqu'à {{ends, datetime}}",
