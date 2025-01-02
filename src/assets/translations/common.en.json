@@ -14,7 +14,7 @@
     },
     "title": "Next Bicyclette milonga",
     "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}",
-    "subtitle": "Welcome! Our supercharged cycling team is waiting for you at TRAC, a beautiful location in the heart of historical Toulouse, with its oak floor and its outstanding sound system. Guest DJs playing 100 % traditional tango, homemade sweet and savory dishes prepared by our chefs, and fun games are part of the program. Price: €10 or €8 if need be.",
+    "subtitle": "Welcome! Our supercharged cycling team is waiting for you at TRAC, a beautiful location in the heart of historical Toulouse, with its oak floor and its outstanding sound system. Guest DJs playing 100% traditional tango, homemade sweet and savory dishes prepared by our chefs, and fun games are part of the program. Price: €10 or €8 if need be.",
     "description": "Our next invited DJ!",
     "plan": "All the saison 24-25",
     "newsletter": "Subscribe for marathon news"
@@ -48,19 +48,19 @@
       "carmen-time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
       "carmen": "Carmen is a tango teacher, a pioneer of the double role and a TangoDJ from Mexico. In 2012, she started to DJ every week in Barcelona. She deeply loves the Golden Age orchestras, she's always looking for old treasures, but doesn't shy away from playing new orchestras if she feels the energy on the dancefloor is right!"
     },
-    "timetable": null,
-    "timetable-description": null,
+    "timetable": "Welcome!",
+    "timetable-description": "Our cheerful cyclist team is organising the first Bicyclette Marathon in the historical city center of Toulouse. 5 international djs, 27hrs of traditional tango, 150 dancers, 80€. Here is the program:",
     "timetables": [
       {
         "title": "Friday",
         "inner": [
           {
-            "time": "20h-21h",
-            "description": "Welcome drink at the bar"
+            "time": "8-9PM",
+            "description": "Welcome drink in a bar close to the venue"
           },
           {
-            "time": "21h-2h30",
-            "description": null
+            "time": "9PM-2:30AM",
+            "description": "SET JEANNIE LONGO THE FIRST – TDJ Barbara Palmer (Spain)"
           }
         ]
       },
@@ -68,24 +68,24 @@
         "title": "Saturday",
         "inner": [
           {
-            "time": "morning",
-            "description": "Rowing !"
+            "time": "Morning",
+            "description": "Rowing on the Garonne (registration needed)!"
           },
           {
-            "time": "14h-19h",
-            "description": null
+            "time": "2-7PM",
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
           },
           {
-            "time": "19h-20h",
-            "description": "Aperitif in the plant garden"
+            "time": "7-8PM",
+            "description": "Aperitif in the Jardin des plantes"
           },
           {
-            "time": "19h-21h",
-            "description": null
+            "time": "7-9PM",
+            "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
           },
           {
-            "time": "21h-2h30",
-            "description": null
+            "time": "9PM-2:30AM",
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italy)"
           }
         ]
       },
@@ -93,12 +93,12 @@
         "title": "Sunday",
         "inner": [
           {
-            "time": "10h-14h",
-            "description": null
+            "time": "10AM -2PM",
+            "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
           },
           {
-            "time": "14h-19h",
-            "description": null
+            "time": "2-7PM",
+            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexico)"
           }
         ]
       }
@@ -106,10 +106,10 @@
   },
   "place": {
     "title": "Toulouse, the pink city!",
-    "salle": null,
-    "jardin": null,
-    "garonne": null,
-    "food": null
+    "salle": "TRAC is a longstanding Rock dance venue in Toulouse. 120m² of oak floorboards, an incredible sound system, a mezzanine on each side, a second room to relax, a bar, two dressing rooms. This exceptional venue is located in the heart of the historical city.",
+    "jardin": "You’ll have the opportunity to enjoy a natural setting, the Jardin des plantes, located steps away from our venue. Ideal for picnics and aperitifs!",
+    "garonne": "The banks of the Garonne are also nearby, and so we couldn’t resist offering you a different perspective of the city through a rowing session on the river, on Saturday morning! Reservation and payment to be made at the time of registration.",
+    "food": "Homemade savory and sweet snacks will be served throughout the weekend. Chef Sergueï will be selecting products from the Occitanie region: cheese, deli meats, fruit, wine, beer, we're spoilt for choice!"
   },
   "map": {
     "title": "La Bicycletta milonga",
