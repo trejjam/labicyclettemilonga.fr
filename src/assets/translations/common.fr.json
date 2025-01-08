@@ -104,6 +104,59 @@
       }
     ]
   },
+  "team": {
+    "title": "Team",
+    "members": [
+      {
+        "image": "mapie.jpg",
+        "width": 514,
+        "height": 746,
+        "name": "Mapie",
+        "role": "Cuisine & Administration",
+        "main": ""
+      },
+      {
+        "image": "serguei.jpg",
+        "width": 776,
+        "height": 502,
+        "name": "Serguei",
+        "role": "Cuisine",
+        "main": ""
+      },
+      {
+        "image": "pau-nico.jpg",
+        "width": 654,
+        "height": 1024,
+        "name": "Pauline & Nico",
+        "role": "Programme & musique",
+        "main": ""
+      },
+      {
+        "image": "gentiane-yasmine.jpg",
+        "width": 899,
+        "height": 583,
+        "name": "Gentiane & Yasmine",
+        "role": "Idées",
+        "main": ""
+      },
+      {
+        "image": "honza.jpg",
+        "width": 458,
+        "height": 730,
+        "name": "Honza",
+        "role": "Comptabilité & informatique",
+        "main": ""
+      },
+      {
+        "image": "celine.jpg",
+        "width": 611,
+        "height": 897,
+        "name": "Celine",
+        "role": "Idées",
+        "main": ""
+      }
+    ]
+  },
   "place": {
     "title": "Ô Toulouse !",
     "salle": "Le TRAC est une salle historique de rock à Toulouse. 120m² de plancher chêne sur lambourde, une sono incroyable, une mezzanine de part et d'autre, une deuxième salle pour se détendre, un bar, deux vestiaires. Ce lieu exceptionnel se situe en plein cœur de la ville historique.",
