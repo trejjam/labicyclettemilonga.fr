@@ -35,16 +35,16 @@ export default function GenericTeamPage({ params }: { params: Params }) {
       >
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
-          <div
-            className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
+          <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
             <div>
-              <h1
-                className='my-8 text-4xl font-extrabold text-white lg:text-5xl'>
+              <h1 className='my-8 text-4xl font-extrabold text-white lg:text-5xl'>
                 {t('team.title')}
               </h1>
-              {members.map((member, i) =>
-                <div key={i}
-                     className='flex w-full flex-wrap items-start justify-center text-white my-8'>
+              {members.map((member, i) => (
+                <div
+                  key={i}
+                  className='my-8 flex w-full flex-wrap items-start justify-center text-white'
+                >
                   <h2 className='mb-2 w-full text-center text-2xl font-medium'>
                     {member.name}
                   </h2>
@@ -60,22 +60,19 @@ export default function GenericTeamPage({ params }: { params: Params }) {
                     alt={member.name}
                     className={cn(
                       'max-w-2xl object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12',
-                      i % 2 === 0
-                        ? ''
-                        : 'md:order-2',
+                      i % 2 === 0 ? '' : 'md:order-2'
                     )}
                   />
                   <p
                     className={cn(
                       'mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12',
-                      i % 2 === 0
-                        ? ''
-                        : 'md:order-1',
-                    )}>
+                      i % 2 === 0 ? '' : 'md:order-1'
+                    )}
+                  >
                     {member.main}
                   </p>
                 </div>
-              )}
+              ))}
             </div>
           </div>
         </div>
