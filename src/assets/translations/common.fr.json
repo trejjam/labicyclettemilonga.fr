@@ -120,7 +120,7 @@
         "width": 776,
         "height": 502,
         "name": "Serguei",
-        "role": "Cuisine",
+        "role": "Cuisine & Bar",
         "main": ""
       },
       {
@@ -128,7 +128,7 @@
         "width": 654,
         "height": 1024,
         "name": "Pauline & Nico",
-        "role": "Programme & musique",
+        "role": "Programmation & Création des visuels & Déco",
         "main": ""
       },
       {
@@ -136,7 +136,7 @@
         "width": 899,
         "height": 583,
         "name": "Gentiane & Yasmine",
-        "role": "Idées",
+        "role": "Orga des bénévoles & Sensibilisation contre les violences sexistes",
         "main": ""
       },
       {
@@ -144,7 +144,7 @@
         "width": 458,
         "height": 730,
         "name": "Honza",
-        "role": "Comptabilité & informatique",
+        "role": "Comptabilité & Informatique",
         "main": ""
       },
       {
@@ -152,7 +152,7 @@
         "width": 611,
         "height": 897,
         "name": "Celine",
-        "role": "Idées",
+        "role": "Agendas",
         "main": ""
       }
     ]
