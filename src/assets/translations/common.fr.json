@@ -105,7 +105,7 @@
     ]
   },
   "team": {
-    "title": "Team",
+    "title": "Le collectif de la Bicyclette - Milonga & Marathon",
     "members": [
       {
         "image": "mapie.jpg",
@@ -167,7 +167,7 @@
         "image": "celine.jpg",
         "width": 500,
         "height": 500,
-        "name": "Celine",
+        "name": "Céline",
         "role": "Agendas",
         "main": ""
       }
