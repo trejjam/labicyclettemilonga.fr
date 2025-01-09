@@ -148,6 +148,22 @@
         "main": ""
       },
       {
+        "image": "christine.jpg",
+        "width": 500,
+        "height": 500,
+        "name": "Christine",
+        "role": "Repérage resto et hôtels & Déco",
+        "main": ""
+      },
+      {
+        "image": "daniel.jpg",
+        "width": 500,
+        "height": 500,
+        "name": "Daniel",
+        "role": "Repérage resto et hôtels",
+        "main": ""
+      },
+      {
         "image": "celine.jpg",
         "width": 500,
         "height": 500,
