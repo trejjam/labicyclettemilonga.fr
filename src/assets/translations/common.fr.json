@@ -109,48 +109,48 @@
     "members": [
       {
         "image": "mapie.jpg",
-        "width": 514,
-        "height": 746,
+        "width": 500,
+        "height": 500,
         "name": "Mapie",
         "role": "Cuisine & Administration",
         "main": ""
       },
       {
         "image": "serguei.jpg",
-        "width": 776,
-        "height": 502,
+        "width": 500,
+        "height": 500,
         "name": "Serguei",
         "role": "Cuisine & Bar",
         "main": ""
       },
       {
         "image": "pau-nico.jpg",
-        "width": 654,
-        "height": 1024,
+        "width": 500,
+        "height": 500,
         "name": "Pauline & Nico",
         "role": "Programmation & Création des visuels & Déco",
         "main": ""
       },
       {
         "image": "gentiane-yasmine.jpg",
-        "width": 899,
-        "height": 583,
+        "width": 500,
+        "height": 500,
         "name": "Gentiane & Yasmine",
         "role": "Orga des bénévoles & Sensibilisation contre les violences sexistes",
         "main": ""
       },
       {
         "image": "honza.jpg",
-        "width": 458,
-        "height": 730,
+        "width": 500,
+        "height": 500,
         "name": "Honza",
         "role": "Comptabilité & Informatique",
         "main": ""
       },
       {
         "image": "celine.jpg",
-        "width": 611,
-        "height": 897,
+        "width": 500,
+        "height": 500,
         "name": "Celine",
         "role": "Agendas",
         "main": ""
