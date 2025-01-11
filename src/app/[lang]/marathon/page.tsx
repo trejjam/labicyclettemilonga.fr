@@ -16,7 +16,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       dynamic(() => import('@/components/VenueMap.tsx'), {
         ssr: false,
       }),
-    [],
+    []
   );
 
   const lang = use(params).lang ?? defaultLocale;
@@ -48,8 +48,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
       >
         <div className='absolute inset-0 bg-black/80' />
         <div className='container'>
-          <div
-            className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
+          <div className='relative mt-20 flex w-full items-center justify-center px-12 py-12 text-center lg:mt-12'>
             <div>
               <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
@@ -61,8 +60,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   />
                 </div>
               </div>
-              <h1
-                className='my-8 text-4xl font-extrabold text-white lg:text-5xl'>
+              <h1 className='my-8 text-4xl font-extrabold text-white lg:text-5xl'>
                 {t('marathon.title')}
               </h1>
               <div className='flex justify-center'>
@@ -121,10 +119,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         style={{ scrollMarginTop: headHeight }}
         className='bg-slate-900'
       >
-        <div
-          className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
-          <h1
-            className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
+        <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
+          <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('marathon.timetable')}
           </h1>
           <p className='w-full text-center text-xl text-gray-300'>
@@ -183,8 +179,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Barbara Palmer'
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p
-            className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.palmer')}
           </p>
           <div className='clear-both'></div>
@@ -205,8 +200,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Rosita Lagos-Diaz'
             className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p
-            className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.rosita')}
           </p>
           <div className='clear-both'></div>
@@ -227,8 +221,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Paola Nocitango'
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p
-            className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.nocitango')}
           </p>
           <div className='clear-both'></div>
@@ -249,8 +242,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Nicolas Arribat'
             className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p
-            className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.arribat')}
           </p>
           <div className='clear-both'></div>
@@ -271,8 +263,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             alt='TDJ Carmen Maria Hergos'
             className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
           />
-          <p
-            className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.carmen')}
           </p>
           <div className='clear-both'></div>
@@ -283,14 +274,11 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         style={{ scrollMarginTop: headHeight }}
         className='bg-slate-900'
       >
-        <div
-          className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
-          <h1
-            className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
+        <div className='m-auto flex max-w-5xl flex-wrap justify-center px-12 py-12'>
+          <h1 className='my-8 text-center text-4xl font-extrabold text-gray-300 lg:text-6xl'>
             {t('place.title')}
           </h1>
-          <div
-            className='mt-8 flex w-full flex-wrap items-start justify-center'>
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
               src='/img/marathon/2025/salle.jpg'
@@ -299,14 +287,12 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               alt='salle'
               className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
-            <p
-              className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
               {t('place.salle')}
             </p>
             <div className='clear-both'></div>
           </div>
-          <div
-            className='mt-8 flex w-full flex-wrap items-start justify-center'>
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
               src='/img/marathon/2025/jardin.jpg'
@@ -315,14 +301,12 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               alt='jardin'
               className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
             />
-            <p
-              className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
               {t('place.jardin')}
             </p>
             <div className='clear-both'></div>
           </div>
-          <div
-            className='mt-8 flex w-full flex-wrap items-start justify-center'>
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
               src='/img/marathon/2025/Garonne.jpg'
@@ -331,14 +315,12 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               alt='Garonne'
               className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
             />
-            <p
-              className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
               {t('place.garonne')}
             </p>
             <div className='clear-both'></div>
           </div>
-          <div
-            className='mt-8 flex w-full flex-wrap items-start justify-center'>
+          <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
               src='/img/marathon/2025/food.jpg'
@@ -347,8 +329,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               alt='food'
               className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
             />
-            <p
-              className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
               {t('place.food')}
             </p>
             <div className='clear-both'></div>
@@ -363,29 +344,48 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         <h1 className='my-8 text-center text-4xl font-extrabold lg:text-6xl'>
           {t('marathon.links.title')}
         </h1>
-        <ul className='list-disc max-w-'>
+        <ul className='max-w- list-disc'>
           <li className='my-2 text-xl hover:underline'>
-            <a href='' onClick={(e) => {
-              e.preventDefault();
-              alert('Not available yet');
-            }} rel='nofollow'>{t('marathon.links.guide')}</a>
+            <a
+              href=''
+              onClick={(e) => {
+                e.preventDefault();
+                alert('Not available yet');
+              }}
+              rel='nofollow'
+            >
+              {t('marathon.links.guide')}
+            </a>
           </li>
           <li className='my-2 text-xl hover:underline'>
-            <a href='' onClick={(e) => {
-              e.preventDefault();
-              alert('Not available yet');
-            }} rel='nofollow'>{t('marathon.links.shared-accommodation')}</a>
+            <a
+              href=''
+              onClick={(e) => {
+                e.preventDefault();
+                alert('Not available yet');
+              }}
+              rel='nofollow'
+            >
+              {t('marathon.links.shared-accommodation')}
+            </a>
           </li>
           <li className='my-2 text-xl hover:underline'>
             <a
               href='https://docs.google.com/spreadsheets/d/1Rx0CZKr_oLxVAGmE8ngM_481udMNBciUsM4ia7Ec2cs/edit'
               target='_blank'
-              rel='nofollow'>{t('marathon.links.car-sharing')}</a>
+              rel='nofollow'
+            >
+              {t('marathon.links.car-sharing')}
+            </a>
           </li>
           <li className='my-2 text-xl hover:underline'>
             <a
               href='https://sites.google.com/site/rameratoulouseautuc/contact-plan-dacces'
-              target='_blank' rel='nofollow'>{t('marathon.links.rowing')}</a>
+              target='_blank'
+              rel='nofollow'
+            >
+              {t('marathon.links.rowing')}
+            </a>
           </li>
         </ul>
       </section>
@@ -401,10 +401,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         style={{ scrollMarginTop: headHeight }}
         className='flex items-center justify-center'
       >
-        <div
-          className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
-          <div
-            className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
+        <div className='flex w-full flex-wrap items-center justify-center px-12 py-12 text-center lg:mt-12'>
+          <div className='w-full rounded-t-md bg-gray-800/20 px-4 py-[5px] font-medium'>
             {t('marathon.newsletter')}
           </div>
 
