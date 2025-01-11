@@ -336,6 +336,59 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
+      <section
+        id='links'
+        style={{ scrollMarginTop: headHeight }}
+        className='m-auto max-w-5xl px-12 py-12'
+      >
+        <h1 className='my-8 text-center text-4xl font-extrabold lg:text-6xl'>
+          {t('marathon.links.title')}
+        </h1>
+        <ul className='max-w- list-disc'>
+          <li className='my-2 text-xl hover:underline'>
+            <a
+              href=''
+              onClick={(e) => {
+                e.preventDefault();
+                alert('Not available yet');
+              }}
+              rel='nofollow'
+            >
+              {t('marathon.links.guide')}
+            </a>
+          </li>
+          <li className='my-2 text-xl hover:underline'>
+            <a
+              href=''
+              onClick={(e) => {
+                e.preventDefault();
+                alert('Not available yet');
+              }}
+              rel='nofollow'
+            >
+              {t('marathon.links.shared-accommodation')}
+            </a>
+          </li>
+          <li className='my-2 text-xl hover:underline'>
+            <a
+              href='https://docs.google.com/spreadsheets/d/1Rx0CZKr_oLxVAGmE8ngM_481udMNBciUsM4ia7Ec2cs/edit'
+              target='_blank'
+              rel='nofollow'
+            >
+              {t('marathon.links.car-sharing')}
+            </a>
+          </li>
+          <li className='my-2 text-xl hover:underline'>
+            <a
+              href='https://sites.google.com/site/rameratoulouseautuc/contact-plan-dacces'
+              target='_blank'
+              rel='nofollow'
+            >
+              {t('marathon.links.rowing')}
+            </a>
+          </li>
+        </ul>
+      </section>
       <div
         id='location'
         style={{ scrollMarginTop: headHeight }}
