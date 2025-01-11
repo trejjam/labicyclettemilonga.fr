@@ -25,6 +25,7 @@
       "timetable": "Le programme",
       "djs": "Les DJs",
       "place": "Le lieu",
+      "links": "Le liens utiles",
       "newsletter": "Newsletter"
     },
     "title": "Inscription au marathon de la Bicyclette",
@@ -102,7 +103,14 @@
           }
         ]
       }
-    ]
+    ],
+    "links": {
+      "title": "Lien utiles",
+      "guide": "Le guide du marathonien",
+      "shared-accommodation": "Hébergement chez un.e toulousain.e",
+      "car-sharing": "Covoiturage",
+      "rowing": "Aviron"
+    }
   },
   "team": {
     "title": "Le collectif de la Bicyclette - Milonga & Marathon",

@@ -25,6 +25,7 @@
       "timetable": "Program",
       "djs": "DJs",
       "place": "Place",
+      "links": "Useful links",
       "newsletter": "Newsletter"
     },
     "title": "Registration for marathon",
@@ -102,7 +103,14 @@
           }
         ]
       }
-    ]
+    ],
+    "links": {
+      "title": "Useful links",
+      "guide": "The marathonen's guide",
+      "shared-accommodation": "Accommodation in Toulouse",
+      "car-sharing": "Car sharing",
+      "rowing": "Rowing"
+    }
   },
   "place": {
     "title": "Toulouse, the pink city!",
