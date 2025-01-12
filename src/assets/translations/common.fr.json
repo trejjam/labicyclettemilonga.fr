@@ -29,7 +29,8 @@
       "newsletter": "Newsletter"
     },
     "title": "Inscription au marathon de la Bicyclette",
-    "description": "<a>https://labicyclettemilonga.fr/marathon/signup</a>",
+    "signup": "S'inscrire",
+    "description": "début le {{date, datetime}}",
     "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
     "djs": "Les DJs du marathon",
     "dj": {
