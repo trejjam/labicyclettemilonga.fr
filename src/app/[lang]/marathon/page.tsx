@@ -367,11 +367,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </li>
           <li className='my-2 text-xl hover:underline'>
             <a
-              href=''
-              onClick={(e) => {
-                e.preventDefault();
-                alert('Not available yet');
-              }}
+              href='https://docs.google.com/spreadsheets/d/1HNlVGnwYeBYBU3JEkGdKqX8Zi6-f1fCIZpXCZ_4H_3g/edit'
               rel='nofollow'
             >
               {t('marathon.links.shared-accommodation')}
