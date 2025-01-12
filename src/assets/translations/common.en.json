@@ -29,6 +29,7 @@
       "newsletter": "Newsletter"
     },
     "title": "Registration for marathon",
+    "signup": "Signup",
     "description": "starts {{date, datetime}}",
     "newsletter": "Subscribe for marathon news",
     "djs": "Marathon DJs:",

@@ -5,7 +5,6 @@ import { defaultLocale } from '@/config/i18n.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { Params } from '@/types/props.ts';
 import dynamic from 'next/dynamic';
-import TimeDuration from '@/components/TimeDuration.tsx';
 import Image from 'next/image';
 import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 import { unComputedHeaderHeight } from '@/common/constants.ts';
@@ -85,10 +84,19 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               <div className='flex justify-center'>
                 <div className='relative mt-14'>
                   <div>
-                    <TimeDuration
-                      lang={lang}
-                      deadline={registrationDate}
-                    />
+                    {new Date() > registrationDate && (
+                      <div>
+                        <a
+                          className='inline-flex items-center justify-center rounded-md border border-transparent bg-[#5ECEF9] p-4 hover:bg-[#5ECEF9]/80'
+                          type='button'
+                          href='/marathon/signup'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          {t('marathon.signup')}
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

@@ -28,6 +28,7 @@
       "newsletter": "Newsletter"
     },
     "title": "Inscripción par el maratón",
+    "signup": "Inscribirse",
     "description": "Principio {{date, datetime}}",
     "newsletter": "Suscríbete para recibir noticias del maratón",
     "djs": "Lxs DJs del maratón:",
