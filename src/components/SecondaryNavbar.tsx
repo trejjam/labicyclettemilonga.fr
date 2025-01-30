@@ -134,7 +134,7 @@ export default function SecondaryNavbar({
         {submenu.map((item, i) => (
           <SwiperSlide
             key={i}
-            className='!w-auto shrink-0 p-2'
+            className='w-auto! shrink-0 p-2'
           >
             <Link
               className={cn(
