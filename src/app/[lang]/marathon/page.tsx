@@ -185,9 +185,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Barbara Palmer'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+            className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.palmer')}
           </p>
           <div className='clear-both'></div>
@@ -206,9 +206,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Rosita Lagos-Diaz'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
+            className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.rosita')}
           </p>
           <div className='clear-both'></div>
@@ -227,9 +227,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Paola Nocitango'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+            className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.nocitango')}
           </p>
           <div className='clear-both'></div>
@@ -248,9 +248,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Nicolas Arribat'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
+            className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+          <p className='mt-4 text-center md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
             {t('marathon.dj.arribat')}
           </p>
           <div className='clear-both'></div>
@@ -269,9 +269,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             width={836}
             height={836}
             alt='TDJ Carmen Maria Hergos'
-            className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+            className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
-          <p className='mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+          <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
             {t('marathon.dj.carmen')}
           </p>
           <div className='clear-both'></div>
@@ -293,9 +293,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               width={836}
               height={836}
               alt='salle'
-              className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+              className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+            <p className='mt-4 text-center text-gray-300 md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
               {t('place.salle')}
             </p>
             <div className='clear-both'></div>
@@ -307,9 +307,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               width={836}
               height={836}
               alt='jardin'
-              className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
+              className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
               {t('place.jardin')}
             </p>
             <div className='clear-both'></div>
@@ -321,9 +321,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               width={836}
               height={836}
               alt='Garonne'
-              className='max-w-96 object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12'
+              className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center text-gray-300 md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12'>
+            <p className='mt-4 text-center text-gray-300 md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
               {t('place.garonne')}
             </p>
             <div className='clear-both'></div>
@@ -335,9 +335,9 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               width={836}
               height={836}
               alt='food'
-              className='max-w-96 object-scale-down pb-2 pr-2 md:order-2 md:w-6/12 lg:w-5/12'
+              className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
             />
-            <p className='mt-4 text-center text-gray-300 md:order-1 md:mr-12 md:mt-0 md:w-5/12 md:text-left lg:mr-12'>
+            <p className='mt-4 text-center text-gray-300 md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
               {t('place.food')}
             </p>
             <div className='clear-both'></div>

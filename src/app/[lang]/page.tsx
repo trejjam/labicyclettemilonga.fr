@@ -50,7 +50,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
                   />
                 </div>
               </div>
-              <h1 className='my-8 text-4xl font-extrabold capitalize text-white lg:text-5xl'>
+              <h1 className='my-8 text-4xl font-extrabold text-white capitalize lg:text-5xl'>
                 {t('milonga.title')}
               </h1>
               {nextMilonga !== undefined && (

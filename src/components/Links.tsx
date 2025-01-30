@@ -44,7 +44,7 @@ export default function Links({
           className={cn(
             className,
             isActive(langPrefix)
-              ? 'bg-white/20 text-xl text-bicyclette lg:bg-black/40'
+              ? 'text-bicyclette bg-white/20 text-xl lg:bg-black/40'
               : ''
           )}
           onClick={resetNav}
@@ -58,7 +58,7 @@ export default function Links({
           className={cn(
             className,
             isActive(`${langPrefix}marathon/`)
-              ? 'bg-white/20 text-xl text-bicyclette lg:bg-black/40'
+              ? 'text-bicyclette bg-white/20 text-xl lg:bg-black/40'
               : ''
           )}
           onClick={resetNav}
@@ -72,7 +72,7 @@ export default function Links({
           className={cn(
             className,
             isActive(`${langPrefix}team/`)
-              ? 'bg-white/20 text-xl text-bicyclette lg:bg-black/40'
+              ? 'text-bicyclette bg-white/20 text-xl lg:bg-black/40'
               : ''
           )}
           onClick={resetNav}

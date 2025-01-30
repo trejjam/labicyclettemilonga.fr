@@ -59,13 +59,13 @@ export default function GenericTeamPage({ params }: { params: Params }) {
                     height={member.height}
                     alt={member.name}
                     className={cn(
-                      'max-w-2xl object-scale-down pb-2 pr-2 md:w-6/12 lg:w-5/12',
+                      'max-w-2xl object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12',
                       i % 2 === 0 ? '' : 'md:order-2'
                     )}
                   />
                   <p
                     className={cn(
-                      'mt-4 text-center md:ml-12 md:mt-0 md:w-5/12 md:text-left lg:ml-12',
+                      'mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12',
                       i % 2 === 0 ? '' : 'md:order-1'
                     )}
                   >

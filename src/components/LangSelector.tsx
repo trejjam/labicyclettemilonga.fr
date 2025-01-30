@@ -40,7 +40,7 @@ export default function LangSelector({
         type='button'
         className={cn(
           'text-md inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-bold uppercase',
-          isDark ? '' : 'bg-gray-300 text-bicyclette'
+          isDark ? '' : 'text-bicyclette bg-gray-300'
         )}
         onClick={handleToggle}
       >
@@ -60,7 +60,7 @@ export default function LangSelector({
         </span>
       </button>
       {open && (
-        <div className='absolute left-1/2 top-12 -translate-x-1/2'>
+        <div className='absolute top-12 left-1/2 -translate-x-1/2'>
           <ul className='text-md h-auto w-12 rounded-md border bg-white p-1 text-center font-bold uppercase shadow-md'>
             {locales
               .map((x) => ({

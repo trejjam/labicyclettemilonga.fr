@@ -9,7 +9,7 @@ export default function Footer() {
     <footer
       id='footer'
       style={{ scrollMarginTop: headHeight }}
-      className='fixed bottom-0 end-0 start-0 py-3'
+      className='fixed start-0 end-0 bottom-0 py-3'
     >
       <div className='container m-auto'>
         <p className='text-center text-base font-medium text-gray-400'>

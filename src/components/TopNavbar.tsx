@@ -44,13 +44,13 @@ export default function TopNavbar({
         isSticky ? 'lg:bg-gray-800/80' : ''
       )}
     >
-      <div className='container relative z-20 ml-auto mr-auto'>
+      <div className='relative z-20 container mr-auto ml-auto'>
         <nav className='flex flex-wrap items-center justify-between lg:flex-nowrap'>
           <Link
             href={{ pathname: langPrefix }}
             className='inline-block whitespace-nowrap'
           >
-            <Logo className='w-28 fill-bicyclette' />
+            <Logo className='fill-bicyclette w-28' />
           </Link>
           <div className='ms-auto flex items-center px-2.5 lg:hidden'>
             <LangSelector
@@ -80,11 +80,11 @@ export default function TopNavbar({
                 lang={lang}
                 setNav={setNav}
                 className={cn(
-                  'relative inline-block cursor-pointer rounded-md bg-transparent px-3.5 py-1 text-base font-semibold capitalize tracking-wide transition-all duration-300',
+                  'relative inline-block cursor-pointer rounded-md bg-transparent px-3.5 py-1 text-base font-semibold tracking-wide capitalize transition-all duration-300',
                   'text-white',
-                  'active:bg-white/20 active:text-bicyclette lg:active:bg-black/40',
-                  'focus:bg-white/20 focus:text-bicyclette lg:focus:bg-black/40',
-                  'hover:bg-white/20 hover:text-bicyclette lg:hover:bg-black/40',
+                  'active:text-bicyclette active:bg-white/20 lg:active:bg-black/40',
+                  'focus:text-bicyclette focus:bg-white/20 lg:focus:bg-black/40',
+                  'hover:text-bicyclette hover:bg-white/20 lg:hover:bg-black/40',
                   isDark ? '' : '',
                   isSticky ? '' : ''
                 )}
