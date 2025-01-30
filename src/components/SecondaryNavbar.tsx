@@ -140,7 +140,7 @@ export default function SecondaryNavbar({
               className={cn(
                 'px-2 py-1',
                 activeSubmenu === item.id
-                  ? 'rounded-md bg-white/20 text-xl text-bicyclette lg:bg-black/40'
+                  ? 'text-bicyclette rounded-md bg-white/20 text-xl lg:bg-black/40'
                   : ''
               )}
               href={{ hash: item.hash }}

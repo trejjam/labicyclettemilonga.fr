@@ -34,7 +34,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
               <Logo className='fill-bicyclette' />
             </Link>
 
-            <h5 className='mb-4 mt-6 text-base text-slate-300 2xl:text-lg'>
+            <h5 className='mt-6 mb-4 text-base text-slate-300 2xl:text-lg'>
               {t('footer.follow-us')}
             </h5>
             <ul className='flex flex-wrap items-center gap-2'>
@@ -46,7 +46,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 >
                   <IconifyIcon
                     icon='lucide:facebook'
-                    className='h-5 w-5 text-gray-400 group-hover:fill-white/30 group-hover:text-bicyclette'
+                    className='group-hover:text-bicyclette h-5 w-5 text-gray-400 group-hover:fill-white/30'
                   />
                 </Link>
               </li>
@@ -58,7 +58,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 >
                   <IconifyIcon
                     icon='lucide:instagram'
-                    className='h-5 w-5 text-gray-400 group-hover:fill-white/30 group-hover:text-bicyclette'
+                    className='group-hover:text-bicyclette h-5 w-5 text-gray-400 group-hover:fill-white/30'
                   />
                 </Link>
               </li>
@@ -66,7 +66,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 <Link
                   href='mailto:danse@labicyclettemilonga.fr'
                   target='_blank'
-                  className='group inline-flex h-10 items-center justify-center rounded-lg bg-slate-800 px-5 text-gray-400 transition-all duration-500 hover:fill-white/30 hover:text-bicyclette'
+                  className='group hover:text-bicyclette inline-flex h-10 items-center justify-center rounded-lg bg-slate-800 px-5 text-gray-400 transition-all duration-500 hover:fill-white/30'
                 >
                   <IconifyIcon
                     icon='ix:e-mail'
