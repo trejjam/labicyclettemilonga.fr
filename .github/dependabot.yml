@@ -11,12 +11,14 @@ updates:
     schedule:
       interval: daily
     target-branch: 'main'
+    versioning-strategy: increase
     assignees:
       - 'trejjam'
 
   - package-ecosystem: bun
     directory: '/'
     target-branch: 'main'
+    versioning-strategy: increase
     schedule:
       interval: daily
     assignees:
