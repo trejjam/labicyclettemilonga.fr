@@ -28,9 +28,9 @@
       "links": "Useful links",
       "newsletter": "Newsletter"
     },
-    "title": "Registration for marathon",
+    "title": "Registration for the marathon is closed.",
     "signup": "Signup",
-    "description": "starts {{date, datetime}}",
+    "description": "See you on the dancefloor.",
     "newsletter": "Subscribe for marathon news",
     "djs": "Marathon DJs:",
     "dj": {
@@ -74,15 +74,15 @@
             "description": "Rowing on the Garonne (registration needed)!"
           },
           {
-            "time": "2-7PM",
+            "time": "2-6:30PM",
             "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
           },
           {
-            "time": "7-8PM",
+            "time": "6:30PM-7:30PM",
             "description": "Aperitif in the Jardin des plantes"
           },
           {
-            "time": "7-9PM",
+            "time": "6:30-9PM",
             "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
           },
           {

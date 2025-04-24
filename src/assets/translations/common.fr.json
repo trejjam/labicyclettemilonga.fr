@@ -28,9 +28,9 @@
       "links": "Le liens utiles",
       "newsletter": "Newsletter"
     },
-    "title": "Inscription au marathon de la Bicyclette",
+    "title": "Les inscriptions pour le marathon sont closes.",
     "signup": "S'inscrire",
-    "description": "début le {{date, datetime}}",
+    "description": "Rendez-vous sur la piste de danse.",
     "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
     "djs": "Les DJs du marathon",
     "dj": {
@@ -74,15 +74,15 @@
             "description": "Aviron sur la Garonne (sur inscription) !"
           },
           {
-            "time": "14h-19h",
+            "time": "14h-18:30h",
             "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
           },
           {
-            "time": "19h-20h",
+            "time": "18h30-19h30",
             "description": "Apéro dans le Jardin des plantes"
           },
           {
-            "time": "19h-21h",
+            "time": "18:30h-21h",
             "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
           },
           {
