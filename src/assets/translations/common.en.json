@@ -70,8 +70,8 @@
         "title": "Saturday",
         "inner": [
           {
-            "time": "Morning",
-            "description": "Rowing on the Garonne (registration needed)!"
+            "time": "10-12AM",
+            "description": "BIKE WALKS in Toulouse, meet 10am in front of the Maison du vélo, 12 Bd Bonrepos."
           },
           {
             "time": "2-6:30PM",
@@ -94,6 +94,10 @@
       {
         "title": "Sunday",
         "inner": [
+           {
+            "time": "10AM -12AM",
+            "description": "ALEXANDER TECHNICAL WORKSHOP with Élodie and Maïté, meet 10am in front of Salle Trac, free admission."
+          },
           {
             "time": "10AM -2PM",
             "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
