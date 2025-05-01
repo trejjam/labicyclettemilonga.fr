@@ -70,8 +70,8 @@
         "title": "Samedi",
         "inner": [
           {
-            "time": "matin",
-            "description": "BALADE À VÉLO dans Toulouse, rdv 10h devant la maison du vélo, 12 Bd Bonrepos. Ou ATELIER TECHNIQUE ALEXANDER avec Élodie et Maïté, rdv 10h devant la salle Trac, prix libre."
+            "time": "10h-12h",
+            "description": "BALADE À VÉLO dans Toulouse, rdv 10h devant la maison du vélo, 12 Bd Bonrepos."
           },
           {
             "time": "14h-18:30h",
@@ -94,6 +94,10 @@
       {
         "title": "Dimanche",
         "inner": [
+          {
+            "time": "10h-12h",
+            "description": "ATELIER TECHNIQUE ALEXANDER avec Élodie et Maïté, rdv 10h devant la salle Trac, prix libre."
+          },
           {
             "time": "10h-14h",
             "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
