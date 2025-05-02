@@ -31,3 +31,9 @@ updates:
         patterns:
           - "next"
           - "eslint-config-next"
+      react-dependencies:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
