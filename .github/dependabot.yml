@@ -22,3 +22,18 @@ updates:
       interval: daily
     assignees:
       - 'trejjam'
+    groups:
+      tailwind-dependencies:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+      next-dependencies:
+        patterns:
+          - "next"
+          - "eslint-config-next"
+      react-dependencies:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
