@@ -22,3 +22,8 @@ updates:
       interval: daily
     assignees:
       - 'trejjam'
+    groups:
+      tailwind-dependencies:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
