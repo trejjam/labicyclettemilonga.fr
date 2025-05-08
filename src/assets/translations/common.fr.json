@@ -74,7 +74,7 @@
             "description": "BALADE À VÉLO dans Toulouse, rdv 10h devant la maison du vélo, 12 Bd Bonrepos."
           },
           {
-            "time": "14h-18:30h",
+            "time": "14h-18h30",
             "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
           },
           {
@@ -82,7 +82,7 @@
             "description": "Apéro dans le Jardin des plantes"
           },
           {
-            "time": "18:30h-21h",
+            "time": "18h30-21h",
             "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
           },
           {
@@ -105,6 +105,10 @@
           {
             "time": "14h-19h",
             "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexique)"
+          },
+          {
+            "time": "19h30-00h",
+            "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (PAF 6€)"
           }
         ]
       }
