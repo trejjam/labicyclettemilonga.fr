@@ -70,8 +70,8 @@
         "title": "Saturday",
         "inner": [
           {
-            "time": "10-12AM",
-            "description": "BIKE WALKS in Toulouse, meet 10am in front of the Maison du vélo, 12 Bd Bonrepos."
+            "time": "10:30-12:30AM",
+            "description": "BIKE WALKS in Toulouse, meet 10:30am in front of the Maison du vélo, 12 Bd Bonrepos."
           },
           {
             "time": "2-6:30PM",
@@ -107,7 +107,7 @@
             "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexico)"
           },
           {
-            "time": "7-00PM",
+            "time": "7:30-00PM",
             "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (Entry 6€)"
           }
         ]
