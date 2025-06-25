@@ -116,7 +116,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
               src='/img/milongas/nextmilongadj.jpg'
               width={1080}
               height={1080}
-              alt='Milonga 11. 1. 2025'
+              alt='Next Milonga DJ'
             />
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
               src='/img/milongas/milonga-plan-2024-09_2025-05.jpg'
               width={820}
               height={960}
-              alt='Next Milonga DJ'
+              alt='Milonga schedule'
             />
           </div>
         </div>
