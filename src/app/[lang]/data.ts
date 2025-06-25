@@ -23,4 +23,36 @@ export const milongaDates = [
     starts: new Date(2025, 3, 19, 20, 30, 0),
     ends: new Date(2025, 3, 20, 2, 30, 0),
   },
+  {
+    starts: new Date(2025, 8, 20, 19, 0, 0),
+    ends: new Date(2025, 8, 21, 1, 0, 0),
+  },
+  {
+    starts: new Date(2025, 9, 4, 19, 0, 0),
+    ends: new Date(2025, 9, 5, 1, 0, 0),
+  },
+  {
+    starts: new Date(2025, 10, 8, 19, 0, 0),
+    ends: new Date(2025, 10, 9, 1, 0, 0),
+  },
+  {
+    starts: new Date(2025, 11, 13, 19, 0, 0),
+    ends: new Date(2025, 11, 14, 1, 0, 0),
+  },
+  {
+    starts: new Date(2026, 0, 17, 19, 0, 0),
+    ends: new Date(2026, 0, 18, 1, 0, 0),
+  },
+  {
+    starts: new Date(2026, 1, 7, 19, 0, 0),
+    ends: new Date(2026, 1, 8, 1, 0, 0),
+  },
+  {
+    starts: new Date(2026, 2, 14, 19, 0, 0),
+    ends: new Date(2026, 2, 15, 1, 0, 0),
+  },
+  {
+    starts: new Date(2026, 3, 18, 19, 0, 0),
+    ends: new Date(2026, 3, 19, 1, 0, 0),
+  },
 ];
