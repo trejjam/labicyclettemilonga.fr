@@ -9,7 +9,7 @@ import componentsEn from '@/assets/translations/components.en.json';
 import componentsFr from '@/assets/translations/components.fr.json';
 import componentsEs from '@/assets/translations/components.es.json';
 
-export const locales = ['fr', 'en', 'es'] as const;
+export const locales = ['fr' as const, 'en' as const, 'es' as const] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'fr';
 
