@@ -1,12 +1,12 @@
 import '../globals.css';
 import { ReactNode } from 'react';
 import { Metadata } from 'next';
-import { defaultLocale, locales } from '@/config/i18n.ts';
+import { defaultLocale, Locale, locales } from '@/config/i18n.ts';
 import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
 import { favicon } from '@/components/Favicon.tsx';
-import { Params } from '@/types/props.ts';
+import { CoreParams } from '@/types/props.ts';
 import TopNavbar from '@/components/TopNavbar.tsx';
 import FooterWithInfo from '@/components/FooterWithInfo.tsx';
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   icons: favicon,
 };
 
-export function generateStaticParams() {
+export function generateStaticParams(): Array<CoreParams> {
   return locales.filter((x) => x !== defaultLocale).map((lang) => ({ lang }));
 }
 
@@ -27,9 +27,9 @@ export default function RootLayout({
   params,
 }: {
   children: ReactNode;
-  params: Params;
+  params: Promise<{ lang: string }>;
 }) {
-  const lang = use(params).lang ?? defaultLocale;
+  const lang = (use(params).lang as Locale) ?? defaultLocale;
   const { i18n } = useTranslation({ lng: lang });
 
   return (
