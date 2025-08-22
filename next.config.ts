@@ -6,8 +6,7 @@ const nextConfig: NextConfig = {
   transpilePackages: ['lucide-react'],
   trailingSlash: true,
   typedRoutes: true,
-  experimental: {
-  },
+  experimental: {},
   images: {
     unoptimized: true,
   },
