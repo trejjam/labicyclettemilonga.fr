@@ -1,12 +1,12 @@
 import '../globals.css';
-import { ReactNode } from 'react';
-import { Metadata } from 'next';
-import { defaultLocale, Locale, locales } from '@/config/i18n.ts';
+import { type ReactNode } from 'react';
+import { type Metadata } from 'next';
+import { defaultLocale, locales } from '@/config/i18n.ts';
 import Html from '@/components/Html.tsx';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { use } from 'react';
 import { favicon } from '@/components/Favicon.tsx';
-import { CoreParams } from '@/types/props.ts';
+import { type CoreParams } from '@/types/props.ts';
 import TopNavbar from '@/components/TopNavbar.tsx';
 import FooterWithInfo from '@/components/FooterWithInfo.tsx';
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   children: ReactNode;
   params: Promise<{ lang: string }>;
 }) {
-  const lang = (use(params).lang as Locale) ?? defaultLocale;
+  const lang = (use(params).lang as CoreParams['lang']) ?? defaultLocale;
   const { i18n } = useTranslation({ lng: lang });
 
   return (
