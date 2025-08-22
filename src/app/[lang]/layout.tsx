@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   icons: favicon,
 };
 
-export function generateStaticParams() : Array<CoreParams> {
+export function generateStaticParams(): Array<CoreParams> {
   return locales.filter((x) => x !== defaultLocale).map((lang) => ({ lang }));
 }
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   children: ReactNode;
   params: Promise<{ lang: string }>;
 }) {
-  const lang = use(params).lang as CoreParams['lang'] ?? defaultLocale;
+  const lang = (use(params).lang as CoreParams['lang']) ?? defaultLocale;
   const { i18n } = useTranslation({ lng: lang });
 
   return (
