@@ -133,7 +133,7 @@ export default function GenericHomePage({ params }: { params: Params }) {
         <div className='flex items-center justify-center py-4 text-center'>
           <div className='my-14 justify-center'>
             <Image
-              src='/img/milongas/milonga-plan-2024-09_2025-05.jpg'
+              src='/img/milongas/milonga-plan-2025-09_2026-05.jpg'
               width={820}
               height={960}
               alt='Milonga schedule'
