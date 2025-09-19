@@ -28,9 +28,11 @@
       "links": "Le liens utiles",
       "newsletter": "Newsletter"
     },
-    "title": "Les inscriptions pour le marathon sont closes.",
+    "title": "Inscription au marathon de la Bicyclette",
+    "title_": "Les inscriptions pour le marathon sont closes.",
     "signup": "S'inscrire",
-    "description": "Rendez-vous sur la piste de danse.",
+    "description": "début le {{date, datetime}}",
+    "description_": "Rendez-vous sur la piste de danse.",
     "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
     "djs": "Les DJs du marathon",
     "dj": {

@@ -33,7 +33,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
     }>;
   }>;
 
-  const registrationDate = new Date(2025, 0, 12, 12, 0, 0);
+  const registrationDate = new Date(2026, 0, 11, 12, 0, 0);
 
   const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
   const marathonDjsMobile = '/img/marathon/2025/djs-all-mobile.jpg';
