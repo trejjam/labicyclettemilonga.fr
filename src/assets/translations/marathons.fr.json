@@ -1,0 +1,73 @@
+{
+  "2025": {
+    "submenu": {
+      "introduction": "Inscription",
+      "timetable": "Le programme",
+      "djs": "Les DJs",
+      "place": "Le lieu",
+      "links": "Lien utiles",
+      "newsletter": "Newsletter"
+    },
+    "title": "Inscription au marathon de la Bicyclette",
+    "title_": "Les inscriptions pour le marathon sont closes.",
+    "signup": "S'inscrire",
+    "description": "début le {{date, datetime}}",
+    "description_": "Rendez-vous sur la piste de danse.",
+    "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
+    "djs": "Les DJs du marathon",
+    "dj": {
+      "palmer-title": "TDJ #1",
+      "palmer-time": "Vendredi soir - SET JEANNIE LONGO THE FIRST",
+      "palmer": "",
+      "rosita-title": "TDJ #2",
+      "rosita-time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+      "rosita": "",
+      "nocitango-title": "TDJ #3",
+      "nocitango-time": "Samedi soir - SET LOUIS AMSTRONG THE DOPED",
+      "nocitango": "",
+      "arribat-title": "TDJ #4",
+      "arribat-time": "Dimanche matin - SET A SUNDAY BIKE RIDE",
+      "arribat": "",
+      "carmen-title": "TDJ #5",
+      "carmen-time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
+      "carmen": ""
+    },
+    "timetable": "Bienvenue !",
+    "timetable-description": "Notre équipe de bicyclettistes enjoué.e.s organise son deuxième marathon de la Bicyclette dans le cœur historique de Toulouse. 5 djs internationaux, 28h de tango 100% tradi, 120 danseuses et danseurs, 90€. Le programme est en cours de construction :",
+    "timetables": [
+      {
+        "title": "Vendredi",
+        "inner": [
+          { "time": "", "description": "" },
+          { "time": "20h-2h30", "description": "SET JEANNIE LONGO THE FIRST - TDJ" }
+        ]
+      },
+      {
+        "title": "Samedi",
+        "inner": [
+          { "time": "10h30-12h30", "description": "VISITE dans Toulouse." },
+          { "time": "14h-18h30", "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ" },
+          { "time": "18h30-19h30", "description": "Apéro dans le Jardin des plantes" },
+          { "time": "18h30-21h", "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)" },
+          { "time": "21h-2h30h", "description": "SET LOUIS AMSTRONG THE DOPED - TDJ" }
+        ]
+      },
+      {
+        "title": "Dimanche",
+        "inner": [
+          { "time": "11h-13h", "description": "ATELIE." },
+          { "time": "11h-14h", "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)" },
+          { "time": "14h-19h", "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ" },
+          { "time": "19h30-00h", "description": "AFTER" }
+        ]
+      }
+    ],
+    "links": {
+      "title": "Lien utiles",
+      "guide": "Le guide du marathonien",
+      "shared-accommodation": "Hébergement chez un.e toulousain.e",
+      "car-sharing": "Covoiturage",
+      "rowing": "Aviron"
+    }
+  }
+}
