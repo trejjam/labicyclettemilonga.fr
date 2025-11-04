@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { use, useMemo } from 'react';
 import { defaultLocale } from '@/config/i18n.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
@@ -8,6 +9,7 @@ import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 import { unComputedHeaderHeight } from '@/common/constants.ts';
+import getLangPrefix from '@/helpers/lang-prefix.ts';
 
 export default function GenericMarathon2025Page({
   params,
@@ -23,6 +25,7 @@ export default function GenericMarathon2025Page({
   );
 
   const lang = use(params).lang ?? defaultLocale;
+  const langPrefix = getLangPrefix(lang);
   const headHeight = useHeaderHeight(unComputedHeaderHeight);
 
   const { t: tMarathon } = useTranslation({ lng: lang, ns: 'marathons' });
@@ -71,9 +74,11 @@ export default function GenericMarathon2025Page({
               </h1>
               <div className='flex justify-center'>
                 <div className='max-w-xl text-center'>
-                  <p className='text-2xl font-semibold text-white lg:text-3xl'>
-                    {tMarathon('2025.description')}
-                  </p>
+                  <Link
+                    href={{ pathname: `${langPrefix}marathon/` }}
+                    className='inline-block rounded-full border border-white/60 bg-white/10 px-6 py-3 text-2xl font-semibold text-white transition-all hover:bg-white hover:text-black hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/80 lg:text-3xl'>
+                    {tMarathon('2025.go-to-current')}
+                  </Link>
                 </div>
               </div>
             </div>

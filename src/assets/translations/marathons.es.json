@@ -7,13 +7,10 @@
       "place": "Tolosa !",
       "newsletter": "Newsletter"
     },
-    "title": "Inscripción par el maratón",
-    "title_": "Las inscripciones estan cerradas.",
-    "signup": "Inscribirse",
-    "description": "Principio {{date, datetime}}",
-    "description_": "¡Nos vemos en la pista de baile!",
+    "title": "El maratón de la Bicyclette 2025 ha terminado",
+    "go-to-current": "Ir a la edición actual",
     "newsletter": "Suscríbete para recibir noticias del maratón",
-    "djs": "Lxs DJs del maratón:",
+    "djs": "Los DJs del maratón 2025:",
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
       "palmer-time": "Viernes de noche - SET JEANNIE LONGO THE FIRST",
@@ -37,27 +34,60 @@
       {
         "title": "Viernes",
         "inner": [
-          { "time": "", "description": "" },
-          { "time": "21h-2h30", "description": "SET JEANNIE LONGO THE FIRST - TDJ Barbara Palmer (España)" }
+          {
+            "time": "",
+            "description": ""
+          },
+          {
+            "time": "21h-2h30",
+            "description": "SET JEANNIE LONGO THE FIRST - TDJ Barbara Palmer (España)"
+          }
         ]
       },
       {
         "title": "Sábado",
         "inner": [
-          { "time": "10h30-12h30", "description": "PASEOS EN BICI en Toulouse, encuentro a las 10h30 delante de la Maison du vélo, 12 Bd Bonrepos." },
-          { "time": "14h-18:30h", "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Francia, Lyon)" },
-          { "time": "18h30-19h30", "description": "Aperitivo en el Jardin des Plantes" },
-          { "time": "18:30h-21h", "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Francia, Toulouse)" },
-          { "time": "21h-2h30", "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italia)" }
+          {
+            "time": "10h30-12h30",
+            "description": "PASEOS EN BICI en Toulouse, encuentro a las 10h30 delante de la Maison du vélo, 12 Bd Bonrepos."
+          },
+          {
+            "time": "14h-18:30h",
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Francia, Lyon)"
+          },
+          {
+            "time": "18h30-19h30",
+            "description": "Aperitivo en el Jardin des Plantes"
+          },
+          {
+            "time": "18:30h-21h",
+            "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Francia, Toulouse)"
+          },
+          {
+            "time": "21h-2h30",
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italia)"
+          }
         ]
       },
       {
         "title": "Domingo",
         "inner": [
-          { "time": "10h-12h", "description": "TALLER TÉCNICO ALEXANDER con Élodie y Maïté, cita a las 10h delante de la Salle Trac, entrada libre." },
-          { "time": "10h-14h", "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Francia, Toulouse)" },
-          { "time": "14h-19h", "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (México)" },
-          { "time": "19h30-00h", "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (Entrada 6€)" }
+          {
+            "time": "10h-12h",
+            "description": "TALLER TÉCNICO ALEXANDER con Élodie y Maïté, cita a las 10h delante de la Salle Trac, entrada libre."
+          },
+          {
+            "time": "10h-14h",
+            "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Francia, Toulouse)"
+          },
+          {
+            "time": "14h-19h",
+            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (México)"
+          },
+          {
+            "time": "19h30-00h",
+            "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (Entrada 6€)"
+          }
         ]
       }
     ]
