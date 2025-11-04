@@ -32,27 +32,31 @@ export const milongaDates = [
     ends: new Date(2025, 9, 5, 1, 0, 0),
   },
   {
-    starts: new Date(2025, 10, 8, 19, 0, 0),
-    ends: new Date(2025, 10, 9, 1, 0, 0),
+    starts: new Date(2025, 10, 8, 19, 15, 0),
+    ends: new Date(2025, 10, 9, 1, 30, 0),
   },
   {
-    starts: new Date(2025, 11, 13, 19, 0, 0),
-    ends: new Date(2025, 11, 14, 1, 0, 0),
+    starts: new Date(2025, 11, 13, 19, 15, 0),
+    ends: new Date(2025, 11, 14, 1, 30, 0),
   },
   {
-    starts: new Date(2026, 0, 17, 19, 0, 0),
-    ends: new Date(2026, 0, 18, 1, 0, 0),
+    starts: new Date(2026, 0, 17, 19, 15, 0),
+    ends: new Date(2026, 0, 18, 1, 30, 0),
   },
   {
-    starts: new Date(2026, 1, 7, 19, 0, 0),
-    ends: new Date(2026, 1, 8, 1, 0, 0),
+    starts: new Date(2026, 1, 7, 19, 15, 0),
+    ends: new Date(2026, 1, 8, 1, 30, 0),
   },
   {
-    starts: new Date(2026, 2, 14, 19, 0, 0),
-    ends: new Date(2026, 2, 15, 1, 0, 0),
+    starts: new Date(2026, 2, 14, 19, 15, 0),
+    ends: new Date(2026, 2, 15, 1, 30, 0),
   },
   {
-    starts: new Date(2026, 3, 18, 19, 0, 0),
-    ends: new Date(2026, 3, 19, 1, 0, 0),
+    starts: new Date(2026, 3, 18, 19, 15, 0),
+    ends: new Date(2026, 3, 19, 1, 30, 0),
+  },
+  {
+    starts: new Date(2026, 5, 6, 19, 15, 0),
+    ends: new Date(2026, 5, 7, 1, 30, 0),
   },
 ];
