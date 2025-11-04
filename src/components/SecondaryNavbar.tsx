@@ -20,7 +20,6 @@ interface Submenu {
   key: string;
   hash: string;
   translation: string;
-  target: HTMLElement;
 }
 
 export default function SecondaryNavbar({
@@ -58,18 +57,11 @@ export default function SecondaryNavbar({
 
     let submenuId = 0;
     for (const [key, value] of Object.entries(routeSubmenu)) {
-      const htmlElement = document.getElementById(key);
-
-      if (htmlElement === null) {
-        continue;
-      }
-
-      items.push({
+       items.push({
         id: submenuId,
         key,
         hash: `#${key}`,
         translation: value,
-        target: htmlElement,
       });
 
       submenuId++;
