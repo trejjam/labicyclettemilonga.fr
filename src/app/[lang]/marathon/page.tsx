@@ -8,6 +8,8 @@ import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useHeaderHeight } from '@/hooks/use-header-height.ts';
 import { unComputedHeaderHeight } from '@/common/constants.ts';
+import getLangPrefix from '@/helpers/lang-prefix.ts';
+import Link from 'next/link';
 
 export default function GenericMarathonPage({ params }: { params: Params }) {
   const DynamicVenueMap = useMemo(
@@ -19,6 +21,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
   );
 
   const lang = use(params).lang ?? defaultLocale;
+  const langPrefix = getLangPrefix(lang);
   const headHeight = useHeaderHeight(unComputedHeaderHeight);
 
   const { t } = useTranslation({ lng: lang });
@@ -381,6 +384,13 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             >
               {t('marathon.links.car-sharing')}
             </a>
+          </li>
+          <li className='my-2 text-xl hover:underline'>
+            <Link
+              href={{ pathname: `${langPrefix}marathon/2025` }}
+              >
+              {t('marathon.links.last-year')}
+            </Link>
           </li>
         </ul>
       </section>
