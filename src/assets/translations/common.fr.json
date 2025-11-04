@@ -64,7 +64,7 @@
           },
           {
             "time": "20h-2h30",
-            "description": "SET JEANNIE LONGO THE FIRST - TDJ"
+            "description": "SET JEANNIE LONGO THE FIRST - TDJ Oleksandra KOTELNYTSKA"
           }
         ]
       },
@@ -72,12 +72,12 @@
         "title": "Samedi",
         "inner": [
           {
-            "time": "10h30-12h30",
-            "description": "VISITE dans Toulouse."
+            "time": "11h-13h",
+            "description": "Balade dans Toulouse."
           },
           {
-            "time": "14h-18h30",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ"
+            "time": "13h30-18h30",
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie JULIAN (Lyon France"
           },
           {
             "time": "18h30-19h30",
@@ -85,11 +85,11 @@
           },
           {
             "time": "18h30-21h",
-            "description": "SET AGAINST THE WATCH - TDJ Nicolas Arribat (Toulouse)"
+            "description": "SET AGAINST THE WATCH - TDJ Nicolas ARRIBAT (Toulouse France)"
           },
           {
             "time": "21h-2h30h",
-            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ"
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Stefan OK (Allemagne)"
           }
         ]
       },
@@ -98,15 +98,15 @@
         "inner": [
           {
             "time": "11h-13h",
-            "description": "ATELIE."
+            "description": "ATELIER"
           },
           {
             "time": "11h-14h",
-            "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
+            "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas ARRIBAT (Toulouse France)"
           },
           {
             "time": "14h-19h",
-            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ"
+            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Benoit LEROUGE (Marseille France)"
           },
           {
             "time": "19h30-00h",
@@ -196,7 +196,7 @@
     "title": "Ô Toulouse !",
     "salle": "Le TRAC est une salle historique de rock à Toulouse. 120m² de plancher chêne sur lambourde, une sono incroyable, une mezzanine de part et d'autre, une deuxième salle pour se détendre, un bar, deux vestiaires. Ce lieu exceptionnel se situe en plein cœur de la ville historique.",
     "jardin": "Écrin de nature situé à deux pas de notre salle, vous aurez la possibilité de profiter du Jardin des Plantes tout le week-end. Pique-niques et apéro en prévision !",
-    "garonne": "Les bords de Garonne sont également tout près. Aussi nous vous proposons, le samedi matin, de faire de l'aviron !!! Réservation et paiement au moment de l'inscription.",
+    "garonne": "Toulouse est une ville incroyablement belle ! Nous vous proposerons une balade dans la ville et sur les bords de Garonne le samedi matin.",
     "food": "Des en-cas vous seront servis tout le long du week-end. Chef Sergueï sélectionnera des produits occitans : fromage, charcuterie, douceurs, fruits, vin, bières, nous avons en Occitanie l'embarras du choix !"
   },
   "map": {
