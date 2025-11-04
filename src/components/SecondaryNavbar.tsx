@@ -57,7 +57,7 @@ export default function SecondaryNavbar({
 
     let submenuId = 0;
     for (const [key, value] of Object.entries(routeSubmenu)) {
-       items.push({
+      items.push({
         id: submenuId,
         key,
         hash: `#${key}`,
@@ -76,7 +76,7 @@ export default function SecondaryNavbar({
 
       swiper?.slideTo(item.id);
     },
-    [swiper, router],
+    [swiper, router]
   );
 
   const submenuClickEvent = (item: Submenu) => (event: MouseEvent) => {
@@ -101,7 +101,8 @@ export default function SecondaryNavbar({
     }
 
     return candidate?.id ?? 0;
-  }, [ // eslint-disable-line react-hooks/exhaustive-deps
+  }, [
+    // eslint-disable-line react-hooks/exhaustive-deps
     scrollY,
     submenu,
   ]);
@@ -137,7 +138,7 @@ export default function SecondaryNavbar({
                 'px-2 py-1',
                 activeIndex === item.id
                   ? 'text-bicyclette rounded-md bg-white/20 text-xl lg:bg-black/40'
-                  : '',
+                  : ''
               )}
               href={{ hash: item.hash }}
               onClick={(e) => submenuClickEvent(item)(e)}
