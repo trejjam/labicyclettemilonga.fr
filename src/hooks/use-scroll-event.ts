@@ -6,6 +6,8 @@ export default function useScrollEvent() {
   const [scrollHeight, setScrollHeight] = useState(0);
 
   useLayoutEffect(() => {
+    if (typeof window === 'undefined') return;
+
     const root = document.scrollingElement || document.documentElement;
 
     let rafId: number | null = null;
