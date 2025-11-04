@@ -36,7 +36,6 @@ export default function SecondaryNavbar({
 }) {
   const isMarathonNamespace = currentRoute.startsWith('marathon/') && currentRoute.length >= 'marathon/2025'.length;
   const router = useRouter();
-  const { t: tMarathon } = useTranslation({ lng: lang, ns: 'marathons' });
   const { t } = useTranslation({
     lng: lang,
     ns: isMarathonNamespace ? 'marathons' : undefined,
@@ -76,7 +75,7 @@ export default function SecondaryNavbar({
     }
 
     return items;
-  }, [currentRoute, t]);
+  }, [currentRoute, t, isMarathonNamespace]);
 
   const submenuClick = useCallback(
     (item: Submenu) => {
@@ -111,8 +110,7 @@ export default function SecondaryNavbar({
     }
 
     return candidate?.id ?? 0;
-  }, [
-    // eslint-disable-line react-hooks/exhaustive-deps
+  }, /* eslint-disable-line react-hooks/exhaustive-deps */ [
     scrollY,
     submenu,
   ]);
