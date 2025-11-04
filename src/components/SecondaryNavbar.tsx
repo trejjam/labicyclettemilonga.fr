@@ -34,20 +34,28 @@ export default function SecondaryNavbar({
   isDark?: boolean;
   lang: Locale;
 }) {
+  const isMarathonNamespace = currentRoute.startsWith('marathon/') && currentRoute.length >= 'marathon/2025'.length;
   const router = useRouter();
-  const { t } = useTranslation({ lng: lang });
+  const { t: tMarathon } = useTranslation({ lng: lang, ns: 'marathons' });
+  const { t } = useTranslation({
+    lng: lang,
+    ns: isMarathonNamespace ? 'marathons' : undefined,
+  });
   const { scrollY } = useScrollEvent();
 
   const [swiper, setSwiper] = useState<SwiperClass | null>(null);
 
   const submenu = useMemo(() => {
     const i = currentRoute.indexOf('/');
+
     const routeKey =
-      currentRoute === ''
-        ? 'milonga'
-        : i > 0
-          ? currentRoute.substring(0, i)
-          : currentRoute;
+      isMarathonNamespace
+        ? currentRoute.substring(i+1).replace(/\//g, '')
+        : currentRoute === ''
+          ? 'milonga'
+          : i > 0
+            ? currentRoute.substring(0, i)
+            : currentRoute;
 
     const routeSubmenu = t(`${routeKey}.submenu`, {
       returnObjects: true,

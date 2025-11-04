@@ -41,8 +41,6 @@ export default function GenericMarathon2025Page({
     }>;
   }>;
 
-  const registrationDate = new Date(2026, 0, 11, 12, 0, 0);
-
   const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
   const marathonDjsMobile = '/img/marathon/2025/djs-all-mobile.jpg';
 
@@ -382,7 +380,6 @@ export default function GenericMarathon2025Page({
             className='min-h-[650px] w-full'
           ></iframe>
 
-          {/* eslint-disable-next-line @next/next/no-sync-scripts */}
           <script
             type='text/javascript'
             src='https://app.mailjet.com/pas-nc-embedded-v1.js'
