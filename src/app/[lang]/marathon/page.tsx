@@ -35,8 +35,8 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
 
   const registrationDate = new Date(2026, 0, 11, 12, 0, 0);
 
-  const marathonDjsDesktop = '/img/marathon/2025/djs-all-desktop.jpg';
-  const marathonDjsMobile = '/img/marathon/2025/djs-all-mobile.jpg';
+  const marathonDjsDesktop = '/img/marathon/2026/djs-all-desktop.jpg';
+  const marathonDjsMobile = '/img/marathon/2026/djs-all-mobile.jpg';
 
   return (
     <>
@@ -52,7 +52,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
               <div className='mt-12 flex items-start justify-center gap-6'>
                 <div className='max-w-96'>
                   <Image
-                    src='/img/marathon/2025/bandeau-marathon-site.png'
+                    src='/img/marathon/2026/bandeau-marathon-site.png'
                     width={701}
                     height={394}
                     alt='Bicyclette Tango Marathon Toulouse city center'
@@ -181,7 +181,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2025/dj-palmer.jpg'
+            src='/img/marathon/2026/dj-palmer.jpg'
             width={836}
             height={836}
             alt='TDJ Barbara Palmer'
@@ -202,7 +202,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2025/dj-rosita.jpg'
+            src='/img/marathon/2026/dj-rosita.jpg'
             width={836}
             height={836}
             alt='TDJ Rosita Lagos-Diaz'
@@ -223,7 +223,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2025/dj-nocitango.jpg'
+            src='/img/marathon/2026/dj-nocitango.jpg'
             width={836}
             height={836}
             alt='TDJ Paola Nocitango'
@@ -244,7 +244,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2025/dj-arribat.jpg'
+            src='/img/marathon/2026/dj-arribat.jpg'
             width={836}
             height={836}
             alt='TDJ Nicolas Arribat'
@@ -265,7 +265,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2025/dj-carmen.jpg'
+            src='/img/marathon/2026/dj-carmen.jpg'
             width={836}
             height={836}
             alt='TDJ Carmen Maria Hergos'
@@ -289,7 +289,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
-              src='/img/marathon/2025/salle.jpg'
+              src='/img/marathon/2026/salle.jpg'
               width={836}
               height={836}
               alt='salle'
@@ -303,7 +303,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
-              src='/img/marathon/2025/jardin.jpg'
+              src='/img/marathon/2026/jardin.jpg'
               width={836}
               height={836}
               alt='jardin'
@@ -317,7 +317,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
-              src='/img/marathon/2025/Garonne.jpg'
+              src='/img/marathon/2026/Garonne.jpg'
               width={836}
               height={836}
               alt='Garonne'
@@ -331,7 +331,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
           <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
             <div className='w-0 basis-full'></div>
             <Image
-              src='/img/marathon/2025/food.jpg'
+              src='/img/marathon/2026/food.jpg'
               width={836}
               height={836}
               alt='food'
