@@ -36,21 +36,31 @@
     "newsletter": "Subscribe for marathon news",
     "djs": "Marathon DJs:",
     "dj": {
-      "palmer-title": "TDJ Barbara Palmer",
-      "palmer-time": "Friday evening - SET JEANNIE LONGO THE FIRST",
-      "palmer": "Bárbara Palmer, a dancer and tango teacher, and our TDJ for Friday night currently manages and is a DJ for del Puerto and DolceVita milongas in Valencia. Since 2005, she has gained extensive experience organising milongas in Madrid and Valencia, and has also been invited as a tango DJ at events in Spain and other European countries. It is with great pleasure that we appointed Bárbara with the opening of the very first Bicycle Marathon!",
-      "rosita-title": "TDJ Rosita Lagos-Diaz",
-      "rosita-time": "Saturday afternoon - SET RAYMOND POULIDOR THE ETERNEL SECOND",
-      "rosita": "Rosita has been DJing in many tango events in Europa and the United States since 2017. Aware of the energy coming from the dance floor, she shares with the dancers a wide range of rhythms and emotions, mainly from the Golden Age. She will be in control Saturday afternoon. We can’t wait Rositaaaaaa!",
-      "nocitango-title": "TDJ Paola Nocitango",
-      "nocitango-time": "Saturday evening - SET LOUIS AMSTRONG THE DOPED",
-      "nocitango": "A tango dancer, lover of music and tango in particular, Paola has lived and worked in Argentina. She quickly became a much-appreciated TDJ for her musical knowledge and her search for quality in musical files. Appearing often in Italian milongas, she is known for the energy she brings to her evenings. She is attentive and sensitive to the tastes and desires of the dancers with whom she loves to interact and who are her source of inspiration. She also organizes the Tango Beer Marathon in Como, Italy, and the Avventura Milonguera Peace & Love in Noci, and is invited as a TDJ in numerous events in Italy, Europe and beyond. We're delighted that Paola has agreed to be our DJ for Saturday evening!",
-      "arribat-title": "TDJ Nicolas Arribat",
-      "arribat-time": "Sunday morning - SET A SUNDAY BIKE RIDE",
-      "arribat": "Meet our local DJ! A Parisian DJ since 2010, and part of the international scene since 2015, Nicolas Arribat now lives in Toulouse, where he teaches tango, and organizes the Bicyclette milonga and the Chimichurri Tango Weeekend. He'll be waking us up gently on Sunday morning, keeping the party going!",
-      "carmen-title": "TDJ Carmen Maria Hergos",
-      "carmen-time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
-      "carmen": "Carmen is a tango teacher, a pioneer of the double role and a TangoDJ from Mexico. In 2012, she started to DJ every week in Barcelona. She deeply loves the Golden Age orchestras, she's always looking for old treasures, but doesn't shy away from playing new orchestras if she feels the energy on the dancefloor is right!"
+      "1": {
+        "title": "TDJ #1",
+        "time": "Friday evening - SET JEANNIE LONGO THE FIRST",
+        "medailon": ""
+      },
+      "2": {
+        "title": "TDJ #2",
+        "time": "Saturday afternoon - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+        "medailon": ""
+      },
+      "3": {
+        "title": "TDJ #3",
+        "time": "Saturday evening - SET LOUIS AMSTRONG THE DOPED",
+        "medailon": ""
+      },
+      "4": {
+        "title": "TDJ #4",
+        "time": "Sunday morning - SET A SUNDAY BIKE RIDE",
+        "medailon": ""
+      },
+      "5": {
+        "title": "TDJ #5",
+        "time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
+        "medailon": ""
+      }
     },
     "timetable": "Welcome!",
     "timetable-description": "Our cheerful cyclist team is organising the first Bicyclette Marathon in the historical city center of Toulouse. 5 international djs, 27hrs of traditional tango, 150 dancers, 80€. Here is the program:",
