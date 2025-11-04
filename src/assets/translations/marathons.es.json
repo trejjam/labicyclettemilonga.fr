@@ -1,39 +1,15 @@
 {
-  "menu": {
-    "milonga": "Milonga",
-    "marathon": "Maratón",
-    "team": "El equipo"
-  },
-  "milonga": {
+  "2025": {
     "submenu": {
-      "introduction": "Presentación",
-      "next": "Próxima Bicyclette milonga",
-      "schedule": "Temporada 25-26",
-      "location": "Donde",
-      "newsletter": "Newsletter"
-    },
-    "title": "Próxima Bicyclette milonga",
-    "dateTime": "el {{starts, datetime}} hasta {{ends, datetime}}",
-    "subtitle": "¡Bienvenido! Nuestro equipo de ciclistas entusiasmados le espera en la sala TRAC, en el corazón histórico de Toulouse, con su piso de roble y su increíble sistema de sonido. DJs invitados 100% tradicionales, comida casera elaborada por nuestros chefs y juegos chistosos. Entrada: 10€ u 8€ si es necesario",
-    "description": "¡Nuestrx próximx DJ invitadx!",
-    "plan": "Toda la temporada 25-26",
-    "newsletter": "Suscríbete para recibir noticias de la milonga"
-  },
-  "marathon": {
-    "submenu": {
-      "introduction": "Inscripción",
-      "timetable": "El programa",
+      "timetable": "El programa 2025",
       "djs": "Lxs DJs",
       "place": "Tolosa !",
       "newsletter": "Newsletter"
     },
-    "title": "Inscripción par el maratón",
-    "title_": "Las inscripciones estan cerradas.",
-    "signup": "Inscribirse",
-    "description": "Principio {{date, datetime}}",
-    "description_": "Nos vemos en la pista de baile!",
+    "title": "El maratón de la Bicyclette 2025 ha terminado",
+    "go-to-current": "Ir a la edición actual",
     "newsletter": "Suscríbete para recibir noticias del maratón",
-    "djs": "Lxs DJs del maratón:",
+    "djs": "Lxs DJs del maratón 2025:",
     "dj": {
       "palmer-title": "TDJ Barbara Palmer",
       "palmer-time": "Viernes de noche - SET JEANNIE LONGO THE FIRST",
@@ -113,52 +89,6 @@
           }
         ]
       }
-    ],
-    "links": {
-      "title": "Enlaces útiles",
-      "guide": "La guía del maratonista",
-      "shared-accommodation": "Alojamiento con un/a toulousain/a",
-      "car-sharing": "Coche compartido",
-      "last-year": "El maratón del año pasado",
-      "rowing": "Remo"
-    }
-  },
-  "place": {
-    "title": "Tolosa, la ciudad rosa!",
-    "salle": "TRAC es un lugar histórico de rock en Toulouse. 120m² de tarima de roble sobre vigas, un increíble sistema de sonido, un entrepiso a cada lado, una segunda sala para relajarse, un bar, dos vestuarios. Este lugar excepcional está ubicado en el corazón de la ciudad histórica.",
-    "jardin": "Un entorno natural situado a un paso de nuestra sede, tendrás la oportunidad de disfrutar del Jardín des Plantes durante todo el fin de semana. ¡Picnics y aperitivos planeados!",
-    "garonne": "Las orillas del Garona también están cerca. Así que te ofrecemos la posibilidad de remar el sábado por la mañana. Reserva y pago en el momento de la inscripción.",
-    "food": "Durante todo el fin de semana se servirán tentempiés. El chef Sergueï seleccionará productos de la región de Occitanie: queso, charcutería, dulces, fruta, vino, cerveza... ¡lo que quiera, lo tenemos!"
-  },
-  "map": {
-    "title": "La Bicyclette milonga",
-    "description": "43 Rue Alfred Dumeril, 31 400 Toulouse",
-    "google-link": "Abrir en Google maps"
-  },
-  "footer": {
-    "made-by": "Hecho por",
-    "follow-us": "Síganos",
-    "number": "L'association n°",
-    "siren": "SIREN",
-    "iban": "IBAN",
-    "swift": "SWIFT"
-  },
-  "venue": {
-    "title": "El lugar",
-    "address": "TRAC L'Ecole",
-    "address2": "43 Rue Alfred Dumeril",
-    "city": "31 400 Toulouse"
-  },
-  "association": {
-    "name": "Tangobrique",
-    "address": "Appartement 10 Bâtiment A",
-    "address2": "209 Avenue de Castres",
-    "city": "31 500 Toulouse",
-    "number": "W313039421",
-    "siren": "937601219",
-    "iban": "FR76 1313 5000 8008 0098 0985 785",
-    "swift": "CEPAFRPP313",
-    "show-details": "Mostrar información de facturación",
-    "hide-details": "Ocultar información de facturación"
+    ]
   }
 }
