@@ -176,106 +176,106 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         </h1>
         <div className='flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
-            {t('marathon.dj.palmer-title')}
+            {t('marathon.dj.1.title')}
           </h2>
           <div className='w-0 basis-full'></div>
           <p className='mb-2 w-full text-center text-lg font-medium italic'>
-            {t('marathon.dj.palmer-time')}
+            {t('marathon.dj.1.time')}
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2026/dj-palmer.jpg'
+            src='/img/marathon/2026/dj-1.jpg'
             width={836}
             height={836}
-            alt='TDJ Barbara Palmer'
+            alt={t('marathon.dj.1.title')}
             className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
-            {t('marathon.dj.palmer')}
+            {t('marathon.dj.1.medailon')}
           </p>
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
-            {t('marathon.dj.rosita-title')}
+            {t('marathon.dj.2.title')}
           </h2>
           <div className='w-0 basis-full'></div>
           <p className='mb-2 w-full text-center text-lg font-medium italic'>
-            {t('marathon.dj.rosita-time')}
+            {t('marathon.dj.2.time')}
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2026/dj-rosita.jpg'
+            src='/img/marathon/2026/dj-2.jpg'
             width={836}
             height={836}
-            alt='TDJ Rosita Lagos-Diaz'
+            alt={t('marathon.dj.2.title')}
             className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
-            {t('marathon.dj.rosita')}
+            {t('marathon.dj.2.medailon')}
           </p>
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
-            {t('marathon.dj.nocitango-title')}
+            {t('marathon.dj.3.title')}
           </h2>
           <div className='w-0 basis-full'></div>
           <p className='mb-2 w-full text-center text-lg font-medium italic'>
-            {t('marathon.dj.nocitango-time')}
+            {t('marathon.dj.3.time')}
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2026/dj-nocitango.jpg'
+            src='/img/marathon/2026/dj-3.jpg'
             width={836}
             height={836}
-            alt='TDJ Paola Nocitango'
+            alt={t('marathon.dj.3.title')}
             className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
-            {t('marathon.dj.nocitango')}
+            {t('marathon.dj.3.medailon')}
           </p>
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
-            {t('marathon.dj.arribat-title')}
+            {t('marathon.dj.4.title')}
           </h2>
           <div className='w-0 basis-full'></div>
           <p className='mb-2 w-full text-center text-lg font-medium italic'>
-            {t('marathon.dj.arribat-time')}
+            {t('marathon.dj.4.time')}
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2026/dj-arribat.jpg'
+            src='/img/marathon/2026/dj-4.jpg'
             width={836}
             height={836}
-            alt='TDJ Nicolas Arribat'
+            alt={t('marathon.dj.4.title')}
             className='max-w-96 object-scale-down pr-2 pb-2 md:order-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:order-1 md:mt-0 md:mr-12 md:w-5/12 md:text-left lg:mr-12'>
-            {t('marathon.dj.arribat')}
+            {t('marathon.dj.4.medailon')}
           </p>
           <div className='clear-both'></div>
         </div>
         <div className='mt-8 flex w-full flex-wrap items-start justify-center'>
           <h2 className='mb-2 w-full text-center text-2xl font-medium'>
-            {t('marathon.dj.carmen-title')}
+            {t('marathon.dj.5.title')}
           </h2>
           <div className='w-0 basis-full'></div>
           <p className='mb-2 w-full text-center text-lg font-medium italic'>
-            {t('marathon.dj.carmen-time')}
+            {t('marathon.dj.5.time')}
           </p>
           <div className='w-0 basis-full'></div>
           <Image
-            src='/img/marathon/2026/dj-carmen.jpg'
+            src='/img/marathon/2026/dj-5.jpg'
             width={836}
             height={836}
-            alt='TDJ Carmen Maria Hergos'
+            alt={t('marathon.dj.5.title')}
             className='max-w-96 object-scale-down pr-2 pb-2 md:w-6/12 lg:w-5/12'
           />
           <p className='mt-4 text-center md:mt-0 md:ml-12 md:w-5/12 md:text-left lg:ml-12'>
-            {t('marathon.dj.carmen')}
+            {t('marathon.dj.5.medailon')}
           </p>
           <div className='clear-both'></div>
         </div>

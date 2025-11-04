@@ -36,21 +36,31 @@
     "newsletter": "Inscris-toi à la newsletter pour avoir toutes les infos",
     "djs": "Les DJs du marathon",
     "dj": {
-      "palmer-title": "TDJ #1",
-      "palmer-time": "Vendredi soir - SET JEANNIE LONGO THE FIRST",
-      "palmer": "",
-      "rosita-title": "TDJ #2",
-      "rosita-time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
-      "rosita": "",
-      "nocitango-title": "TDJ #3",
-      "nocitango-time": "Samedi soir - SET LOUIS AMSTRONG THE DOPED",
-      "nocitango": "",
-      "arribat-title": "TDJ #4",
-      "arribat-time": "Dimanche matin - SET A SUNDAY BIKE RIDE",
-      "arribat": "",
-      "carmen-title": "TDJ #5",
-      "carmen-time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
-      "carmen": ""
+      "1": {
+        "title": "TDJ #1",
+        "time": "Vendredi soir - SET JEANNIE LONGO THE FIRST",
+        "medailon": ""
+      },
+      "2": {
+        "title": "TDJ #2",
+        "time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+        "medailon": ""
+      },
+      "3": {
+        "title": "TDJ #3",
+        "time": "Samedi soir - SET LOUIS AMSTRONG THE DOPED",
+        "medailon": ""
+      },
+      "4": {
+        "title": "TDJ #4",
+        "time": "Dimanche matin - SET A SUNDAY BIKE RIDE",
+        "medailon": ""
+      },
+      "5": {
+        "title": "TDJ #5",
+        "time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
+        "medailon": ""
+      }
     },
     "timetable": "Bienvenue !",
     "timetable-description": "Notre équipe de bicyclettistes enjoué.e.s organise son deuxième marathon de la Bicyclette dans le cœur historique de Toulouse. 5 djs internationaux, 28h de tango 100% tradi, 120 danseuses et danseurs, 90€. Le programme est en cours de construction :",
