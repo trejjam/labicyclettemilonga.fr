@@ -417,7 +417,6 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             className='min-h-[650px] w-full'
           ></iframe>
 
-          {/* eslint-disable-next-line @next/next/no-sync-scripts */}
           <script
             type='text/javascript'
             src='https://app.mailjet.com/pas-nc-embedded-v1.js'

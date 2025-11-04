@@ -8,7 +8,7 @@ import 'swiper/css';
 import { Locale } from '@/config/i18n.ts';
 import { cn } from '@/helpers/cn.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
-import { MouseEvent, useCallback, useEffect, useState } from 'react';
+import { MouseEvent, useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import type { Swiper as SwiperClass } from 'swiper/types';
 import { useRouter } from 'next/navigation';
@@ -20,7 +20,6 @@ interface Submenu {
   key: string;
   hash: string;
   translation: string;
-  target: HTMLElement;
 }
 
 export default function SecondaryNavbar({
@@ -40,10 +39,8 @@ export default function SecondaryNavbar({
   const { scrollY } = useScrollEvent();
 
   const [swiper, setSwiper] = useState<SwiperClass | null>(null);
-  const [activeSubmenu, setActiveSubmenu] = useState(0);
-  const [submenu, setSubmenu] = useState<Array<Submenu>>([]);
 
-  useEffect(() => {
+  const submenu = useMemo(() => {
     const i = currentRoute.indexOf('/');
     const routeKey =
       currentRoute === ''
@@ -54,30 +51,23 @@ export default function SecondaryNavbar({
 
     const routeSubmenu = t(`${routeKey}.submenu`, {
       returnObjects: true,
-    });
+    }) as Record<string, string>;
 
     const items: Array<Submenu> = [];
 
     let submenuId = 0;
     for (const [key, value] of Object.entries(routeSubmenu)) {
-      const htmlElement = document.getElementById(key);
-
-      if (htmlElement === null) {
-        continue;
-      }
-
       items.push({
         id: submenuId,
-        key: key,
+        key,
         hash: `#${key}`,
-        translation: value as string,
-        target: htmlElement,
+        translation: value,
       });
 
       submenuId++;
     }
 
-    setSubmenu(items);
+    return items;
   }, [currentRoute, t]);
 
   const submenuClick = useCallback(
@@ -95,25 +85,32 @@ export default function SecondaryNavbar({
     return submenuClick(item);
   };
 
-  useEffect(() => {
+  const activeIndex = useMemo(() => {
     const innerHalfHeight = window.innerHeight / 2;
 
-    let submenuCandidate: Submenu | undefined = undefined;
+    let candidate: Submenu | undefined = undefined;
     for (const item of submenu) {
-      const startsAt = item.target.getBoundingClientRect().top;
-
-      if (startsAt < innerHalfHeight || submenuCandidate === undefined) {
-        submenuCandidate = item;
+      const el = document.getElementById(item.key);
+      if (!el) continue;
+      const startsAt = el.getBoundingClientRect().top;
+      if (startsAt < innerHalfHeight || candidate === undefined) {
+        candidate = item;
       } else {
         break;
       }
     }
 
-    if (submenuCandidate !== undefined) {
-      setActiveSubmenu(submenuCandidate.id);
-      swiper?.slideTo(submenuCandidate.id);
-    }
-  }, [swiper, scrollY, submenu, setActiveSubmenu]);
+    return candidate?.id ?? 0;
+  }, [
+    // eslint-disable-line react-hooks/exhaustive-deps
+    scrollY,
+    submenu,
+  ]);
+
+  useEffect(() => {
+    if (!swiper) return;
+    swiper.slideTo(activeIndex);
+  }, [swiper, activeIndex]);
 
   if (submenu.length === 0) {
     return <></>;
@@ -128,7 +125,7 @@ export default function SecondaryNavbar({
         grabCursor={true}
         centeredSlides={true}
         slidesPerView='auto'
-        initialSlide={activeSubmenu}
+        initialSlide={activeIndex}
         onSwiper={setSwiper}
       >
         {submenu.map((item, i) => (
@@ -139,7 +136,7 @@ export default function SecondaryNavbar({
             <Link
               className={cn(
                 'px-2 py-1',
-                activeSubmenu === item.id
+                activeIndex === item.id
                   ? 'text-bicyclette rounded-md bg-white/20 text-xl lg:bg-black/40'
                   : ''
               )}
