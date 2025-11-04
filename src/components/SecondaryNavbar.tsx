@@ -86,6 +86,8 @@ export default function SecondaryNavbar({
   };
 
   const activeIndex = useMemo(() => {
+    if (typeof window === 'undefined') return 0;
+
     const innerHalfHeight = window.innerHeight / 2;
 
     let candidate: Submenu | undefined = undefined;
