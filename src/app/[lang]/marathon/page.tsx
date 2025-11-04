@@ -386,9 +386,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             </a>
           </li>
           <li className='my-2 text-xl hover:underline'>
-            <Link
-              href={{ pathname: `${langPrefix}marathon/2025` }}
-              >
+            <Link href={{ pathname: `${langPrefix}marathon/2025` }}>
               {t('marathon.links.last-year')}
             </Link>
           </li>

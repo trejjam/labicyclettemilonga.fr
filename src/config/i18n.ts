@@ -25,9 +25,24 @@ export const i18nOptions = {
     escapeValue: false,
   },
   resources: {
-    en: { common: commonEn, 'not-found': notFoundEn, components: componentsEn, marathons: marathonsEn },
-    fr: { common: commonFr, 'not-found': notFoundFr, components: componentsFr, marathons: marathonsFr },
-    es: { common: commonEs, 'not-found': notFoundEs, components: componentsEs, marathons: marathonsEs },
+    en: {
+      common: commonEn,
+      'not-found': notFoundEn,
+      components: componentsEn,
+      marathons: marathonsEn,
+    },
+    fr: {
+      common: commonFr,
+      'not-found': notFoundFr,
+      components: componentsFr,
+      marathons: marathonsFr,
+    },
+    es: {
+      common: commonEs,
+      'not-found': notFoundEs,
+      components: componentsEs,
+      marathons: marathonsEs,
+    },
   },
   parseMissingKeyHandler: (key) => `?_${key}_?`,
   appendNamespaceToMissingKey: false,

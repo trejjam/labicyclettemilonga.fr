@@ -34,7 +34,9 @@ export default function SecondaryNavbar({
   isDark?: boolean;
   lang: Locale;
 }) {
-  const isMarathonNamespace = currentRoute.startsWith('marathon/') && currentRoute.length >= 'marathon/2025'.length;
+  const isMarathonNamespace =
+    currentRoute.startsWith('marathon/') &&
+    currentRoute.length >= 'marathon/2025'.length;
   const router = useRouter();
   const { t } = useTranslation({
     lng: lang,
@@ -47,14 +49,13 @@ export default function SecondaryNavbar({
   const submenu = useMemo(() => {
     const i = currentRoute.indexOf('/');
 
-    const routeKey =
-      isMarathonNamespace
-        ? currentRoute.substring(i+1).replace(/\//g, '')
-        : currentRoute === ''
-          ? 'milonga'
-          : i > 0
-            ? currentRoute.substring(0, i)
-            : currentRoute;
+    const routeKey = isMarathonNamespace
+      ? currentRoute.substring(i + 1).replace(/\//g, '')
+      : currentRoute === ''
+        ? 'milonga'
+        : i > 0
+          ? currentRoute.substring(0, i)
+          : currentRoute;
 
     const routeSubmenu = t(`${routeKey}.submenu`, {
       returnObjects: true,
@@ -92,28 +93,28 @@ export default function SecondaryNavbar({
     return submenuClick(item);
   };
 
-  const activeIndex = useMemo(() => {
-    if (typeof window === 'undefined') return 0;
+  const activeIndex = useMemo(
+    () => {
+      if (typeof window === 'undefined') return 0;
 
-    const innerHalfHeight = window.innerHeight / 2;
+      const innerHalfHeight = window.innerHeight / 2;
 
-    let candidate: Submenu | undefined = undefined;
-    for (const item of submenu) {
-      const el = document.getElementById(item.key);
-      if (!el) continue;
-      const startsAt = el.getBoundingClientRect().top;
-      if (startsAt < innerHalfHeight || candidate === undefined) {
-        candidate = item;
-      } else {
-        break;
+      let candidate: Submenu | undefined = undefined;
+      for (const item of submenu) {
+        const el = document.getElementById(item.key);
+        if (!el) continue;
+        const startsAt = el.getBoundingClientRect().top;
+        if (startsAt < innerHalfHeight || candidate === undefined) {
+          candidate = item;
+        } else {
+          break;
+        }
       }
-    }
 
-    return candidate?.id ?? 0;
-  }, /* eslint-disable-line react-hooks/exhaustive-deps */ [
-    scrollY,
-    submenu,
-  ]);
+      return candidate?.id ?? 0;
+    },
+    /* eslint-disable-line react-hooks/exhaustive-deps */ [scrollY, submenu]
+  );
 
   useEffect(() => {
     if (!swiper) return;
