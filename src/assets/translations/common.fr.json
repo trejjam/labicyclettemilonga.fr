@@ -37,33 +37,33 @@
     "djs": "Les DJs du marathon",
     "dj": {
       "1": {
-        "title": "TDJ #1",
+        "title": "TDJ Oleksandra KOTELNYTSKA (Ukraine)",
         "time": "Vendredi soir - SET JEANNIE LONGO THE FIRST",
-        "medailon": ""
+        "medailon": "En tant que DJ de tango, je crois qu’il n’est tout simplement pas possible de ne pas faire jouer au moins une tanda de Troilo toutes les trois heures. J’apprécie le lien que je tisse avec les danseurs et la gratitude que je lis dans leur regard. Comme de nombreux DJ de tango, je classe la musique qui n’est pas du tango en deux groupes : les cortinas et tout le reste. Ma passion m’a mené à créer le festival Tango Remolino où les DJ sont les principales vedettes. Je suis d’ailleurs constamment à la recherche de DJ talentueux dans le monde entier. Trouver un équilibre entre cette passion et ma vie en Ukraine en temps de guerre où j’élève  mes trois enfants n’est pas facile, mais cela renforce mon engagement et mon intuition en tant que DJ. Mes années d’expérience me permettent de savoir exactement quoi faire jouer pour garder l’énergie sur la piste de danse, puisant dans les tangos intemporels de l’âge d’or."
       },
       "2": {
-        "title": "TDJ #2",
+        "title": "TDJ Mélanie JULIAN (Lyon France)",
         "time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
-        "medailon": ""
+        "medailon": "Mélanie est une DJ lyonnaise reconnue depuis une dizaine d’années pour sa sélection musicale traditionnelle et généreuse. Très investie dans le tango, elle voyage régulièrement dans de nombreux marathons, encuentros et milongas en Europe, ce qui lui permet de proposer une sélection musicale affinée et populaire. Elle a à cœur de partager aux danseurs une palette musicale aux rythmes et émotions variés, principalement orientée sur les tangos de l’âge d’or des grands orchestres, faisant la part belle aux tangos de Juan d’Arienzo, Carlos di Sarli, Anibal Troilo, et Osvaldo Pugliese… Tout en n’oubliant pas les orchestres de Miguel Calo ou Pedro Laurenz par exemple."
       },
       "3": {
-        "title": "TDJ #3",
+        "title": "TDJ Stefan OK (Allemagne)",
         "time": "Samedi soir - SET LOUIS AMSTRONG THE DOPED",
         "medailon": ""
       },
       "4": {
-        "title": "TDJ #4",
+        "title": "TDJ Nicolas ARRIBAT (Toulouse France)",
         "time": "Dimanche matin - SET A SUNDAY BIKE RIDE",
-        "medailon": ""
+        "medailon": "C'est notre DJ local ! DJ parisien depuis 2010 et DJ international depuis 2015, Nicolas Arribat vit à présent à Toulouse, où il enseigne le tango et co-organise la milonga La Bicyclette et le Chimichurri Tango Weekend. Il se chargera de vous réveiller en douceur le dimanche matin, pour que la fête continue !"
       },
       "5": {
-        "title": "TDJ #5",
+        "title": "TDJ Benoit LEROUGE (Marseille France)",
         "time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
         "medailon": ""
       }
     },
     "timetable": "Bienvenue !",
-    "timetable-description": "Notre équipe de bicyclettistes enjoué.e.s organise son deuxième marathon de la Bicyclette dans le cœur historique de Toulouse. 5 djs internationaux, 28h de tango 100% tradi, 120 danseuses et danseurs, 90€. Le programme est en cours de construction :",
+    "timetable-description": "Notre équipe de bicyclettistes enjoué.e.s organise son deuxième marathon de la Bicyclette dans le cœur historique de Toulouse. 5 djs internationaux, 27h de tango 100% tradi, 120 danseuses et danseurs, 90€. Nous avons hâte de vous y retrouver !",
     "timetables": [
       {
         "title": "Vendredi",
@@ -74,7 +74,7 @@
           },
           {
             "time": "20h-2h30",
-            "description": "SET JEANNIE LONGO THE FIRST - TDJ Oleksandra KOTELNYTSKA"
+            "description": "SET JEANNIE LONGO THE FIRST - TDJ Oleksandra KOTELNYTSKA (Ukraine)"
           }
         ]
       },
