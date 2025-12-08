@@ -36,44 +36,41 @@
     "djs": "Lxs DJs del maratón:",
     "dj": {
       "1": {
-        "title": "TDJ #1",
+        "title": "TDJ Oleksandra KOTELNYTSKA (Ucrania)",
         "time": "Viernes de noche - SET JEANNIE LONGO THE FIRST",
-        "medailon": ""
+        "medailon": "Como DJ de tango, creo que es imposible no poner al menos una tanda de Troilo en tres horas. Valoro mucho la conexión con los bailarines y la gratitud silenciosa que veo en sus ojos. Como muchos DJ de tango, clasifico la música que no es tango en solo dos grupos: cortinas y todo lo demás. Mi pasión me llevó a crear el festival Tango Remolino, donde los DJ son las estrellas principales. Siempre estoy buscando DJ talentosos en todo el mundo. Equilibrar esta pasión con la vida en Ucrania en tiempos de guerra y la crianza de tres hijos es un reto, pero profundiza mi dedicación e intuición como DJ. Con años de experiencia, sé exactamente qué poner para mantener viva la pista de baile, confiando en los tangos atemporales de la Edad de Oro."
       },
       "2": {
-        "title": "TDJ #2",
+        "title": "TDJ Mélanie JULIAN (Lyon Francia)",
         "time": "Sábado de tarde - SET RAYMOND POULIDOR THE ETERNEL SECOND",
-        "medailon": ""
+        "medailon": "Mélanie es una TDJ de Lyon reconocida desde hace una década por sus sets musicales tradicionales y generosos. Está muy involucrada en el tango y viaja regularmente a numerosas maratones, encuentros y milongas en Europa, lo que le permite tocar una selección musical refinada y muy apreciada. Le gusta tocar un repertorio con ritmos y emociones variados, centrado principalmente en tangos de la época dorada de las grandes orquestas, en particular los tangos de Juan d'Arienzo, Carlos di Sarli, Aníbal Troilo y Osvaldo Pugliese... pero también los de Miguel Calo y Pedro Laurenz, por ejemplo."
       },
       "3": {
-        "title": "TDJ #3",
+        "title": "TDJ Stefan OK (Alemania)",
         "time": "Sábado de noche - SET LOUIS AMSTRONG THE DOPED",
-        "medailon": ""
+        "medailon": "Soy un DJ de tango internacional de Halle (Alemania) con más de 200 sesiones y invitaciones a 24 países de los 6 continentes. Después de varios años bailando y escuchando música de tango, empecé a tocar en 2009. Desde entonces, mis sesiones de DJ se basan en los clásicos de la Época de Oro, la época dorada del tango argentino entre 1937 y 1947. Soy conocido por mi excelente sincronización y por crear dinámicas profundamente conmovedoras. Como coleccionista de toda la historia del tango argentino, me encanta escuchar tangos de los años 20 y 30 con una estructura rítmica fuerte. A veces los utilizo para darle vida a mis sesiones de DJ. Durante mi estancia en Buenos Aires y Berlín también descubrí las románticas melodías de los años 40 y 50. Mis orquestas favoritas son Di Sarli y D'Arienzo. Prefiero una mezcla complementaria de ritmo y melodía para satisfacer a todo tipo de bailarines."
       },
       "4": {
-        "title": "TDJ #4",
+        "title": "TDJ Nicolas ARRIBAT (Toulouse Francia)",
         "time": "Domingo de mañana - SET A SUNDAY BIKE RIDE",
-        "medailon": ""
+        "medailon": "¡Conoce a nuestro DJ local! DJ parisino desde 2010 y parte de la escena internacional desde 2015, Nicolas Arribat vive ahora en Toulouse, donde enseña tango y organiza la milonga Bicyclette y el Chimichurri Tango Weekend. ¡Nos despertará suavemente el domingo y mantendrá la fiesta en marcha!"
       },
       "5": {
-        "title": "TDJ #5",
+        "title": "TDJ Benoit Lerouge (Marseille Francia)",
         "time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
-        "medailon": ""
+        "medailon": "Benoit le Rouge toca música centrada en ritmos rápidos, inspirándose principalmente en el vasto repertorio del tango argentino. Posee muchas pistas inéditas, así como pistas restauradas y, en ocasiones, mezcladas por él mismo. Considera que la milonga es un evento social que puede verse influido por tandas construidas de manera coherente. Al introducir tantos elementos diversos como sea posible entre cada tanda (color, estado de ánimo, época, ritmo), crea un efecto sorpresa y empuja a los bailarines a adentrarse en nuevos territorios."
       }
     },
     "timetable": "¡Bienvenido!",
-    "timetable-description": "Nuestro equipo de ciclistas alegres organiza su primer maratón de la Bicyclette en el corazón histórico de Toulouse. 5 DJs internacionales, 27 horas de tango 100% tradicional, 150 bailarines, 80€. Aquí está el programa:",
+    "timetable-description": "Nuestro equipo de ciclistas alegres organiza su segundo maratón de la Bicyclette en el corazón histórico de Toulouse. 5 DJs internacionales, 27 horas de tango 100% tradicional, 120 bailarines, 90€. Aquí está el programa:",
     "timetables": [
       {
         "title": "Viernes",
         "inner": [
-          {
-            "time": "",
-            "description": ""
-          },
+        
           {
             "time": "21h-2h30",
-            "description": "SET JEANNIE LONGO THE FIRST - TDJ Barbara Palmer (España)"
+            "description": "SET JEANNIE LONGO THE FIRST - TDJ Oleksandra KOTELNYTSKA (Ucrania)"
           }
         ]
       },
@@ -81,12 +78,12 @@
         "title": "Sábado",
         "inner": [
           {
-            "time": "10h30-12h30",
-            "description": "PASEOS EN BICI en Toulouse, encuentro a las 10h30 delante de la Maison du vélo, 12 Bd Bonrepos."
+            "time": "11h-13h",
+            "description": "PASEOS en Toulouse."
           },
           {
-            "time": "14h-18:30h",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Francia, Lyon)"
+            "time": "14h-18h30",
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie Julian (Francia, Lyon)"
           },
           {
             "time": "18h30-19h30",
@@ -98,7 +95,7 @@
           },
           {
             "time": "21h-2h30",
-            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italia)"
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Stefan OK (Alemania)"
           }
         ]
       },
@@ -106,20 +103,20 @@
         "title": "Domingo",
         "inner": [
           {
-            "time": "10h-12h",
-            "description": "TALLER TÉCNICO ALEXANDER con Élodie y Maïté, cita a las 10h delante de la Salle Trac, entrada libre."
+            "time": "11h-13h",
+            "description": "TALLER TÉCNICO."
           },
           {
-            "time": "10h-14h",
+            "time": "11h-14h",
             "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Francia, Toulouse)"
           },
           {
             "time": "14h-19h",
-            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (México)"
+            "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Benoit LEROUGE (Marseille France)"
           },
           {
             "time": "19h30-00h",
-            "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (Entrada 6€)"
+            "description": "AFTER - La DOS"
           }
         ]
       }
