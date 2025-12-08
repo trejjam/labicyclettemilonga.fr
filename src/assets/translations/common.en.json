@@ -37,33 +37,33 @@
     "djs": "Marathon DJs:",
     "dj": {
       "1": {
-        "title": "TDJ #1",
+        "title": "TDJ Oleksandra KOTELNYTSKA (Ukraine)",
         "time": "Friday evening - SET JEANNIE LONGO THE FIRST",
-        "medailon": ""
+        "medailon": "As a tango DJ, I believe it’s impossible not to play at least one tanda of Troilo in three hours. I cherish the connection with dancers and the silent gratitude in their eyes. Like many tango DJs, I categorize non-tango music into just two groups: cortinas and everything else. My passion led me to create the Tango Remolino festival, where DJs shine as the main stars. I’m always on the lookout for talented DJs worldwide. Balancing this passion with life in Ukraine during wartime and raising three children is challenging, but it deepens my dedication and intuition as a DJ. With years of experience, I know exactly what to play to keep the dance floor alive, relying on the timeless tangos of the Edad de Oro."
       },
       "2": {
-        "title": "TDJ #2",
+        "title": "TDJ Mélanie JULIAN (Lyon France)",
         "time": "Saturday afternoon - SET RAYMOND POULIDOR THE ETERNEL SECOND",
-        "medailon": ""
+        "medailon": "Mélanie is a TDJ from Lyon recognized for the last decade for her traditional and generous musical sets. She is very much involved in tango, and travels regularly to numerous marathons, encuentros, and milongas in Europe, which allows her to play a polished and well-liked musical selection. She is keen on playing a set that has varied rhythms and emotions and that is mainly focused on tangos from the golden age of the great orchestras, particularly the tangos of Juan d'Arienzo, Carlos di Sarli, Anibal Troilo, and Osvaldo Pugliese... but also those of Miguel Calo and Pedro Laurenz, for example."
       },
       "3": {
-        "title": "TDJ #3",
+        "title": "TDJ Stefan OK (Allemagne)",
         "time": "Saturday evening - SET LOUIS AMSTRONG THE DOPED",
-        "medailon": ""
+        "medailon": "I am an internationally travelling Tango-DJ from Halle (Germany) with more than 200 sets and invitations to 24 countries on 6 continents. After several years of dancing and listening to tango music, I started DJing in 2009. Since that time my DJ sets are created around the classics from the Epoca de Oro, the golden time of Tango Argentino from 1937 to 1947. I am known for my excellent timing and the creation of deeply touching dynamics. As a collector of the whole History of Tango Argentino I love to listen to tangos from the 20's and 30's with a strong rhythmic structure. I sometimes use them to spice up my DJ sets. During my time in Buenos Aires and Berlin I also discovered the romantic melodies of the 40's and 50's. My favourite orchestras are Di Sarli and D'Arienzo. I prefer a complementary mix of rhythm and melody to serve all kinds of dancers."
       },
       "4": {
-        "title": "TDJ #4",
+        "title": "TDJ Nicolas ARRIBAT (Toulouse France)",
         "time": "Sunday morning - SET A SUNDAY BIKE RIDE",
-        "medailon": ""
+        "medailon": "Meet our local DJ! A Parisian DJ since 2010, and part of the international scene since 2015, Nicolas Arribat now lives in Toulouse, where he teaches tango, and organizes the Bicyclette milonga and the Chimichurri Tango Weekend. He'll be waking us up gently on Sunday, keeping the party going!"
       },
       "5": {
-        "title": "TDJ #5",
+        "title": "TDJ Benoit LEROUGE (Marseille France)",
         "time": "Despedida - SET THE RED LANTERN IN THE PINK CITY",
-        "medailon": ""
+        "medailon": "Benoit le Rouge plays music focused on fast rhythms, drawing mainly from the vast repertoire of Argentine tango. He owns many unreleased tracks, and tracks restored and sometimes mixed by himself. He believes that the milonga is a social event that can be influenced by tandas constructed in a consistent manner. By introducing as many diverse elements as possible between each tanda (color, mood, era, rhythm), he creates a surprise effect and pushes dancers into new territory."
       }
     },
     "timetable": "Welcome!",
-    "timetable-description": "Our cheerful cyclist team is organising the first Bicyclette Marathon in the historical city center of Toulouse. 5 international djs, 27hrs of traditional tango, 150 dancers, 80€. Here is the program:",
+    "timetable-description": "Our cheerful cyclist team is organising the second Bicyclette Marathon in the historical city center of Toulouse. 5 international djs, 27hrs of traditional tango, 120 dancers, 90€. Here is the program:",
     "timetables": [
       {
         "title": "Friday",
@@ -74,7 +74,7 @@
           },
           {
             "time": "9PM-2:30AM",
-            "description": "SET JEANNIE LONGO THE FIRST – TDJ Barbara Palmer (Spain)"
+            "description": "SET JEANNIE LONGO THE FIRST – TDJ Oleksandra KOTELNYTSKA (Ukraine)"
           }
         ]
       },
@@ -82,12 +82,12 @@
         "title": "Saturday",
         "inner": [
           {
-            "time": "10:30-12:30AM",
-            "description": "BIKE WALKS in Toulouse, meet 10:30am in front of the Maison du vélo, 12 Bd Bonrepos."
+            "time": "11-13AM",
+            "description": "WALKS in Toulouse."
           },
           {
             "time": "2-6:30PM",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
+            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie JULIAN (Lyon France)"
           },
           {
             "time": "6:30PM-7:30PM",
@@ -99,7 +99,7 @@
           },
           {
             "time": "9PM-2:30AM",
-            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Paola Nocitango (Italy)"
+            "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Stefan OK (Allemagne)"
           }
         ]
       },
@@ -107,11 +107,11 @@
         "title": "Sunday",
         "inner": [
           {
-            "time": "10AM -12AM",
-            "description": "ALEXANDER TECHNICAL WORKSHOP with Élodie and Maïté, meet 10am in front of Salle Trac, free admission."
+            "time": "11AM -13AM",
+            "description": "WORKSHOP."
           },
           {
-            "time": "10AM -2PM",
+            "time": "11AM -2PM",
             "description": "SET A SUNDAY BIKE RIDE - TDJ Nicolas Arribat (Toulouse)"
           },
           {
