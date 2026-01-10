@@ -20,7 +20,11 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
 
   const greenIcon = new LeafletDivIcon({
     className: 'custom-green-marker',
-    html: `<img src="/img/marker-green.svg" style="width: 25px; height: 41px;" />`,
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 50 82" role="img" aria-label="map marker">
+      <path d="M25 1 C12 1 2 11 2 24 C2 41 15 58 25 82 C35 58 48 41 48 24 C48 11 38 1 25 1 Z"
+            fill="#25B541" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="25" cy="24" r="8" fill="#ffffff"/>
+    </svg>`,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [0, -41],
