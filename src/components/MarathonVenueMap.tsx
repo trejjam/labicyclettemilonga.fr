@@ -20,7 +20,7 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
 
   return (
     <MapContainer
-      center={[43.5771718, 1.4567738]}
+      center={[43.5852438, 1.4494853]}
       zoom={14}
       maxZoom={20}
       className='h-[60svh]'
@@ -51,7 +51,7 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
         </Popup>
       </Marker>
       <Marker
-        position={[43.5616849, 1.4655156]}
+        position={[43.5778289, 1.4509386]}
         ref={(r) => {
           afterPartyMarkerRef.current = r;
           setAfterPartyMarkerRefReady(true);
