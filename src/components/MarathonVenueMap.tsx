@@ -86,12 +86,12 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
         }}
       >
         <Popup>
-          <b>After party: milonga La Dos</b>
+          <b>{t('marathon.afterparty.title')}</b>
           <br />
-          {t('map.afterparty-description')}
+          {t('marathon.afterparty.description')}
           <br />
           <a
-            href='https://www.google.com/maps/place/4+Av.+de+Rangueil,+31400+Toulouse/@43.5616849,1.4655156,17z'
+            href='https://www.google.com/maps/place/4+Av.+de+Rangueil,+31400+Toulouse/@43.5778289,1.4509386,17z'
             target='_blank'
           >
             {t('map.google-link')}
