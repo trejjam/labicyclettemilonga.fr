@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility';
@@ -9,24 +9,26 @@ import { Marker as LeafletMarker, DivIcon as LeafletDivIcon } from 'leaflet';
 
 export default function VenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
-  const markerRef = useRef<LeafletMarker>(null);
-  const [markerRefReady, setMarkerRefReady] = useState(false);
 
-  useEffect(() => {
-    markerRef.current?.openPopup();
-  }, [markerRefReady]);
-
-  const blueIcon = new LeafletDivIcon({
-    className: 'custom-blue-marker',
-    html: `<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 50 82" role="img" aria-label="map marker">
+  const blueIcon = useMemo(
+    () =>
+      new LeafletDivIcon({
+        className: 'custom-blue-marker',
+        html: `<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 50 82" role="img" aria-label="map marker">
       <path d="M25 1 C12 1 2 11 2 24 C2 41 15 58 25 82 C35 58 48 41 48 24 C48 11 38 1 25 1 Z"
             fill="#3498db" stroke="#ffffff" stroke-width="2"/>
       <circle cx="25" cy="24" r="8" fill="#ffffff"/>
     </svg>`,
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [0, -41],
-  });
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -41],
+      }),
+    []
+  );
+
+  const handleMarkerRef = useCallback((marker: LeafletMarker | null) => {
+    marker?.openPopup();
+  }, []);
 
   return (
     <MapContainer
@@ -43,10 +45,7 @@ export default function VenueMap({ lang }: { lang: Locale }) {
       <Marker
         position={[43.5926587, 1.4480319]}
         icon={blueIcon}
-        ref={(r) => {
-          markerRef.current = r;
-          setMarkerRefReady(true);
-        }}
+        ref={handleMarkerRef}
       >
         <Popup>
           <b>{t('map.title')}</b>
