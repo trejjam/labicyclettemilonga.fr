@@ -7,7 +7,7 @@ import { Locale } from '@/config/i18n.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
 import { Marker as LeafletMarker } from 'leaflet';
 
-export default function VenueMap({ lang }: { lang: Locale }) {
+export default function MarathonVenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
   const markerRef = useRef<LeafletMarker>(null);
   const [markerRefReady, setMarkerRefReady] = useState(false);
@@ -19,7 +19,7 @@ export default function VenueMap({ lang }: { lang: Locale }) {
   return (
     <MapContainer
       center={[43.5926587, 1.4480319]}
-      zoom={16}
+      zoom={15}
       maxZoom={20}
       className='h-[60svh]'
       scrollWheelZoom={false}
@@ -42,6 +42,20 @@ export default function VenueMap({ lang }: { lang: Locale }) {
           <br />
           <a
             href='https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z'
+            target='_blank'
+          >
+            {t('map.google-link')}
+          </a>
+        </Popup>
+      </Marker>
+      <Marker position={[43.5616849, 1.4655156]}>
+        <Popup>
+          <b>{t('map.afterparty-title')}</b>
+          <br />
+          {t('map.afterparty-description')}
+          <br />
+          <a
+            href='https://www.google.com/maps/place/4+Av.+de+Rangueil,+31400+Toulouse/@43.5616849,1.4655156,17z'
             target='_blank'
           >
             {t('map.google-link')}
