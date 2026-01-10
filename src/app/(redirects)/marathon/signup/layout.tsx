@@ -9,7 +9,7 @@ export default function MarathonSignupLayout() {
   const { i18n } = useTranslation({ lng: defaultLocale });
 
   redirect(
-    'https://docs.google.com/forms/d/e/1FAIpQLSddi5kG8w0C7QAFlcuMUcj-a7ZrLQ_NxprALHEWrR_xSkJIeg/viewform'
+    'https://docs.google.com/forms/d/e/1FAIpQLSf6OqB3fkAZvQx9hnhlP_yVhPWkObzdxAhLa7XEuHm_oQ0Bjw/viewform'
   );
 
   return (
