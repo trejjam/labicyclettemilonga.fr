@@ -127,6 +127,10 @@
       "car-sharing": "Coche compartido",
       "last-year": "El maratón del año pasado",
       "rowing": "Remo"
+    },
+    "afterparty": {
+      "title": "After party: milonga La Dos",
+      "description": "4 Av. de Rangueil, 31400 Toulouse"
     }
   },
   "place": {

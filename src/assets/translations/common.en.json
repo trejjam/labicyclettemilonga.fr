@@ -132,6 +132,10 @@
       "car-sharing": "Car sharing",
       "last-year": "Last year's marathon",
       "rowing": "Rowing"
+    },
+    "afterparty": {
+      "title": "After party: milonga La Dos",
+      "description": "4 Av. de Rangueil, 31400 Toulouse"
     }
   },
   "place": {

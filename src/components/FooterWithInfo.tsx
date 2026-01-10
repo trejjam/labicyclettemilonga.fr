@@ -42,6 +42,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 <Link
                   href='https://www.facebook.com/groups/labicyclettemilonga/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='group inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800 transition-all duration-500'
                 >
                   <IconifyIcon
@@ -54,6 +55,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 <Link
                   href='https://www.instagram.com/labicyclettemilonga/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='group inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800 transition-all duration-500'
                 >
                   <IconifyIcon
@@ -66,6 +68,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                 <Link
                   href='mailto:danse@labicyclettemilonga.fr'
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='group hover:text-bicyclette inline-flex h-10 items-center justify-center rounded-lg bg-slate-800 px-5 text-gray-400 transition-all duration-500 hover:fill-white/30'
                 >
                   <IconifyIcon
@@ -87,6 +90,7 @@ export default function FooterWithInfo({ lang }: { lang: Locale }) {
                   className='hover:text-bicyclette'
                   href='https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {t('venue.address')}
                   <br />

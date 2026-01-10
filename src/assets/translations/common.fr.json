@@ -130,8 +130,12 @@
       "guide": "Le guide du marathonien",
       "shared-accommodation": "Hébergement chez un.e toulousain.e",
       "car-sharing": "Covoiturage",
-      "last-year": "Le marathon de l’année dernière",
+      "last-year": "Le marathon de l'année dernière",
       "rowing": "Aviron"
+    },
+    "afterparty": {
+      "title": "After party: milonga La Dos",
+      "description": "4 Av. de Rangueil, 31400 Toulouse"
     }
   },
   "team": {

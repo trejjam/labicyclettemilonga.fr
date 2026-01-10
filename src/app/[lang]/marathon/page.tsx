@@ -12,9 +12,9 @@ import getLangPrefix from '@/helpers/lang-prefix.ts';
 import Link from 'next/link';
 
 export default function GenericMarathonPage({ params }: { params: Params }) {
-  const DynamicVenueMap = useMemo(
+  const DynamicMarathonVenueMap = useMemo(
     () =>
-      dynamic(() => import('@/components/VenueMap.tsx'), {
+      dynamic(() => import('@/components/MarathonVenueMap.tsx'), {
         ssr: false,
       }),
     []
@@ -84,7 +84,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                   </p>
                 </div>
               </div>
-              {/* <div className='flex justify-center'>
+              <div className='flex justify-center'>
                 <div className='relative mt-14'>
                   <div>
                     {new Date() > registrationDate && (
@@ -102,7 +102,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
                     )}
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -380,7 +380,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             <a
               href='https://docs.google.com/spreadsheets/d/1Rx0CZKr_oLxVAGmE8ngM_481udMNBciUsM4ia7Ec2cs/edit'
               target='_blank'
-              rel='nofollow'
+              rel='nofollow noopener noreferrer'
             >
               {t('marathon.links.car-sharing')}
             </a>
@@ -397,7 +397,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
         style={{ scrollMarginTop: headHeight }}
         suppressHydrationWarning={true}
       >
-        <DynamicVenueMap lang={lang} />
+        <DynamicMarathonVenueMap lang={lang} />
       </div>
       <section
         id='newsletter'

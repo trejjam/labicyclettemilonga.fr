@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="82" viewBox="0 0 50 82" role="img" aria-label="map marker">
+  <!-- marker body -->
+  <path d="M25 1 C12 1 2 11 2 24 C2 41 15 58 25 82 C35 58 48 41 48 24 C48 11 38 1 25 1 Z"
+        fill="#3498db" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- center dot -->
+  <circle cx="25" cy="24" r="8" fill="#ffffff"/>
+</svg>
