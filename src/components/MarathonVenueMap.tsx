@@ -10,7 +10,9 @@ import { Marker as LeafletMarker } from 'leaflet';
 export default function MarathonVenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
   const markerRef = useRef<LeafletMarker>(null);
+  const afterPartyMarkerRef = useRef<LeafletMarker>(null);
   const [markerRefReady, setMarkerRefReady] = useState(false);
+  const [, setAfterPartyMarkerRefReady] = useState(false);
 
   useEffect(() => {
     markerRef.current?.openPopup();
@@ -18,8 +20,8 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
 
   return (
     <MapContainer
-      center={[43.5926587, 1.4480319]}
-      zoom={15}
+      center={[43.5771718, 1.4567738]}
+      zoom={14}
       maxZoom={20}
       className='h-[60svh]'
       scrollWheelZoom={false}
@@ -48,7 +50,13 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
           </a>
         </Popup>
       </Marker>
-      <Marker position={[43.5616849, 1.4655156]}>
+      <Marker
+        position={[43.5616849, 1.4655156]}
+        ref={(r) => {
+          afterPartyMarkerRef.current = r;
+          setAfterPartyMarkerRefReady(true);
+        }}
+      >
         <Popup>
           <b>{t('map.afterparty-title')}</b>
           <br />
