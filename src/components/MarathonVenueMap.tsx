@@ -89,7 +89,7 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
           {t('marathon.afterparty.description')}
           <br />
           <a
-            href='https://www.google.com/maps/place/4+Av.+de+Rangueil,+31400+Toulouse/@43.5778289,1.4509386,17z'
+            href='https://maps.app.goo.gl/VqFxUN9k9HVxirYr7'
             target='_blank'
             rel='noopener noreferrer'
           >
