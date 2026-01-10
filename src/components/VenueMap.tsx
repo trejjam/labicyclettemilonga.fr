@@ -5,7 +5,7 @@ import 'leaflet-defaulticon-compatibility';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import { Locale } from '@/config/i18n.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
-import { Marker as LeafletMarker } from 'leaflet';
+import { Marker as LeafletMarker, DivIcon as LeafletDivIcon } from 'leaflet';
 
 export default function VenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
@@ -15,6 +15,18 @@ export default function VenueMap({ lang }: { lang: Locale }) {
   useEffect(() => {
     markerRef.current?.openPopup();
   }, [markerRefReady]);
+
+  const blueIcon = new LeafletDivIcon({
+    className: 'custom-blue-marker',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 50 82" role="img" aria-label="map marker">
+      <path d="M25 1 C12 1 2 11 2 24 C2 41 15 58 25 82 C35 58 48 41 48 24 C48 11 38 1 25 1 Z"
+            fill="#3498db" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="25" cy="24" r="8" fill="#ffffff"/>
+    </svg>`,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [0, -41],
+  });
 
   return (
     <MapContainer
@@ -30,6 +42,7 @@ export default function VenueMap({ lang }: { lang: Locale }) {
       />
       <Marker
         position={[43.5926587, 1.4480319]}
+        icon={blueIcon}
         ref={(r) => {
           markerRef.current = r;
           setMarkerRefReady(true);
