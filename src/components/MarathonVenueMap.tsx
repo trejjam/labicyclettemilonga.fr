@@ -18,12 +18,12 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
     markerRef.current?.openPopup();
   }, [markerRefReady]);
 
-  const redIcon = new LeafletDivIcon({
-    className: 'custom-red-marker',
-    html: `<div style="background-color: #e74c3c; width: 25px; height: 25px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 0 5px rgba(0,0,0,0.3);"></div>`,
-    iconSize: [25, 25],
-    iconAnchor: [12, 25],
-    popupAnchor: [0, -25],
+  const greenIcon = new LeafletDivIcon({
+    className: 'custom-green-marker',
+    html: `<img src="/img/marker-green.svg" style="width: 25px; height: 41px;" />`,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [0, -41],
   });
 
   return (
@@ -61,7 +61,7 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
       </Marker>
       <Marker
         position={[43.5778289, 1.4509386]}
-        icon={redIcon}
+        icon={greenIcon}
         riseOnHover={true}
         ref={(r) => {
           afterPartyMarkerRef.current = r;
@@ -69,7 +69,7 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
         }}
       >
         <Popup>
-          <b>{t('map.afterparty-title')}</b>
+          <b>After party: milonga La Dos</b>
           <br />
           {t('map.afterparty-description')}
           <br />
