@@ -56,6 +56,7 @@ export default function VenueMap({ lang }: { lang: Locale }) {
           <a
             href='https://www.google.com/maps/place/43+Rue+Alfred+Dumeril,+31400+Toulouse,+Francie/@43.5926999,1.4454306,17z'
             target='_blank'
+            rel='noopener noreferrer'
           >
             {t('map.google-link')}
           </a>

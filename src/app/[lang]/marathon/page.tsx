@@ -380,7 +380,7 @@ export default function GenericMarathonPage({ params }: { params: Params }) {
             <a
               href='https://docs.google.com/spreadsheets/d/1Rx0CZKr_oLxVAGmE8ngM_481udMNBciUsM4ia7Ec2cs/edit'
               target='_blank'
-              rel='nofollow'
+              rel='nofollow noopener noreferrer'
             >
               {t('marathon.links.car-sharing')}
             </a>
