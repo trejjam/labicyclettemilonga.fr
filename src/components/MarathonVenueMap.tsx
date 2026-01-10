@@ -1,11 +1,11 @@
-import React, { useMemo, useCallback } from 'react';
+import React, { useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import { Locale } from '@/config/i18n.ts';
 import { useTranslation } from '@/hooks/use-translation.ts';
-import { Marker as LeafletMarker, DivIcon as LeafletDivIcon } from 'leaflet';
+import { DivIcon as LeafletDivIcon } from 'leaflet';
 
 export default function MarathonVenueMap({ lang }: { lang: Locale }) {
   const { t } = useTranslation({ lng: lang });
@@ -42,10 +42,6 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
     []
   );
 
-  const handleMainMarkerRef = useCallback((marker: LeafletMarker | null) => {
-    marker?.openPopup();
-  }, []);
-
   return (
     <MapContainer
       center={[43.5852438, 1.4494853]}
@@ -62,7 +58,11 @@ export default function MarathonVenueMap({ lang }: { lang: Locale }) {
         position={[43.5926587, 1.4480319]}
         icon={blueIcon}
         riseOnHover={true}
-        ref={handleMainMarkerRef}
+        eventHandlers={{
+          add: (e) => {
+            e.target.openPopup();
+          },
+        }}
       >
         <Popup>
           <b>{t('map.title')}</b>
