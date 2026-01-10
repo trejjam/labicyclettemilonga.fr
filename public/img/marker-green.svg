@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="82" viewBox="0 0 50 82" role="img" aria-label="map marker">
+  <defs>
+    <linearGradient id="fillGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39D353"/>
+      <stop offset="55%" stop-color="#25B541"/>
+      <stop offset="100%" stop-color="#138A30"/>
+    </linearGradient>
+
+    <!-- subtle top highlight -->
+    <radialGradient id="highlightGrad" cx="35%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- marker body -->
+  <path d="M25 1
+           C12 1 2 11 2 24
+           C2 41 15 58 25 82
+           C35 58 48 41 48 24
+           C48 11 38 1 25 1 Z"
+        fill="url(#fillGrad)" stroke="#000000" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- top highlight overlay -->
+  <path d="M25 3
+           C14 3 5 12 5 24
+           C5 37 15 50 25 68
+           C21 52 18 40 18 30
+           C18 15 22 7 25 3 Z"
+        fill="url(#highlightGrad)" opacity="0.55"/>
+
+  <!-- outer ring (semi-transparent) -->
+  <circle cx="25" cy="26" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="4"/>
+
+  <!-- inner ring -->
+  <circle cx="25" cy="26" r="11" fill="none" stroke="#000000" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- hole -->
+  <circle cx="25" cy="26" r="8" fill="#ffffff"/>
+</svg>
