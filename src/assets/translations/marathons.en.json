@@ -16,7 +16,7 @@
       "palmer-time": "Friday evening - SET JEANNIE LONGO THE FIRST",
       "palmer": "Bárbara Palmer, a dancer and tango teacher, and our TDJ for Friday night currently manages and is a DJ for del Puerto and DolceVita milongas in Valencia. Since 2005, she has gained extensive experience organising milongas in Madrid and Valencia, and has also been invited as a tango DJ at events in Spain and other European countries. It is with great pleasure that we appointed Bárbara with the opening of the very first Bicycle Marathon!",
       "rosita-title": "TDJ Rosita Lagos-Diaz",
-      "rosita-time": "Saturday afternoon - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+      "rosita-time": "Saturday afternoon - SET RAYMOND POULIDOR THE ETERNAL SECOND",
       "rosita": "Rosita has been DJing in many tango events in Europa and the United States since 2017. Aware of the energy coming from the dance floor, she shares with the dancers a wide range of rhythms and emotions, mainly from the Golden Age. She will be in control Saturday afternoon. We can’t wait Rositaaaaaa!",
       "nocitango-title": "TDJ Paola Nocitango",
       "nocitango-time": "Saturday evening - SET LOUIS AMSTRONG THE DOPED",
@@ -48,12 +48,12 @@
         "title": "Saturday",
         "inner": [
           {
-            "time": "10:30-12:30AM",
+            "time": "10:30AM-12:30PM",
             "description": "BIKE WALKS in Toulouse, meet 10:30am in front of the Maison du vélo, 12 Bd Bonrepos."
           },
           {
             "time": "2-6:30PM",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
+            "description": "SET RAYMOND POULIDOR THE ETERNAL SECOND - TDJ Rosita Lagos-Diaz (Lyon)"
           },
           {
             "time": "6:30PM-7:30PM",
@@ -73,7 +73,7 @@
         "title": "Sunday",
         "inner": [
           {
-            "time": "10AM -12AM",
+            "time": "10AM-12PM",
             "description": "ALEXANDER TECHNICAL WORKSHOP with Élodie and Maïté, meet 10am in front of Salle Trac, free admission."
           },
           {
@@ -85,7 +85,7 @@
             "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexico)"
           },
           {
-            "time": "7:30-00PM",
+            "time": "7:30PM-midnight",
             "description": "AFTER - EL ONCE 11 rue Louis Renault, Balma - TDJ Virginia Uva (Entry 6€)"
           }
         ]
@@ -93,7 +93,7 @@
     ],
     "links": {
       "title": "Useful links",
-      "guide": "The marathonen's guide",
+      "guide": "The marathoner's guide",
       "shared-accommodation": "Accommodation in Toulouse",
       "car-sharing": "Car sharing",
       "rowing": "Rowing"
