@@ -8,7 +8,7 @@
     "submenu": {
       "introduction": "Présentation",
       "next": "Prochaine Bicyclette milonga",
-      "schedule": "Toute les dates 25-26",
+      "schedule": "Toutes les dates 25-26",
       "location": "L'adresse",
       "newsletter": "Newsletter"
     },
@@ -25,7 +25,7 @@
       "timetable": "Le programme",
       "djs": "Les DJs",
       "place": "Le lieu",
-      "links": "Le liens utiles",
+      "links": "Les liens utiles",
       "newsletter": "Newsletter"
     },
     "title": "Inscription au marathon de la Bicyclette",
@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "TDJ Mélanie JULIAN (Lyon France)",
-        "time": "Samedi aprèm - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+        "time": "Samedi aprèm - SET RAYMOND POULIDOR THE ÉTERNEL SECOND",
         "medailon": "Mélanie est une DJ lyonnaise reconnue depuis une dizaine d’années pour sa sélection musicale traditionnelle et généreuse. Très investie dans le tango, elle voyage régulièrement dans de nombreux marathons, encuentros et milongas en Europe, ce qui lui permet de proposer une sélection musicale affinée et populaire. Elle a à cœur de partager aux danseurs une palette musicale aux rythmes et émotions variés, principalement orientée sur les tangos de l’âge d’or des grands orchestres, faisant la part belle aux tangos de Juan d’Arienzo, Carlos di Sarli, Anibal Troilo, et Osvaldo Pugliese… Tout en n’oubliant pas les orchestres de Miguel Calo ou Pedro Laurenz par exemple."
       },
       "3": {
@@ -87,7 +87,7 @@
           },
           {
             "time": "13h30-18h30",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie JULIAN (Lyon France)"
+            "description": "SET RAYMOND POULIDOR THE ÉTERNEL SECOND - TDJ Mélanie JULIAN (Lyon France)"
           },
           {
             "time": "18h30-19h30",
@@ -98,7 +98,7 @@
             "description": "SET AGAINST THE WATCH - TDJ Nicolas ARRIBAT (Toulouse France)"
           },
           {
-            "time": "21h-2h30h",
+            "time": "21h-2h30",
             "description": "SET LOUIS AMSTRONG THE DOPED - TDJ Stefan OK (Allemagne)"
           }
         ]
@@ -126,7 +126,7 @@
       }
     ],
     "links": {
-      "title": "Lien utiles",
+      "title": "Liens utiles",
       "guide": "Le guide du marathonien",
       "shared-accommodation": "Hébergement chez un.e toulousain.e",
       "car-sharing": "Covoiturage",
