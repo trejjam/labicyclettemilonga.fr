@@ -27,8 +27,8 @@
       "place": "Tolosa !",
       "newsletter": "Newsletter"
     },
-    "title": "Inscripción par el maratón",
-    "title_": "Las inscripciones estan cerradas.",
+    "title": "Inscripción para el maratón",
+    "title_": "Las inscripciones están cerradas.",
     "signup": "Inscribirse",
     "description": "Principio {{date, datetime}}",
     "description_": "Nos vemos en la pista de baile!",
@@ -42,7 +42,7 @@
       },
       "2": {
         "title": "TDJ Mélanie JULIAN (Lyon Francia)",
-        "time": "Sábado de tarde - SET RAYMOND POULIDOR THE ETERNEL SECOND",
+        "time": "Sábado de tarde - SET RAYMOND POULIDOR THE ETERNAL SECOND",
         "medailon": "Mélanie es una TDJ de Lyon reconocida desde hace una década por sus sets musicales tradicionales y generosos. Está muy involucrada en el tango y viaja regularmente a numerosas maratones, encuentros y milongas en Europa, lo que le permite tocar una selección musical refinada y muy apreciada. Le gusta tocar un repertorio con ritmos y emociones variados, centrado principalmente en tangos de la época dorada de las grandes orquestas, en particular los tangos de Juan d'Arienzo, Carlos di Sarli, Aníbal Troilo y Osvaldo Pugliese... pero también los de Miguel Calo y Pedro Laurenz, por ejemplo."
       },
       "3": {
@@ -82,7 +82,7 @@
           },
           {
             "time": "14h-18h30",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie Julian (Francia, Lyon)"
+            "description": "SET RAYMOND POULIDOR THE ETERNAL SECOND - TDJ Mélanie Julian (Francia, Lyon)"
           },
           {
             "time": "18h30-19h30",

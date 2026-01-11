@@ -16,7 +16,7 @@
     "dateTime": "is on {{starts, datetime}} until {{ends, datetime}}",
     "subtitle": "Welcome! Our supercharged cycling team is waiting for you at TRAC, a beautiful location in the heart of historical Toulouse, with its oak floor and its outstanding sound system. Guest DJs playing 100% traditional tango, homemade sweet and savory dishes prepared by our chefs, and fun games are part of the program. Price: €10 or €8 if need be.",
     "description": "Our next invited DJ!",
-    "plan": "All the saison 25-26",
+    "plan": "All the season 25-26",
     "newsletter": "Subscribe for marathon news"
   },
   "marathon": {
@@ -87,7 +87,7 @@
           },
           {
             "time": "2-6:30PM",
-            "description": "SET RAYMOND POULIDOR THE ETERNEL SECOND - TDJ Mélanie JULIAN (Lyon France)"
+            "description": "SET RAYMOND POULIDOR THE ETERNAL SECOND - TDJ Mélanie JULIAN (Lyon France)"
           },
           {
             "time": "6:30PM-7:30PM",
@@ -107,7 +107,7 @@
         "title": "Sunday",
         "inner": [
           {
-            "time": "11AM -13AM",
+            "time": "11AM -1PM",
             "description": "WORKSHOP."
           },
           {
@@ -119,7 +119,7 @@
             "description": "SET THE RED LANTERN IN THE PINK CITY - TDJ Carmen Maria Hergos (Mexico)"
           },
           {
-            "time": "7-00PM",
+            "time": "7PM-midnight",
             "description": "AFTER à La Dos, 4 av de Rangueil (PAF 10€)."
           }
         ]
@@ -127,7 +127,7 @@
     ],
     "links": {
       "title": "Useful links",
-      "guide": "The marathonen's guide",
+      "guide": "The marathoner's guide",
       "shared-accommodation": "Accommodation in Toulouse",
       "car-sharing": "Car sharing",
       "last-year": "Last year's marathon",
