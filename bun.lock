@@ -25,7 +25,7 @@
         "@types/node": "^25.0.10",
         "@types/react": "^19.2.9",
         "@types/react-dom": "^19.2.3",
-        "baseline-browser-mapping": "^2.9.17",
+        "baseline-browser-mapping": "^2.9.18",
         "eslint": "^9.39.2",
         "eslint-config-next": "^16.1.4",
         "eslint-config-prettier": "^10.1.8",
@@ -301,7 +301,7 @@
 
     "balanced-match": ["balanced-match@1.0.2", "", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
 
-    "baseline-browser-mapping": ["baseline-browser-mapping@2.9.17", "", { "bin": { "baseline-browser-mapping": "dist/cli.js" } }, "sha512-agD0MgJFUP/4nvjqzIB29zRPUuCF7Ge6mEv9s8dHrtYD7QWXRcx75rOADE/d5ah1NI+0vkDl0yorDd5U852IQQ=="],
+    "baseline-browser-mapping": ["baseline-browser-mapping@2.9.18", "", { "bin": { "baseline-browser-mapping": "dist/cli.js" } }, "sha512-e23vBV1ZLfjb9apvfPk4rHVu2ry6RIr2Wfs+O324okSidrX7pTAnEJPCh/O5BtRlr7QtZI7ktOP3vsqr7Z5XoA=="],
 
     "brace-expansion": ["brace-expansion@1.1.11", "", { "dependencies": { "balanced-match": "^1.0.0", "concat-map": "0.0.1" } }, "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="],
 
